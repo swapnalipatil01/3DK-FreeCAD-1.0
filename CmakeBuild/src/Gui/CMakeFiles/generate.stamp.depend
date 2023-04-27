@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+F:/F/FreeCAD before build/FreeCAD/src/Gui/CMakeLists.txt
+F:/F/FreeCAD before build/FreeCAD/src/Gui/Icons/resource.qrc
+F:/F/FreeCAD before build/FreeCAD/src/Gui/Language/translation.qrc
+F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/schemes.qrc

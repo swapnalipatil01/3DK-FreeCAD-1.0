@@ -1,0 +1,102 @@
+-IF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src
+-IF:/F/FreeCAD before build/FreeCAD/src
+-IF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild
+-IF:/F/FreeCAD before build/FreeCAD/src/Gui
+-IF:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter
+-IF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui
+-IF:/F/FreeCAD before build/FreeCAD/src/Gui/..
+-IF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/..
+-IF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/Language
+-IF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/propertyeditor
+-IF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/TaskView
+-IF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/Quarter
+-IF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/DAGView
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/eigen3
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/include
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include
+-IF:/F/FreeCAD before build/FreeCAD/src/3rdParty/OpenGL/api
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtCore
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/./mkspecs/win32-msvc
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtWidgets
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtGui
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtCore
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/./mkspecs/win32-msvc
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtANGLE
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtOpenGL
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtWidgets
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtGui
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtCore
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/./mkspecs/win32-msvc
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtANGLE
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtPrintSupport
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtWidgets
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtGui
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtCore
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/./mkspecs/win32-msvc
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtANGLE
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtSvg
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtWidgets
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtGui
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtCore
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/./mkspecs/win32-msvc
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtANGLE
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtNetwork
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtCore
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/./mkspecs/win32-msvc
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtUiTools
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtWidgets
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtGui
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtCore
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/./mkspecs/win32-msvc
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtANGLE
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtWinExtras
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtGui
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtCore
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/./mkspecs/win32-msvc
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtANGLE
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/shiboken2
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/include
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/PySide2
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/PySide2/QtCore
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/PySide2/QtGui
+-IF:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/PySide2/QtWidgets
+-DHAVE_SNPRINTF
+-DPYCXX_6_2_COMPATIBILITY
+-DPYCXX_6_2_COMPATIBILITY
+-D$<$<CONFIG:Debug>:UNICODE>
+-D$<$<CONFIG:Debug>:_UNICODE>
+-D$<$<CONFIG:Debug>:_CRT_SECURE_NO_WARNINGS>
+-D$<$<CONFIG:Debug>:_CRT_NONSTDC_NO_DEPRECATE>
+-D$<$<CONFIG:Debug>:HAVE_RAPIDJSON>
+-D$<$<CONFIG:Release>:UNICODE>
+-D$<$<CONFIG:Release>:_UNICODE>
+-D$<$<CONFIG:Release>:_CRT_SECURE_NO_WARNINGS>
+-D$<$<CONFIG:Release>:_CRT_NONSTDC_NO_DEPRECATE>
+-D$<$<CONFIG:Release>:HAVE_RAPIDJSON>
+-D_OCC64
+-DFCGui
+-DQSINT_MAKEDLL
+-DOVR_OS_WIN32
+-DQUARTER_INTERNAL
+-DQUARTER_MAKE_DLL
+-DCOIN_DLL
+-D_USE_3DCONNEXION_SDK
+-DBUILD_ADDONMGR
+-DHAVE_SHIBOKEN2
+-DHAVE_PYSIDE2
+-DWIN32
+--compiler-flavor=msvc
+-o
+F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/Quarter/moc_SignalThread.cpp
+F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/SignalThread.h

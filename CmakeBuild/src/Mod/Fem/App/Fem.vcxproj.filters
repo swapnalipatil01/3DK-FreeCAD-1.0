@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Fem\App\Fem_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemMeshObject.cpp">
+      <Filter>Base types</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemMeshShapeObject.cpp">
+      <Filter>Base types</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemMeshShapeNetgenObject.cpp">
+      <Filter>Base types</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemAnalysis.cpp">
+      <Filter>Base types</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemMesh.cpp">
+      <Filter>Base types</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemResultObject.cpp">
+      <Filter>Base types</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemSolverObject.cpp">
+      <Filter>Base types</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraint.cpp">
+      <Filter>Base types</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemMeshProperty.cpp">
+      <Filter>Base types</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintBearing.cpp">
+      <Filter>Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintFixed.cpp">
+      <Filter>Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintForce.cpp">
+      <Filter>Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintFluidBoundary.cpp">
+      <Filter>Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintPressure.cpp">
+      <Filter>Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintSpring.cpp">
+      <Filter>Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintGear.cpp">
+      <Filter>Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintPulley.cpp">
+      <Filter>Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintDisplacement.cpp">
+      <Filter>Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintTemperature.cpp">
+      <Filter>Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintHeatflux.cpp">
+      <Filter>Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintInitialTemperature.cpp">
+      <Filter>Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintPlaneRotation.cpp">
+      <Filter>Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintContact.cpp">
+      <Filter>Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintTransform.cpp">
+      <Filter>Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\PropertyPostDataObject.cpp">
+      <Filter>PostObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemPostObject.cpp">
+      <Filter>PostObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemPostPipeline.cpp">
+      <Filter>PostObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemPostFilter.cpp">
+      <Filter>PostObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemPostFunction.cpp">
+      <Filter>PostObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemVTKTools.cpp">
+      <Filter>PostObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemSetObject.cpp">
+      <Filter>Set objects</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemSetNodesObject.cpp">
+      <Filter>Set objects</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemSetElementsObject.cpp">
+      <Filter>Set objects</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemSetFacesObject.cpp">
+      <Filter>Set objects</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemSetGeometryObject.cpp">
+      <Filter>Set objects</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\AppFem.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\AppFemPy.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemTools.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\PreCompiled.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemMeshPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\HypothesisPy.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemPostPipelinePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Fem\App\Fem_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Fem\App\Fem_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Fem\App\Fem_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemMeshObject.h">
+      <Filter>Base types</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemMeshShapeObject.h">
+      <Filter>Base types</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemMeshShapeNetgenObject.h">
+      <Filter>Base types</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemAnalysis.h">
+      <Filter>Base types</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemMesh.h">
+      <Filter>Base types</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemResultObject.h">
+      <Filter>Base types</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemSolverObject.h">
+      <Filter>Base types</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraint.h">
+      <Filter>Base types</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemMeshProperty.h">
+      <Filter>Base types</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintBearing.h">
+      <Filter>Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintFixed.h">
+      <Filter>Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintForce.h">
+      <Filter>Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintFluidBoundary.h">
+      <Filter>Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintPressure.h">
+      <Filter>Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintSpring.h">
+      <Filter>Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintGear.h">
+      <Filter>Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintPulley.h">
+      <Filter>Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintDisplacement.h">
+      <Filter>Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintTemperature.h">
+      <Filter>Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintHeatflux.h">
+      <Filter>Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintInitialTemperature.h">
+      <Filter>Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintPlaneRotation.h">
+      <Filter>Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintContact.h">
+      <Filter>Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemConstraintTransform.h">
+      <Filter>Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\PropertyPostDataObject.h">
+      <Filter>PostObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemPostObject.h">
+      <Filter>PostObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemPostPipeline.h">
+      <Filter>PostObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemPostFilter.h">
+      <Filter>PostObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemPostFunction.h">
+      <Filter>PostObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemVTKTools.h">
+      <Filter>PostObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemSetObject.h">
+      <Filter>Set objects</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemSetNodesObject.h">
+      <Filter>Set objects</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemSetElementsObject.h">
+      <Filter>Set objects</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemSetFacesObject.h">
+      <Filter>Set objects</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemSetGeometryObject.h">
+      <Filter>Set objects</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemTools.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\PreCompiled.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\HypothesisPy.h">
+      <Filter>Python</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemMeshPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\FemPostPipelinePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\App\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Base types">
+      <UniqueIdentifier>{81C904CF-2961-38E5-863A-0AB413FA333C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Constraints">
+      <UniqueIdentifier>{2C44F35E-167A-3446-AC9D-50081C69A6ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{ED76D2E6-C746-32E5-AF99-8CE93CF44E6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostObjects">
+      <UniqueIdentifier>{234AA710-35F2-3412-9258-F6F22A094B8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Python">
+      <UniqueIdentifier>{6C63549E-F050-3F10-8976-2E1C2A7AE03C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Set objects">
+      <UniqueIdentifier>{01D47037-8FC4-3025-9027-C739A65F84FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4A8D6A3B-149E-38E3-9093-51752D7AB560}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

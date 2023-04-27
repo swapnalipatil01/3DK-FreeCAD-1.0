@@ -1,0 +1,466 @@
+{
+	"BUILD_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/libE57Format/E57Format_autogen",
+	"CMAKE_BINARY_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild",
+	"CMAKE_CURRENT_BINARY_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/libE57Format",
+	"CMAKE_CURRENT_SOURCE_DIR" : "F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format",
+	"CMAKE_EXECUTABLE" : "I:/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/CMakeLists.txt",
+		"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/cmake/Modules/Tags.cmake",
+		"I:/CMake/share/cmake-3.24/Modules/FindThreads.cmake",
+		"I:/CMake/share/cmake-3.24/Modules/CheckLibraryExists.cmake",
+		"I:/CMake/share/cmake-3.24/Modules/CheckIncludeFile.cmake",
+		"I:/CMake/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake",
+		"I:/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake",
+		"I:/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake",
+		"I:/CMake/share/cmake-3.24/Modules/FindXercesC.cmake",
+		"I:/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake",
+		"I:/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake",
+		"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/cmake/Modules/E57ExportHeader.cmake",
+		"I:/CMake/share/cmake-3.24/Modules/GenerateExportHeader.cmake",
+		"I:/CMake/share/cmake-3.24/Modules/CheckCCompilerFlag.cmake",
+		"I:/CMake/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake",
+		"I:/CMake/share/cmake-3.24/Modules/Internal/CheckCompilerFlag.cmake",
+		"I:/CMake/share/cmake-3.24/Modules/CheckCXXCompilerFlag.cmake",
+		"I:/CMake/share/cmake-3.24/Modules/exportheader.cmake.in",
+		"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/cmake/Modules/ClangFormat.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "F:/F/FreeCAD before build/FreeCAD",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/libE57Format/E57Export.h",
+			"MU",
+			"EJRQKI7XPS/moc_E57Export.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/extern/CRCpp/inc/CRC.h",
+			"MU",
+			"BZWHMOPBN2/moc_CRC.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/include/E57Exception.h",
+			"MU",
+			"6YEA5652QU/moc_E57Exception.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/include/E57Format.h",
+			"MU",
+			"6YEA5652QU/moc_E57Format.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/include/E57SimpleData.h",
+			"MU",
+			"6YEA5652QU/moc_E57SimpleData.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/include/E57SimpleReader.h",
+			"MU",
+			"6YEA5652QU/moc_E57SimpleReader.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/include/E57SimpleWriter.h",
+			"MU",
+			"6YEA5652QU/moc_E57SimpleWriter.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/BlobNodeImpl.h",
+			"MU",
+			"UVLADIE3JM/moc_BlobNodeImpl.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/CheckedFile.h",
+			"MU",
+			"UVLADIE3JM/moc_CheckedFile.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/Common.h",
+			"MU",
+			"UVLADIE3JM/moc_Common.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/CompressedVectorNodeImpl.h",
+			"MU",
+			"UVLADIE3JM/moc_CompressedVectorNodeImpl.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/CompressedVectorReaderImpl.h",
+			"MU",
+			"UVLADIE3JM/moc_CompressedVectorReaderImpl.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/CompressedVectorWriterImpl.h",
+			"MU",
+			"UVLADIE3JM/moc_CompressedVectorWriterImpl.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/DecodeChannel.h",
+			"MU",
+			"UVLADIE3JM/moc_DecodeChannel.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/Decoder.h",
+			"MU",
+			"UVLADIE3JM/moc_Decoder.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/E57Version.h",
+			"MU",
+			"UVLADIE3JM/moc_E57Version.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/E57XmlParser.h",
+			"MU",
+			"UVLADIE3JM/moc_E57XmlParser.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/Encoder.h",
+			"MU",
+			"UVLADIE3JM/moc_Encoder.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/FloatNodeImpl.h",
+			"MU",
+			"UVLADIE3JM/moc_FloatNodeImpl.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/ImageFileImpl.h",
+			"MU",
+			"UVLADIE3JM/moc_ImageFileImpl.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/IntegerNodeImpl.h",
+			"MU",
+			"UVLADIE3JM/moc_IntegerNodeImpl.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/NodeImpl.h",
+			"MU",
+			"UVLADIE3JM/moc_NodeImpl.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/Packet.h",
+			"MU",
+			"UVLADIE3JM/moc_Packet.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/ReaderImpl.h",
+			"MU",
+			"UVLADIE3JM/moc_ReaderImpl.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/ScaledIntegerNodeImpl.h",
+			"MU",
+			"UVLADIE3JM/moc_ScaledIntegerNodeImpl.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/SectionHeaders.h",
+			"MU",
+			"UVLADIE3JM/moc_SectionHeaders.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/SourceDestBufferImpl.h",
+			"MU",
+			"UVLADIE3JM/moc_SourceDestBufferImpl.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/StringNodeImpl.h",
+			"MU",
+			"UVLADIE3JM/moc_StringNodeImpl.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/StructureNodeImpl.h",
+			"MU",
+			"UVLADIE3JM/moc_StructureNodeImpl.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/VectorNodeImpl.h",
+			"MU",
+			"UVLADIE3JM/moc_VectorNodeImpl.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/WriterImpl.h",
+			"MU",
+			"UVLADIE3JM/moc_WriterImpl.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/libE57Format/E57Format_autogen/include",
+	"INCLUDE_DIR_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/libE57Format/E57Format_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/libE57Format/E57Format_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/libE57Format/E57Format_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/libE57Format/E57Format_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/libE57Format/E57Format_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/libE57Format/E57Format_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/libE57Format/E57Format_autogen/mocs_compilation_MinSizeRel.cpp",
+	"MOC_COMPILATION_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/libE57Format/E57Format_autogen/mocs_compilation_RelWithDebInfo.cpp",
+	"MOC_COMPILATION_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/libE57Format/E57Format_autogen/mocs_compilation_Release.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"CRCPP_BRANCHLESS",
+		"CRCPP_USE_CPP11",
+		"E57Format_EXPORTS",
+		"E57_DEBUG",
+		"HAVE_SNPRINTF",
+		"PYCXX_6_2_COMPATIBILITY",
+		"REVISION_ID=\"E57Format-2.2.1-AMD64_64-windows\"",
+		"WIN32",
+		"_OCC64"
+	],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"CRCPP_BRANCHLESS",
+		"CRCPP_USE_CPP11",
+		"E57Format_EXPORTS",
+		"E57_DEBUG",
+		"HAVE_RAPIDJSON",
+		"HAVE_SNPRINTF",
+		"PYCXX_6_2_COMPATIBILITY",
+		"REVISION_ID=\"E57Format-2.2.1-AMD64_64-windows\"",
+		"UNICODE",
+		"WIN32",
+		"_CRT_NONSTDC_NO_DEPRECATE",
+		"_CRT_SECURE_NO_WARNINGS",
+		"_OCC64",
+		"_UNICODE"
+	],
+	"MOC_DEFINITIONS_Release" : 
+	[
+		"CRCPP_BRANCHLESS",
+		"CRCPP_USE_CPP11",
+		"E57Format_EXPORTS",
+		"E57_DEBUG",
+		"HAVE_RAPIDJSON",
+		"HAVE_SNPRINTF",
+		"PYCXX_6_2_COMPATIBILITY",
+		"REVISION_ID=\"E57Format-2.2.1-AMD64_64-windows\"",
+		"UNICODE",
+		"WIN32",
+		"_CRT_NONSTDC_NO_DEPRECATE",
+		"_CRT_SECURE_NO_WARNINGS",
+		"_OCC64",
+		"_UNICODE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src",
+		"F:/F/FreeCAD before build/FreeCAD/src",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/libE57Format",
+		"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/extern/CRCpp/inc",
+		"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/include",
+		"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/libE57Format/CMakeFiles/E57Format_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/libE57Format/CMakeFiles/E57Format_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/libE57Format/CMakeFiles/E57Format_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/libE57Format/CMakeFiles/E57Format_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/libE57Format/CMakeFiles/E57Format_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/libE57Format/CMakeFiles/E57Format_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/libE57Format/CMakeFiles/E57Format_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/libE57Format/CMakeFiles/E57Format_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/libE57Format/CMakeFiles/E57Format_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/libE57Format/CMakeFiles/E57Format_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/BlobNodeImpl.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/CheckedFile.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/Common.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/CompressedVectorNodeImpl.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/CompressedVectorReaderImpl.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/CompressedVectorWriterImpl.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/DecodeChannel.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/Decoder.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/E57Exception.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/E57Format.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/E57SimpleData.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/E57SimpleReader.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/E57SimpleWriter.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/E57XmlParser.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/Encoder.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/FloatNodeImpl.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/ImageFileImpl.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/IntegerNodeImpl.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/NodeImpl.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/Packet.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/ReaderImpl.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/ScaledIntegerNodeImpl.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/SectionHeaders.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/SourceDestBufferImpl.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/StringNodeImpl.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/StructureNodeImpl.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/VectorNodeImpl.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/libE57Format/src/WriterImpl.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

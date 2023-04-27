@@ -1,0 +1,1313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6B8BCD0C-1036-39C6-80C6-D62F0166851B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>StartPage</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\StartPage.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Start/StartPage/StartPage.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Start/StartPage/StartPage.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Start\StartPage\StartPage.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Start/StartPage/StartPage.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Start/StartPage/StartPage.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Start\StartPage\StartPage.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Start/StartPage/StartPage.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Start/StartPage/StartPage.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Start\StartPage\StartPage.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Start/StartPage/StartPage.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Start/StartPage/StartPage.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Start\StartPage\StartPage.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\TranslationTexts.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/TranslationTexts.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Start/StartPage/TranslationTexts.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/TranslationTexts.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Start/StartPage/TranslationTexts.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Start\StartPage\TranslationTexts.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/TranslationTexts.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Start/StartPage/TranslationTexts.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/TranslationTexts.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Start/StartPage/TranslationTexts.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Start\StartPage\TranslationTexts.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/TranslationTexts.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Start/StartPage/TranslationTexts.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/TranslationTexts.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Start/StartPage/TranslationTexts.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Start\StartPage\TranslationTexts.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/TranslationTexts.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Start/StartPage/TranslationTexts.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/TranslationTexts.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Start/StartPage/TranslationTexts.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Start\StartPage\TranslationTexts.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\__init__.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/__init__.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Start/StartPage/__init__.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/__init__.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Start/StartPage/__init__.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Start\StartPage\__init__.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/__init__.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Start/StartPage/__init__.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/__init__.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Start/StartPage/__init__.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Start\StartPage\__init__.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/__init__.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Start/StartPage/__init__.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/__init__.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Start/StartPage/__init__.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Start\StartPage\__init__.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/__init__.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Start/StartPage/__init__.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/__init__.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Start/StartPage/__init__.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Start\StartPage\__init__.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\LoadMRU.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadMRU.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadMRU.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadMRU.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadMRU.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\LoadMRU.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadMRU.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadMRU.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadMRU.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadMRU.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\LoadMRU.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadMRU.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadMRU.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadMRU.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadMRU.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\LoadMRU.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadMRU.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadMRU.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadMRU.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadMRU.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\LoadMRU.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\LoadExample.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadExample.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadExample.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadExample.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadExample.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\LoadExample.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadExample.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadExample.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadExample.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadExample.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\LoadExample.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadExample.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadExample.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadExample.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadExample.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\LoadExample.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadExample.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadExample.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadExample.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadExample.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\LoadExample.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\LoadNew.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadNew.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadNew.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadNew.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadNew.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\LoadNew.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadNew.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadNew.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadNew.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadNew.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\LoadNew.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadNew.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadNew.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadNew.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadNew.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\LoadNew.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadNew.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadNew.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadNew.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadNew.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\LoadNew.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\LoadCustom.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadCustom.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadCustom.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadCustom.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadCustom.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\LoadCustom.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadCustom.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadCustom.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadCustom.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadCustom.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\LoadCustom.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadCustom.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadCustom.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadCustom.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadCustom.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\LoadCustom.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadCustom.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadCustom.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/LoadCustom.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/LoadCustom.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\LoadCustom.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\StartPage.css">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.css to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/StartPage.css</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.css" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/StartPage.css"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\StartPage.css</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.css to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/StartPage.css</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.css" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/StartPage.css"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\StartPage.css</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.css to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/StartPage.css</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.css" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/StartPage.css"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\StartPage.css</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.css to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/StartPage.css</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.css" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/StartPage.css"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\StartPage.css</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\StartPage.js">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.js to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/StartPage.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.js" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/StartPage.js"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\StartPage.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.js to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/StartPage.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.js" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/StartPage.js"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\StartPage.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.js to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/StartPage.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.js" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/StartPage.js"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\StartPage.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.js to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/StartPage.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.js" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/StartPage.js"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\StartPage.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\StartPage.html">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.html to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/StartPage.html</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.html" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/StartPage.html"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\StartPage.html</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.html to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/StartPage.html</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.html" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/StartPage.html"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\StartPage.html</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.html to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/StartPage.html</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.html" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/StartPage.html"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\StartPage.html</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.html to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/StartPage.html</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/StartPage.html" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/StartPage.html"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\StartPage.html</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\EnableDownload.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/EnableDownload.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/EnableDownload.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/EnableDownload.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/EnableDownload.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\EnableDownload.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/EnableDownload.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/EnableDownload.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/EnableDownload.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/EnableDownload.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\EnableDownload.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/EnableDownload.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/EnableDownload.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/EnableDownload.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/EnableDownload.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\EnableDownload.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/EnableDownload.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/EnableDownload.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/EnableDownload.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/EnableDownload.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\EnableDownload.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\OpenSettings.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/OpenSettings.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/OpenSettings.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/OpenSettings.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/OpenSettings.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\OpenSettings.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/OpenSettings.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/OpenSettings.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/OpenSettings.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/OpenSettings.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\OpenSettings.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/OpenSettings.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/OpenSettings.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/OpenSettings.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/OpenSettings.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\OpenSettings.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/OpenSettings.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/OpenSettings.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/OpenSettings.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/OpenSettings.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\OpenSettings.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\images\userhub.png">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/userhub.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/userhub.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/userhub.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/userhub.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\userhub.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/userhub.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/userhub.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/userhub.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/userhub.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\userhub.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/userhub.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/userhub.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/userhub.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/userhub.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\userhub.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/userhub.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/userhub.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/userhub.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/userhub.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\userhub.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\images\poweruserhub.png">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/poweruserhub.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/poweruserhub.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/poweruserhub.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/poweruserhub.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\poweruserhub.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/poweruserhub.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/poweruserhub.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/poweruserhub.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/poweruserhub.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\poweruserhub.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/poweruserhub.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/poweruserhub.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/poweruserhub.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/poweruserhub.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\poweruserhub.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/poweruserhub.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/poweruserhub.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/poweruserhub.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/poweruserhub.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\poweruserhub.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\images\developerhub.png">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/developerhub.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/developerhub.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/developerhub.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/developerhub.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\developerhub.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/developerhub.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/developerhub.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/developerhub.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/developerhub.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\developerhub.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/developerhub.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/developerhub.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/developerhub.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/developerhub.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\developerhub.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/developerhub.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/developerhub.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/developerhub.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/developerhub.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\developerhub.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\images\manual.png">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/manual.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/manual.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/manual.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/manual.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\manual.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/manual.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/manual.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/manual.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/manual.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\manual.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/manual.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/manual.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/manual.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/manual.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\manual.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/manual.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/manual.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/manual.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/manual.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\manual.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\images\freecad.png">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/freecad.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/freecad.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/freecad.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/freecad.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\freecad.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/freecad.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/freecad.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/freecad.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/freecad.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\freecad.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/freecad.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/freecad.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/freecad.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/freecad.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\freecad.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/freecad.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/freecad.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/freecad.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/freecad.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\freecad.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\images\installed.png">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/installed.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/installed.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/installed.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/installed.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\installed.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/installed.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/installed.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/installed.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/installed.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\installed.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/installed.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/installed.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/installed.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/installed.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\installed.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/installed.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/installed.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/installed.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/installed.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\installed.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\images\new_file_thumbnail.svg">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/new_file_thumbnail.svg to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/new_file_thumbnail.svg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/new_file_thumbnail.svg" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/new_file_thumbnail.svg"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\new_file_thumbnail.svg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/new_file_thumbnail.svg to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/new_file_thumbnail.svg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/new_file_thumbnail.svg" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/new_file_thumbnail.svg"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\new_file_thumbnail.svg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/new_file_thumbnail.svg to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/new_file_thumbnail.svg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/new_file_thumbnail.svg" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/new_file_thumbnail.svg"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\new_file_thumbnail.svg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/new_file_thumbnail.svg to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/new_file_thumbnail.svg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/new_file_thumbnail.svg" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/new_file_thumbnail.svg"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\new_file_thumbnail.svg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\images\settings.png">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/settings.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/settings.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/settings.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/settings.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\settings.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/settings.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/settings.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/settings.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/settings.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\settings.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/settings.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/settings.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/settings.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/settings.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\settings.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/settings.png to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/settings.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/images/settings.png" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/data/Mod/Start/StartPage/images/settings.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\data\Mod\Start\StartPage\images\settings.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe "-SF:/F/FreeCAD before build/FreeCAD" "-BF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild" --check-stamp-file "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Start/StartPage/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Start\StartPage\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe "-SF:/F/FreeCAD before build/FreeCAD" "-BF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild" --check-stamp-file "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Start/StartPage/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Start\StartPage\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe "-SF:/F/FreeCAD before build/FreeCAD" "-BF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild" --check-stamp-file "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Start/StartPage/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Start\StartPage\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/F/FreeCAD before build/FreeCAD/src/Mod/Start/StartPage/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe "-SF:/F/FreeCAD before build/FreeCAD" "-BF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild" --check-stamp-file "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Start/StartPage/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Start\StartPage\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\ZERO_CHECK.vcxproj">
+      <Project>{3393CF6A-F55C-3A7B-8EED-7DFF9DC0A795}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

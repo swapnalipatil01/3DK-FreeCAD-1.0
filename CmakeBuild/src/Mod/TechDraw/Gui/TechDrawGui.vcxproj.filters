@@ -1,0 +1,1411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\qrc_TechDraw.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\mrichtextedit.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\mtextedit.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\AppTechDrawGui.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\AppTechDrawGuiPy.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\Command.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\CommandCreateDims.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\CommandDecorate.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\CommandAnnotate.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\CommandExtensionDims.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\CommandExtensionPack.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\CommandStack.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DimensionValidators.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\PreCompiled.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\Workbench.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskProjGroup.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgStringListEditor.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgPageChooser.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgPrefsTechDrawGeneralImp.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgPrefsTechDrawScaleImp.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgPrefsTechDrawAnnotationImp.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgPrefsTechDrawDimensionsImp.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgPrefsTechDrawColorsImp.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgPrefsTechDrawAdvancedImp.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgPrefsTechDrawHLRImp.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgTemplateField.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskSectionView.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskBalloon.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskDimension.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskGeomHatch.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskHatch.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskLeaderLine.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskRichAnno.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskCosVertex.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskCenterLine.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskLineDecor.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskLinkDim.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskWeldingSymbol.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskSurfaceFinishSymbols.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskSelectLineAttributes.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskCustomizeFormat.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DrawGuiUtil.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\Rez.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\SymbolChooser.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskActiveView.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\Grabber3d.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskDetail.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\PreferencesGui.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskCosmeticLine.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskProjection.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskComplexSection.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskDimRepair.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\Widgets\CompassDialWidget.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\Widgets\CompassWidget.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\Widgets\VectorEditWidget.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\MDIViewPage.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGVPage.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGSPage.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGCustomText.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGICaption.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGCustomRect.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGCustomSvg.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGCustomClip.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGCustomLabel.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGCustomBorder.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGCustomImage.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGDisplayArea.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIArrow.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIEdge.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIFace.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGISVGTemplate.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIVertex.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIMatting.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIDrawingTemplate.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGITemplate.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIViewCollection.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIViewDimension.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIViewBalloon.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIProjGroup.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIViewPart.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIViewSection.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIViewAnnotation.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIViewSymbol.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIViewSpreadsheet.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIViewImage.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIViewClip.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIPrimPath.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGICMark.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIDimLines.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGISectionLine.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIDecoration.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGICenterLine.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIHighlight.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGEPath.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGTracker.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGILeaderLine.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIRichAnno.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGMText.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIWeldSymbol.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGITile.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TemplateTextField.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIGhostHighlight.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderPage.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderPageExtension.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderDrawingView.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderDrawingViewExtension.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderProjGroupItem.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderTemplate.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderTemplateExtension.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderDimension.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderBalloon.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderViewPart.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderProjGroup.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderViewSection.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderAnnotation.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderSymbol.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderSpreadsheet.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderViewClip.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderGeomHatch.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderHatch.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderImage.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderLeader.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderRichAnno.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderTile.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderWeld.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderCosmeticExtension.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGVNavStyle.cpp">
+      <Filter>Nav</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGVNavStyleBlender.cpp">
+      <Filter>Nav</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGVNavStyleCAD.cpp">
+      <Filter>Nav</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGVNavStyleGesture.cpp">
+      <Filter>Nav</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGVNavStyleInventor.cpp">
+      <Filter>Nav</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGVNavStyleMaya.cpp">
+      <Filter>Nav</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGVNavStyleOCC.cpp">
+      <Filter>Nav</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGVNavStyleOpenSCAD.cpp">
+      <Filter>Nav</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGVNavStyleRevit.cpp">
+      <Filter>Nav</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGVNavStyleTinkerCAD.cpp">
+      <Filter>Nav</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGVNavStyleTouchpad.cpp">
+      <Filter>Nav</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\mrichtextedit.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\mtextedit.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DimensionValidators.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\PreCompiled.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\Workbench.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskProjGroup.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgStringListEditor.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgPageChooser.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgPrefsTechDrawGeneralImp.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgPrefsTechDrawScaleImp.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgPrefsTechDrawAnnotationImp.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgPrefsTechDrawDimensionsImp.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgPrefsTechDrawColorsImp.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgPrefsTechDrawAdvancedImp.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgPrefsTechDrawHLRImp.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgTemplateField.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskSectionView.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskBalloon.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskDimension.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskGeomHatch.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskHatch.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskLeaderLine.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskRichAnno.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskCosVertex.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskCenterLine.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskLineDecor.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskLinkDim.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskWeldingSymbol.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskSurfaceFinishSymbols.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskSelectLineAttributes.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskCustomizeFormat.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DrawGuiUtil.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\Rez.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\SymbolChooser.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskActiveView.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\Grabber3d.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskDetail.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\PreferencesGui.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskCosmeticLine.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskProjection.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskComplexSection.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskDimRepair.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\Widgets\CompassDialWidget.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\Widgets\CompassWidget.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\Widgets\VectorEditWidget.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\MDIViewPage.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGVPage.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGSPage.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGCustomText.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGICaption.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGCustomRect.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGCustomSvg.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGCustomClip.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGCustomLabel.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGCustomBorder.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGCustomImage.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGDisplayArea.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIArrow.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIEdge.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIFace.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGISVGTemplate.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIVertex.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIMatting.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIDrawingTemplate.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGITemplate.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIViewCollection.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIViewDimension.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIViewBalloon.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIProjGroup.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIViewPart.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIViewSection.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIViewAnnotation.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIViewSymbol.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIViewSpreadsheet.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIViewImage.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIViewClip.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIPrimPath.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGICMark.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIDimLines.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGISectionLine.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIDecoration.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGICenterLine.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIHighlight.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGEPath.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGTracker.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGILeaderLine.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIRichAnno.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGMText.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIWeldSymbol.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGITile.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TemplateTextField.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ZVALUE.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGIGhostHighlight.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderPage.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderPageExtension.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderDrawingView.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderDrawingViewExtension.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderProjGroupItem.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderTemplate.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderTemplateExtension.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderDimension.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderBalloon.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderViewPart.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderProjGroup.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderViewSection.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderAnnotation.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderSymbol.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderSpreadsheet.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderViewClip.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderGeomHatch.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderHatch.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderImage.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderLeader.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderRichAnno.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderTile.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderWeld.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\ViewProviderCosmeticExtension.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGVNavStyle.h">
+      <Filter>Nav</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGVNavStyleBlender.h">
+      <Filter>Nav</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGVNavStyleCAD.h">
+      <Filter>Nav</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGVNavStyleGesture.h">
+      <Filter>Nav</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGVNavStyleInventor.h">
+      <Filter>Nav</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGVNavStyleMaya.h">
+      <Filter>Nav</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGVNavStyleOCC.h">
+      <Filter>Nav</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGVNavStyleOpenSCAD.h">
+      <Filter>Nav</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGVNavStyleRevit.h">
+      <Filter>Nav</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGVNavStyleTinkerCAD.h">
+      <Filter>Nav</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\QGVNavStyleTouchpad.h">
+      <Filter>Nav</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_mrichtextedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_TaskProjGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_DlgStringListEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_DlgPageChooser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_DlgPrefsTechDrawGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_DlgPrefsTechDrawScale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_DlgPrefsTechDrawAnnotation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_DlgPrefsTechDrawDimensions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_DlgPrefsTechDrawColors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_DlgPrefsTechDrawAdvanced.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_DlgPrefsTechDrawHLR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_DlgTemplateField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_TaskSectionView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_TaskBalloon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_TaskDimension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_TaskGeomHatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_TaskHatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_TaskLeaderLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_TaskRichAnno.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_TaskCosVertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_TaskCenterLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_TaskLineDecor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_TaskLinkDim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_TaskRestoreLines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_TaskWeldingSymbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_TaskSurfaceFinishSymbols.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_TaskSelectLineAttributes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_TaskCustomizeFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_SymbolChooser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_TaskActiveView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_TaskDetail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_TaskCosmeticLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_TaskMoveView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_TaskProjection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_TaskComplexSection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Debug\ui_TaskDimRepair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_mrichtextedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_TaskProjGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_DlgStringListEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_DlgPageChooser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_DlgPrefsTechDrawGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_DlgPrefsTechDrawScale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_DlgPrefsTechDrawAnnotation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_DlgPrefsTechDrawDimensions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_DlgPrefsTechDrawColors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_DlgPrefsTechDrawAdvanced.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_DlgPrefsTechDrawHLR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_DlgTemplateField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_TaskSectionView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_TaskBalloon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_TaskDimension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_TaskGeomHatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_TaskHatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_TaskLeaderLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_TaskRichAnno.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_TaskCosVertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_TaskCenterLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_TaskLineDecor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_TaskLinkDim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_TaskRestoreLines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_TaskWeldingSymbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_TaskSurfaceFinishSymbols.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_TaskSelectLineAttributes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_TaskCustomizeFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_SymbolChooser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_TaskActiveView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_TaskDetail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_TaskCosmeticLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_TaskMoveView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_TaskProjection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_TaskComplexSection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_Release\ui_TaskDimRepair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_mrichtextedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_TaskProjGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_DlgStringListEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_DlgPageChooser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_DlgPrefsTechDrawGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_DlgPrefsTechDrawScale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_DlgPrefsTechDrawAnnotation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_DlgPrefsTechDrawDimensions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_DlgPrefsTechDrawColors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_DlgPrefsTechDrawAdvanced.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_DlgPrefsTechDrawHLR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_DlgTemplateField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_TaskSectionView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_TaskBalloon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_TaskDimension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_TaskGeomHatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_TaskHatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_TaskLeaderLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_TaskRichAnno.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_TaskCosVertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_TaskCenterLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_TaskLineDecor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_TaskLinkDim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_TaskRestoreLines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_TaskWeldingSymbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_TaskSurfaceFinishSymbols.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_TaskSelectLineAttributes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_TaskCustomizeFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_SymbolChooser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_TaskActiveView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_TaskDetail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_TaskCosmeticLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_TaskMoveView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_TaskProjection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_TaskComplexSection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_MinSizeRel\ui_TaskDimRepair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_mrichtextedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_TaskProjGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_DlgStringListEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_DlgPageChooser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_DlgPrefsTechDrawGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_DlgPrefsTechDrawScale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_DlgPrefsTechDrawAnnotation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_DlgPrefsTechDrawDimensions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_DlgPrefsTechDrawColors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_DlgPrefsTechDrawAdvanced.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_DlgPrefsTechDrawHLR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_DlgTemplateField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_TaskSectionView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_TaskBalloon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_TaskDimension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_TaskGeomHatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_TaskHatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_TaskLeaderLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_TaskRichAnno.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_TaskCosVertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_TaskCenterLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_TaskLineDecor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_TaskLinkDim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_TaskRestoreLines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_TaskWeldingSymbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_TaskSurfaceFinishSymbols.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_TaskSelectLineAttributes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_TaskCustomizeFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_SymbolChooser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_TaskActiveView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_TaskDetail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_TaskCosmeticLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_TaskMoveView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_TaskProjection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_TaskComplexSection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\include_RelWithDebInfo\ui_TaskDimRepair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\Resources\TechDraw.qrc">
+      <Filter>Mod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\Resources\icons\preferences-techdraw.svg" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\Resources\fonts\osifont-lgpl3fe.ttf" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\Resources\fonts\osifont-italic.ttf" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\Resources\fonts\osifont.license" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\Resources\fonts\Y14.5-2018.ttf" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\Resources\fonts\Y14.5Font.license" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\Resources\fonts\Y14.5-FreeCAD.ttf" />
+    <CustomBuild Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\bf27de0c0c4ad850db014b42519f1eab\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\InitGui.py">
+      <Filter>Mod</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\mrichtextedit.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskProjGroup.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgStringListEditor.ui">
+      <Filter>Mod</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgPageChooser.ui">
+      <Filter>Mod</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgPrefsTechDrawGeneral.ui">
+      <Filter>Mod</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgPrefsTechDrawScale.ui">
+      <Filter>Mod</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgPrefsTechDrawAnnotation.ui">
+      <Filter>Mod</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgPrefsTechDrawDimensions.ui">
+      <Filter>Mod</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgPrefsTechDrawColors.ui">
+      <Filter>Mod</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgPrefsTechDrawAdvanced.ui">
+      <Filter>Mod</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgPrefsTechDrawHLR.ui">
+      <Filter>Mod</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\DlgTemplateField.ui">
+      <Filter>Mod</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskSectionView.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskBalloon.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskDimension.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskGeomHatch.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskHatch.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskLeaderLine.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskRichAnno.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskCosVertex.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskCenterLine.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskLineDecor.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskLinkDim.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskRestoreLines.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskWeldingSymbol.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskSurfaceFinishSymbols.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskSelectLineAttributes.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskCustomizeFormat.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\SymbolChooser.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskActiveView.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskDetail.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskCosmeticLine.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskMoveView.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskProjection.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskComplexSection.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\TechDraw\Gui\TaskDimRepair.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\autouic_Debug.stamp" />
+    <None Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\autouic_Release.stamp" />
+    <None Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\TechDraw\Gui\TechDrawGui_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{67952501-129B-38B9-B8A2-AFC31960E5FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{97A4190E-D9AE-30BF-9F4B-811E3F267D26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mod">
+      <UniqueIdentifier>{A504FA36-0F0D-32D2-895D-886109EAA9FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Nav">
+      <UniqueIdentifier>{2669F138-2523-3328-9FB4-FDE709343B05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4A8D6A3B-149E-38E3-9093-51752D7AB560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TaskDialogs">
+      <UniqueIdentifier>{92C71A09-AABC-39FF-B010-DB398D1C3E78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{E6EE0272-F699-3B51-835B-72DED4AB06DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewProvider">
+      <UniqueIdentifier>{6964E306-9C56-37A1-A064-B90A6B6CADC4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

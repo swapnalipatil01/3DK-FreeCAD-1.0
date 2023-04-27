@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Surface\Init.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Surface\TestSurfaceApp.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Surface\InitGui.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Surface\SurfaceTests\__init__.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Surface\SurfaceTests\TestBlendCurve.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Surface\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

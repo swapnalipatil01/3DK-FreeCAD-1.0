@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-subbuild\CMakeFiles\135c835da5aaef05f57250e8f8450ab7\fmt-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-subbuild\CMakeFiles\135c835da5aaef05f57250e8f8450ab7\fmt-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-subbuild\CMakeFiles\135c835da5aaef05f57250e8f8450ab7\fmt-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-subbuild\CMakeFiles\135c835da5aaef05f57250e8f8450ab7\fmt-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-subbuild\CMakeFiles\135c835da5aaef05f57250e8f8450ab7\fmt-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-subbuild\CMakeFiles\135c835da5aaef05f57250e8f8450ab7\fmt-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-subbuild\CMakeFiles\135c835da5aaef05f57250e8f8450ab7\fmt-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-subbuild\CMakeFiles\135c835da5aaef05f57250e8f8450ab7\fmt-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-subbuild\CMakeFiles\ffa9c62f43a656c7871eaa82321b8858\fmt-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-subbuild\CMakeFiles\03b3bd605c96e2b4ba35df3018f5d1a3\fmt-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-subbuild\CMakeFiles\fmt-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4D24D82B-F5EC-3069-8D08-6E11CF720575}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

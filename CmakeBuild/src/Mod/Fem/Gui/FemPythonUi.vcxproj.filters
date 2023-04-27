@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\Resources\ui\BodyHeatSource.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\Resources\ui\ConstraintCentrif.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\Resources\ui\ConstraintTie.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\Resources\ui\ConstraintSectionPrint.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\Resources\ui\CurrentDensity.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\Resources\ui\ElectrostaticPotential.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\Resources\ui\ElementFluid1D.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\Resources\ui\ElementGeometry1D.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\Resources\ui\ElementGeometry2D.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\Resources\ui\ElementRotation1D.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\Resources\ui\FlowVelocity.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\Resources\ui\InitialFlowVelocity.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\Resources\ui\InitialPressure.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\Resources\ui\Magnetization.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\Resources\ui\Material.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\Resources\ui\MaterialReinforcement.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\Resources\ui\MeshBoundaryLayer.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\Resources\ui\MeshGmsh.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\Resources\ui\MeshGroup.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\Resources\ui\MeshGroupXDMFExport.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\Resources\ui\MeshRegion.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\Resources\ui\ResultHints.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\Resources\ui\ResultShow.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\Resources\ui\SolverCalculix.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Fem\Gui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

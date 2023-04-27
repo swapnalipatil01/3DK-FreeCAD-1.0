@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\tests\Tests_run_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\tests\src\Base\Matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\tests\src\Base\Rotation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\tests\src\Base\tst_Tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\tests\src\Base\Unit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\tests\src\Base\Quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\tests\src\App\Branding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\tests\src\App\Expression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\tests\src\App\ElementMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\tests\src\App\IndexedName.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\tests\src\App\License.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\tests\src\App\MappedElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\tests\src\App\MappedName.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\tests\src\App\Metadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\tests\src\App\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\tests\src\Gui\Assistant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\tests\src\Misc\fmt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\tests\src\zipios++\collectioncollection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\tests\src\zipios++\zipfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\tests\Tests_run_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\tests\Tests_run_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\tests\Tests_run_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4A8D6A3B-149E-38E3-9093-51752D7AB560}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3E89376A-3600-35F0-8876-37A3973E073A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>PartDesign</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\PartDesign\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PartDesign.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">_PartDesign_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\PartDesign\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PartDesign.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">_PartDesign</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\PartDesign\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PartDesign.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">_PartDesign</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\PartDesign\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PartDesign.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">_PartDesign</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\PartDesign_autogen\include_Debug;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\include;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include" /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtCore" /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/./mkspecs/win32-msvc" /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtXml" /Zm150 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;FC_DEBUG;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_RAPIDJSON;_OCC64;FCAppPartDesign;HAVE_ACOSH;HAVE_ASINH;HAVE_ATANH;_PreComp_;QT_CORE_LIB;QT_XML_LIB;CMAKE_INTDIR="Debug";PartDesign_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;FC_DEBUG;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_RAPIDJSON;_OCC64;FCAppPartDesign;HAVE_ACOSH;HAVE_ASINH;HAVE_ATANH;_PreComp_;QT_CORE_LIB;QT_XML_LIB;CMAKE_INTDIR=\"Debug\";PartDesign_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\PartDesign_autogen\include_Debug;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\include;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-src\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\QtCore;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\.\mkspecs\win32-msvc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\PartDesign_autogen\include_Debug;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\include;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-src\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\QtCore;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\.\mkspecs\win32-msvc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target PartDesign</Message>
+      <Command>setlocal
+cd "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -E cmake_autogen "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/CMakeFiles/PartDesign_autogen.dir/AutogenInfo.json" Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\Part\App\Debug\Part_d.lib;..\..\..\App\Debug\FreeCADApp_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKMeshd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKIGESd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTLd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKOffsetd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKFilletd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEPd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEPAttrd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEP209d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEPBased.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKXSBased.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKHLRd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKFeatd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBoold.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBOd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKShHealingd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKPrimd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKTopAlgod.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKGeomAlgod.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBRepd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKGeomBased.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKG3dd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKG2dd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKMathd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKerneld.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;..\..\..\Base\Debug\FreeCADBase_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\xerces-c_3D.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\zlibd.lib;MSVCRTD.lib;MSVCPRTD.lib;Rpcrt4.lib;version.lib;vcruntimed.lib;ucrtd.lib;concrtd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\libs\python38_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_filesystem-vc141-mt-gd-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_program_options-vc141-mt-gd-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_regex-vc141-mt-gd-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_system-vc141-mt-gd-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_thread-vc141-mt-gd-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_date_time-vc141-mt-gd-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_chrono-vc141-mt-gd-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_atomic-vc141-mt-gd-x64-1_67.lib;..\..\..\..\_deps\fmt-build\Debug\fmtd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\Qt5Xmld.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\Qt5Cored.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\freetyped.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/lib;F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/Debug/_PartDesign_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/PartDesign/_PartDesign_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\PartDesign_autogen\include_Release;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\include;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include" /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtCore" /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/./mkspecs/win32-msvc" /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtXml" /Zm150 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_RAPIDJSON;_OCC64;FCAppPartDesign;HAVE_ACOSH;HAVE_ASINH;HAVE_ATANH;_PreComp_;QT_CORE_LIB;QT_NO_DEBUG;QT_XML_LIB;CMAKE_INTDIR="Release";PartDesign_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_RAPIDJSON;_OCC64;FCAppPartDesign;HAVE_ACOSH;HAVE_ASINH;HAVE_ATANH;_PreComp_;QT_CORE_LIB;QT_NO_DEBUG;QT_XML_LIB;CMAKE_INTDIR=\"Release\";PartDesign_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\PartDesign_autogen\include_Release;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\include;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-src\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\QtCore;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\.\mkspecs\win32-msvc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\PartDesign_autogen\include_Release;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\include;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-src\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\QtCore;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\.\mkspecs\win32-msvc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target PartDesign</Message>
+      <Command>setlocal
+cd "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -E cmake_autogen "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/CMakeFiles/PartDesign_autogen.dir/AutogenInfo.json" Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\Part\App\Release\Part.lib;..\..\..\App\Release\FreeCADApp.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKMesh.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKIGES.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTL.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKOffset.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKFillet.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEP.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEPAttr.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEP209.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEPBase.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKXSBase.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKHLR.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKFeat.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBool.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBO.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKShHealing.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKPrim.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKTopAlgo.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKGeomAlgo.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBRep.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKGeomBase.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKG3d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKG2d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKMath.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;..\..\..\Base\Release\FreeCADBase.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\xerces-c_3.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\zlib.lib;MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;version.lib;vcruntime.lib;ucrt.lib;concrt.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\libs\python38.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_filesystem-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_program_options-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_regex-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_system-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_thread-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_date_time-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_chrono-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_atomic-vc141-mt-x64-1_67.lib;..\..\..\..\_deps\fmt-build\Release\fmt.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\Qt5Xml.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\Qt5Core.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\freetype.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/lib;F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/Release/_PartDesign.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/PartDesign/_PartDesign.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\PartDesign_autogen\include_MinSizeRel;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\include;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include" /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtCore" /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/./mkspecs/win32-msvc" /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtXml"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;_OCC64;FCAppPartDesign;HAVE_ACOSH;HAVE_ASINH;HAVE_ATANH;_PreComp_;QT_CORE_LIB;QT_NO_DEBUG;QT_XML_LIB;CMAKE_INTDIR="MinSizeRel";PartDesign_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;_OCC64;FCAppPartDesign;HAVE_ACOSH;HAVE_ASINH;HAVE_ATANH;_PreComp_;QT_CORE_LIB;QT_NO_DEBUG;QT_XML_LIB;CMAKE_INTDIR=\"MinSizeRel\";PartDesign_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\PartDesign_autogen\include_MinSizeRel;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\include;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-src\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\QtCore;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\.\mkspecs\win32-msvc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\PartDesign_autogen\include_MinSizeRel;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\include;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-src\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\QtCore;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\.\mkspecs\win32-msvc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target PartDesign</Message>
+      <Command>setlocal
+cd "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -E cmake_autogen "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/CMakeFiles/PartDesign_autogen.dir/AutogenInfo.json" MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\Part\App\MinSizeRel\Part.lib;..\..\..\App\MinSizeRel\FreeCADApp.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKMeshd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKIGESd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTLd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKOffsetd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKFilletd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEPd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEPAttrd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEP209d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEPBased.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKXSBased.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKHLRd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKFeatd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBoold.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBOd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKShHealingd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKPrimd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKTopAlgod.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKGeomAlgod.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBRepd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKGeomBased.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKG3dd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKG2dd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKMathd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKerneld.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;..\..\..\Base\MinSizeRel\FreeCADBase.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\xerces-c_3.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\zlib.lib;MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;version.lib;vcruntime.lib;ucrt.lib;concrt.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\libs\python38.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_filesystem-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_program_options-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_regex-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_system-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_thread-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_date_time-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_chrono-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_atomic-vc141-mt-x64-1_67.lib;..\..\..\..\_deps\fmt-build\MinSizeRel\fmt.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\Qt5Xml.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\Qt5Core.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\freetype.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/lib;F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/MinSizeRel/_PartDesign.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/PartDesign/MinSizeRel/_PartDesign.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\PartDesign_autogen\include_RelWithDebInfo;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\include;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include" /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtCore" /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/./mkspecs/win32-msvc" /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtXml"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;_OCC64;FCAppPartDesign;HAVE_ACOSH;HAVE_ASINH;HAVE_ATANH;_PreComp_;QT_CORE_LIB;QT_NO_DEBUG;QT_XML_LIB;CMAKE_INTDIR="RelWithDebInfo";PartDesign_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;_OCC64;FCAppPartDesign;HAVE_ACOSH;HAVE_ASINH;HAVE_ATANH;_PreComp_;QT_CORE_LIB;QT_NO_DEBUG;QT_XML_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";PartDesign_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\PartDesign_autogen\include_RelWithDebInfo;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\include;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-src\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\QtCore;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\.\mkspecs\win32-msvc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\PartDesign_autogen\include_RelWithDebInfo;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\include;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-src\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\QtCore;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\.\mkspecs\win32-msvc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target PartDesign</Message>
+      <Command>setlocal
+cd "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -E cmake_autogen "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/CMakeFiles/PartDesign_autogen.dir/AutogenInfo.json" RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\Part\App\RelWithDebInfo\Part.lib;..\..\..\App\RelWithDebInfo\FreeCADApp.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKMeshd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKIGESd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTLd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKOffsetd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKFilletd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEPd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEPAttrd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEP209d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEPBased.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKXSBased.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKHLRd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKFeatd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBoold.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBOd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKShHealingd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKPrimd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKTopAlgod.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKGeomAlgod.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBRepd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKGeomBased.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKG3dd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKG2dd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKMathd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKerneld.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;..\..\..\Base\RelWithDebInfo\FreeCADBase.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\xerces-c_3.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\zlib.lib;MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;version.lib;vcruntime.lib;ucrt.lib;concrt.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\libs\python38.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_filesystem-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_program_options-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_regex-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_system-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_thread-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_date_time-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_chrono-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_atomic-vc141-mt-x64-1_67.lib;..\..\..\..\_deps\fmt-build\RelWithDebInfo\fmt.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\Qt5Xml.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\Qt5Core.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\freetype.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/lib;F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/RelWithDebInfo/_PartDesign.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/PartDesign/RelWithDebInfo/_PartDesign.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\BodyPy.xml">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building BodyPy.h/.cpp out of BodyPy.xml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\python.exe" "F:\F\FreeCAD before build\FreeCAD\src\Tools\generate.py" --outputPath "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App" BodyPy.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\FreeCAD\src\Tools\generateTemplates\templateClassPyExport.py;F:\F\FreeCAD before build\FreeCAD\src\Tools\generate.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\BodyPy.h;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\BodyPy.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building BodyPy.h/.cpp out of BodyPy.xml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd "F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\python.exe" "F:\F\FreeCAD before build\FreeCAD\src\Tools\generate.py" --outputPath "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App" BodyPy.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\FreeCAD\src\Tools\generateTemplates\templateClassPyExport.py;F:\F\FreeCAD before build\FreeCAD\src\Tools\generate.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\BodyPy.h;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\BodyPy.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building BodyPy.h/.cpp out of BodyPy.xml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd "F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\python.exe" "F:\F\FreeCAD before build\FreeCAD\src\Tools\generate.py" --outputPath "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App" BodyPy.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\FreeCAD\src\Tools\generateTemplates\templateClassPyExport.py;F:\F\FreeCAD before build\FreeCAD\src\Tools\generate.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\BodyPy.h;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\BodyPy.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building BodyPy.h/.cpp out of BodyPy.xml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd "F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\python.exe" "F:\F\FreeCAD before build\FreeCAD\src\Tools\generate.py" --outputPath "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App" BodyPy.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\FreeCAD\src\Tools\generateTemplates\templateClassPyExport.py;F:\F\FreeCAD before build\FreeCAD\src\Tools\generate.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\BodyPy.h;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\BodyPy.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeaturePy.xml">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building FeaturePy.h/.cpp out of FeaturePy.xml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\python.exe" "F:\F\FreeCAD before build\FreeCAD\src\Tools\generate.py" --outputPath "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App" FeaturePy.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\FreeCAD\src\Tools\generateTemplates\templateClassPyExport.py;F:\F\FreeCAD before build\FreeCAD\src\Tools\generate.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\FeaturePy.h;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\FeaturePy.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building FeaturePy.h/.cpp out of FeaturePy.xml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd "F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\python.exe" "F:\F\FreeCAD before build\FreeCAD\src\Tools\generate.py" --outputPath "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App" FeaturePy.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\FreeCAD\src\Tools\generateTemplates\templateClassPyExport.py;F:\F\FreeCAD before build\FreeCAD\src\Tools\generate.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\FeaturePy.h;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\FeaturePy.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building FeaturePy.h/.cpp out of FeaturePy.xml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd "F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\python.exe" "F:\F\FreeCAD before build\FreeCAD\src\Tools\generate.py" --outputPath "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App" FeaturePy.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\FreeCAD\src\Tools\generateTemplates\templateClassPyExport.py;F:\F\FreeCAD before build\FreeCAD\src\Tools\generate.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\FeaturePy.h;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\FeaturePy.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building FeaturePy.h/.cpp out of FeaturePy.xml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd "F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\python.exe" "F:\F\FreeCAD before build\FreeCAD\src\Tools\generate.py" --outputPath "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App" FeaturePy.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\FreeCAD\src\Tools\generateTemplates\templateClassPyExport.py;F:\F\FreeCAD before build\FreeCAD\src\Tools\generate.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\FeaturePy.h;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\FeaturePy.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe "-SF:/F/FreeCAD before build/FreeCAD" "-BF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild" --check-stamp-file "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe "-SF:/F/FreeCAD before build/FreeCAD" "-BF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild" --check-stamp-file "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe "-SF:/F/FreeCAD before build/FreeCAD" "-BF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild" --check-stamp-file "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe "-SF:/F/FreeCAD before build/FreeCAD" "-BF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild" --check-stamp-file "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\PartDesign_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\Feature.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\Feature.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureSolid.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureSolid.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\Body.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\Body.h" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureBase.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureBase.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\ShapeBinder.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\ShapeBinder.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\DatumPlane.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\DatumPlane.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\DatumLine.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\DatumLine.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\DatumPoint.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\DatumPoint.h" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\DatumCS.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\DatumCS.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureTransformed.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureTransformed.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureMirrored.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureMirrored.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureLinearPattern.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureLinearPattern.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeaturePolarPattern.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeaturePolarPattern.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureScaled.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureScaled.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureMultiTransform.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureMultiTransform.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureExtrude.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureExtrude.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureSketchBased.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureSketchBased.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeaturePad.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeaturePad.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeaturePocket.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeaturePocket.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureRevolution.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureRevolution.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureGroove.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureGroove.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureAddSub.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureAddSub.h" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureHole.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureHole.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureBoolean.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureBoolean.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeaturePrimitive.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeaturePrimitive.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeaturePipe.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeaturePipe.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureLoft.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureLoft.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureHelix.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureHelix.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureDressUp.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureDressUp.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureFillet.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureFillet.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureChamfer.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureChamfer.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureDraft.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureDraft.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureThickness.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeatureThickness.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\AppPartDesign.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\AppPartDesignPy.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\PreCompiled.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\PreCompiled.h" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\BodyPyImp.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\App\FeaturePyImp.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PreCompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\PartDesign_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\PartDesign_autogen\mocs_compilation_MinSizeRel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\App\PartDesign_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\ZERO_CHECK.vcxproj">
+      <Project>{3393CF6A-F55C-3A7B-8EED-7DFF9DC0A795}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\App\FreeCADApp.vcxproj">
+      <Project>{03CD9AE0-E2AD-3584-972F-64DFC5F1E6A8}</Project>
+      <Name>FreeCADApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Base\FreeCADBase.vcxproj">
+      <Project>{A4D591AE-AD46-3A95-A243-3E52410A876D}</Project>
+      <Name>FreeCADBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\App\Part.vcxproj">
+      <Project>{75CE4C82-17D9-32DC-9F38-151BEBDD9962}</Project>
+      <Name>Part</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-build\fmt.vcxproj">
+      <Project>{95BA967D-B623-32D5-B26A-6BA87043C718}</Project>
+      <Name>fmt</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

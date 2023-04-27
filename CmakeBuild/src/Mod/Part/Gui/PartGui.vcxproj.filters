@@ -1,0 +1,818 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\qrc_Part.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\AppPartGui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\AttacherTexts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\BoxSelection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\Command.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\CommandSimple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\CommandParametric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\CrossSections.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\Mirroring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgBooleanOperation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgExportStep.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgExtrusion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgFilletEdges.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgImportStep.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgPartBoxImp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgPartCylinderImp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgPartImportIgesImp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgPartImportStepImp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgPrimitives.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgRevolution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgSettings3DViewPartImp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgSettingsGeneral.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgSettingsMeasure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgSettingsObjectColor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgProjectionOnSurface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\PreCompiled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\PropertyEnumAttacherItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\SoFCShapeObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\SoBrepEdgeSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\SoBrepFaceSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\SoBrepPointSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderAttachExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderExt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderReference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderCompound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderCircleParametric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderLineParametric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderPointParametric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderEllipseParametric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderGridExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderHelixParametric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderPlaneParametric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderSphereParametric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderCylinderParametric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderConeParametric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderPrism.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderRegularPolygon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderTorusParametric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderCurveNet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderSpline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderImport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderExtrusion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProvider2DObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderMirror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderPython.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderBoolean.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderRuledSurface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderPrimitive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\Workbench.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ReferenceHighlighter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\SectionCutting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ShapeFromMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\TaskFaceColors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\TaskShapeBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\TaskLoft.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\TaskOffset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\TaskSweep.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\TaskThickness.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\TaskDimension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\TaskCheckGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\TaskAttacher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\AttacherTexts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\BoxSelection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\CrossSections.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\Mirroring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgBooleanOperation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgExportStep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgExtrusion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgFilletEdges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgImportStep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgPartBoxImp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgPartCylinderImp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgPartImportIgesImp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgPartImportStepImp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgPrimitives.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgRevolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgSettings3DViewPartImp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgSettingsGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgSettingsMeasure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgSettingsObjectColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgProjectionOnSurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\PreCompiled.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\PropertyEnumAttacherItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\SoFCShapeObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\SoBrepEdgeSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\SoBrepFaceSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\SoBrepPointSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProvider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderAttachExtension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderExt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderReference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderCompound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderCircleParametric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderLineParametric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderPointParametric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderEllipseParametric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderGridExtension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderHelixParametric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderPlaneParametric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderSphereParametric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderCylinderParametric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderConeParametric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderPrism.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderRegularPolygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderTorusParametric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderCurveNet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderSpline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderImport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderExtrusion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProvider2DObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderMirror.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderPython.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderBoolean.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderRuledSurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ViewProviderPrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\Workbench.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ReferenceHighlighter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\SectionCutting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\ShapeFromMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\TaskFaceColors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\TaskShapeBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\TaskLoft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\TaskOffset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\TaskSweep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\TaskThickness.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\TaskDimension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\TaskCheckGeometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\TaskAttacher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_CrossSections.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_Mirroring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_DlgBooleanOperation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_DlgExportStep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_DlgExportHeaderStep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_DlgExtrusion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_DlgFilletEdges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_DlgImportStep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_DlgImportExportIges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_DlgPartBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_DlgPartCylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_DlgPartImportIges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_DlgPartImportStep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_DlgPrimitives.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_Location.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_DlgRevolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_DlgSettings3DViewPart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_DlgSettingsGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_DlgSettingsMeasure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_DlgSettingsObjectColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_DlgProjectionOnSurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_SectionCutting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_TaskFaceColors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_TaskShapeBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_TaskLoft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_TaskOffset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Debug\ui_TaskSweep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_CrossSections.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_Mirroring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_DlgBooleanOperation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_DlgExportStep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_DlgExportHeaderStep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_DlgExtrusion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_DlgFilletEdges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_DlgImportStep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_DlgImportExportIges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_DlgPartBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_DlgPartCylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_DlgPartImportIges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_DlgPartImportStep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_DlgPrimitives.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_Location.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_DlgRevolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_DlgSettings3DViewPart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_DlgSettingsGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_DlgSettingsMeasure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_DlgSettingsObjectColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_DlgProjectionOnSurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_SectionCutting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_TaskFaceColors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_TaskShapeBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_TaskLoft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_TaskOffset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_Release\ui_TaskSweep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_CrossSections.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_Mirroring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_DlgBooleanOperation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_DlgExportStep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_DlgExportHeaderStep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_DlgExtrusion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_DlgFilletEdges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_DlgImportStep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_DlgImportExportIges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_DlgPartBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_DlgPartCylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_DlgPartImportIges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_DlgPartImportStep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_DlgPrimitives.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_Location.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_DlgRevolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_DlgSettings3DViewPart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_DlgSettingsGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_DlgSettingsMeasure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_DlgSettingsObjectColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_DlgProjectionOnSurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_SectionCutting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_TaskFaceColors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_TaskShapeBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_TaskLoft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_TaskOffset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_MinSizeRel\ui_TaskSweep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_CrossSections.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_Mirroring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_DlgBooleanOperation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_DlgExportStep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_DlgExportHeaderStep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_DlgExtrusion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_DlgFilletEdges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_DlgImportStep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_DlgImportExportIges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_DlgPartBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_DlgPartCylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_DlgPartImportIges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_DlgPartImportStep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_DlgPrimitives.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_Location.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_DlgRevolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_DlgSettings3DViewPart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_DlgSettingsGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_DlgSettingsMeasure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_DlgSettingsObjectColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_DlgProjectionOnSurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_SectionCutting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_TaskFaceColors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_TaskShapeBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_TaskLoft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_TaskOffset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\include_RelWithDebInfo\ui_TaskSweep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\Resources\Part.qrc" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\Resources\icons\PartWorkbench.svg" />
+    <CustomBuild Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\de3f64c23112c61740c47626d00843e7\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\CrossSections.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\Mirroring.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgBooleanOperation.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgExportStep.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgExportHeaderStep.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgExtrusion.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgFilletEdges.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgImportStep.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgImportExportIges.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgPartBox.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgPartCylinder.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgPartImportIges.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgPartImportStep.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgPrimitives.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\Location.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgRevolution.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgSettings3DViewPart.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgSettingsGeneral.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgSettingsMeasure.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgSettingsObjectColor.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\DlgProjectionOnSurface.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\SectionCutting.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\TaskFaceColors.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\TaskShapeBuilder.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\TaskLoft.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\TaskOffset.ui" />
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\Gui\TaskSweep.ui" />
+    <None Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\autouic_Debug.stamp" />
+    <None Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\autouic_Release.stamp" />
+    <None Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\Gui\PartGui_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{67952501-129B-38B9-B8A2-AFC31960E5FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{97A4190E-D9AE-30BF-9F4B-811E3F267D26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4A8D6A3B-149E-38E3-9093-51752D7AB560}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

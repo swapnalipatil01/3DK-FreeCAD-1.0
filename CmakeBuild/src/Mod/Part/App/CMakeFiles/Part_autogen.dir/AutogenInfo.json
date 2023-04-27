@@ -1,0 +1,1359 @@
+{
+	"BUILD_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Part/App/Part_autogen",
+	"CMAKE_BINARY_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild",
+	"CMAKE_CURRENT_BINARY_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Part/App",
+	"CMAKE_CURRENT_SOURCE_DIR" : "F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App",
+	"CMAKE_EXECUTABLE" : "I:/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : [ "F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/CMakeLists.txt" ],
+	"CMAKE_SOURCE_DIR" : "F:/F/FreeCAD before build/FreeCAD",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/AttachExtension.h",
+			"MU",
+			"EWIEGA46WW/moc_AttachExtension.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Attacher.h",
+			"MU",
+			"EWIEGA46WW/moc_Attacher.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/BRepOffsetAPI_MakeOffsetFix.h",
+			"MU",
+			"EWIEGA46WW/moc_BRepOffsetAPI_MakeOffsetFix.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/BSplineCurveBiArcs.h",
+			"MU",
+			"EWIEGA46WW/moc_BSplineCurveBiArcs.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/BodyBase.h",
+			"MU",
+			"EWIEGA46WW/moc_BodyBase.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/CrossSection.h",
+			"MU",
+			"EWIEGA46WW/moc_CrossSection.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/CustomFeature.h",
+			"MU",
+			"EWIEGA46WW/moc_CustomFeature.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/DatumFeature.h",
+			"MU",
+			"EWIEGA46WW/moc_DatumFeature.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ExtrusionHelper.h",
+			"MU",
+			"EWIEGA46WW/moc_ExtrusionHelper.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FT2FC.h",
+			"MU",
+			"EWIEGA46WW/moc_FT2FC.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FaceMaker.h",
+			"MU",
+			"EWIEGA46WW/moc_FaceMaker.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FaceMakerBullseye.h",
+			"MU",
+			"EWIEGA46WW/moc_FaceMakerBullseye.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FaceMakerCheese.h",
+			"MU",
+			"EWIEGA46WW/moc_FaceMakerCheese.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeatureChamfer.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureChamfer.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeatureCompound.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureCompound.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeatureExtrusion.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureExtrusion.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeatureFace.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureFace.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeatureFillet.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureFillet.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeatureGeometrySet.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureGeometrySet.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeatureMirroring.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureMirroring.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeatureOffset.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureOffset.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartBoolean.h",
+			"MU",
+			"EWIEGA46WW/moc_FeaturePartBoolean.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartBox.h",
+			"MU",
+			"EWIEGA46WW/moc_FeaturePartBox.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartCircle.h",
+			"MU",
+			"EWIEGA46WW/moc_FeaturePartCircle.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartCommon.h",
+			"MU",
+			"EWIEGA46WW/moc_FeaturePartCommon.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartCurveNet.h",
+			"MU",
+			"EWIEGA46WW/moc_FeaturePartCurveNet.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartCut.h",
+			"MU",
+			"EWIEGA46WW/moc_FeaturePartCut.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartFuse.h",
+			"MU",
+			"EWIEGA46WW/moc_FeaturePartFuse.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartImportBrep.h",
+			"MU",
+			"EWIEGA46WW/moc_FeaturePartImportBrep.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartImportIges.h",
+			"MU",
+			"EWIEGA46WW/moc_FeaturePartImportIges.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartImportStep.h",
+			"MU",
+			"EWIEGA46WW/moc_FeaturePartImportStep.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartPolygon.h",
+			"MU",
+			"EWIEGA46WW/moc_FeaturePartPolygon.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartSection.h",
+			"MU",
+			"EWIEGA46WW/moc_FeaturePartSection.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartSpline.h",
+			"MU",
+			"EWIEGA46WW/moc_FeaturePartSpline.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeatureRevolution.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureRevolution.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Geometry.h",
+			"MU",
+			"EWIEGA46WW/moc_Geometry.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Geometry2d.h",
+			"MU",
+			"EWIEGA46WW/moc_Geometry2d.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/GeometryDefaultExtension.h",
+			"MU",
+			"EWIEGA46WW/moc_GeometryDefaultExtension.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/GeometryExtension.h",
+			"MU",
+			"EWIEGA46WW/moc_GeometryExtension.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/GeometryMigrationExtension.h",
+			"MU",
+			"EWIEGA46WW/moc_GeometryMigrationExtension.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/IGES/ImportExportSettings.h",
+			"MU",
+			"BP7GU3256Q/moc_ImportExportSettings.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ImportIges.h",
+			"MU",
+			"EWIEGA46WW/moc_ImportIges.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ImportStep.h",
+			"MU",
+			"EWIEGA46WW/moc_ImportStep.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Interface.h",
+			"MU",
+			"EWIEGA46WW/moc_Interface.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/OCAF/ImportExportSettings.h",
+			"MU",
+			"EURPNUVJ43/moc_ImportExportSettings.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/OCCError.h",
+			"MU",
+			"EWIEGA46WW/moc_OCCError.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Part2DObject.h",
+			"MU",
+			"EWIEGA46WW/moc_Part2DObject.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/PartFeature.h",
+			"MU",
+			"EWIEGA46WW/moc_PartFeature.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/PartFeatureReference.h",
+			"MU",
+			"EWIEGA46WW/moc_PartFeatureReference.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/PartFeatures.h",
+			"MU",
+			"EWIEGA46WW/moc_PartFeatures.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/PartPyCXX.h",
+			"MU",
+			"EWIEGA46WW/moc_PartPyCXX.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/PreCompiled.h",
+			"MU",
+			"EWIEGA46WW/moc_PreCompiled.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/PrimitiveFeature.h",
+			"MU",
+			"EWIEGA46WW/moc_PrimitiveFeature.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/PrismExtension.h",
+			"MU",
+			"EWIEGA46WW/moc_PrismExtension.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ProgressIndicator.h",
+			"MU",
+			"EWIEGA46WW/moc_ProgressIndicator.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/PropertyGeometryList.h",
+			"MU",
+			"EWIEGA46WW/moc_PropertyGeometryList.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/PropertyTopoShape.h",
+			"MU",
+			"EWIEGA46WW/moc_PropertyTopoShape.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/PropertyTopoShapeList.h",
+			"MU",
+			"EWIEGA46WW/moc_PropertyTopoShapeList.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/STEP/ImportExportSettings.h",
+			"MU",
+			"VGSLJWZPGN/moc_ImportExportSettings.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Tools.h",
+			"MU",
+			"EWIEGA46WW/moc_Tools.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/TopoShape.h",
+			"MU",
+			"EWIEGA46WW/moc_TopoShape.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/TopoShapeOpCode.h",
+			"MU",
+			"EWIEGA46WW/moc_TopoShapeOpCode.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/edgecluster.h",
+			"MU",
+			"EWIEGA46WW/moc_edgecluster.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/encodeFilename.h",
+			"MU",
+			"EWIEGA46WW/moc_encodeFilename.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/modelRefine.h",
+			"MU",
+			"EWIEGA46WW/moc_modelRefine.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Part/App/Part_autogen/include",
+	"INCLUDE_DIR_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Part/App/Part_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Part/App/Part_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Part/App/Part_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Part/App/Part_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Part/App/Part_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Part/App/Part_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Part/App/Part_autogen/mocs_compilation_MinSizeRel.cpp",
+	"MOC_COMPILATION_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Part/App/Part_autogen/mocs_compilation_RelWithDebInfo.cpp",
+	"MOC_COMPILATION_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Part/App/Part_autogen/mocs_compilation_Release.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"FCAppPart",
+		"FCUseFreeType",
+		"HAVE_ACOSH",
+		"HAVE_ASINH",
+		"HAVE_ATANH",
+		"HAVE_SNPRINTF",
+		"PYCXX_6_2_COMPATIBILITY",
+		"Part_EXPORTS",
+		"QT_CORE_LIB",
+		"QT_NO_DEBUG",
+		"QT_XML_LIB",
+		"WIN32",
+		"_OCC64",
+		"_PreComp_"
+	],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"FCAppPart",
+		"FCUseFreeType",
+		"HAVE_ACOSH",
+		"HAVE_ASINH",
+		"HAVE_ATANH",
+		"HAVE_RAPIDJSON",
+		"HAVE_SNPRINTF",
+		"PYCXX_6_2_COMPATIBILITY",
+		"Part_EXPORTS",
+		"QT_CORE_LIB",
+		"QT_XML_LIB",
+		"UNICODE",
+		"WIN32",
+		"_CRT_NONSTDC_NO_DEPRECATE",
+		"_CRT_SECURE_NO_WARNINGS",
+		"_OCC64",
+		"_PreComp_",
+		"_UNICODE"
+	],
+	"MOC_DEFINITIONS_Release" : 
+	[
+		"FCAppPart",
+		"FCUseFreeType",
+		"HAVE_ACOSH",
+		"HAVE_ASINH",
+		"HAVE_ATANH",
+		"HAVE_RAPIDJSON",
+		"HAVE_SNPRINTF",
+		"PYCXX_6_2_COMPATIBILITY",
+		"Part_EXPORTS",
+		"QT_CORE_LIB",
+		"QT_NO_DEBUG",
+		"QT_XML_LIB",
+		"UNICODE",
+		"WIN32",
+		"_CRT_NONSTDC_NO_DEPRECATE",
+		"_CRT_SECURE_NO_WARNINGS",
+		"_OCC64",
+		"_PreComp_",
+		"_UNICODE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src",
+		"F:/F/FreeCAD before build/FreeCAD/src",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Part/App",
+		"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/inc",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/include",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/freetype2",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-src/include",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtCore",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/mkspecs/win32-msvc",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtXml"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Part/App/CMakeFiles/Part_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Part/App/CMakeFiles/Part_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Part/App/CMakeFiles/Part_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Part/App/CMakeFiles/Part_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Part/App/CMakeFiles/Part_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Part/App/CMakeFiles/Part_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Part/App/CMakeFiles/Part_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Part/App/CMakeFiles/Part_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Part/App/CMakeFiles/Part_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Part/App/CMakeFiles/Part_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/AppPart.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/AppPartPy.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ArcOfCirclePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ArcOfConicPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ArcOfEllipsePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ArcOfHyperbolaPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ArcOfParabolaPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ArcPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/AttachEnginePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/AttachExtension.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/AttachExtensionPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Attacher.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/BRepFeat/MakePrismPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/BRepOffsetAPI_MakeFillingPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/BRepOffsetAPI_MakeOffsetFix.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/BRepOffsetAPI_MakePipeShellPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/BSplineCurveBiArcs.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/BSplineCurvePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/BSplineSurfacePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/BezierCurvePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/BezierSurfacePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/BodyBase.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/BodyBasePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/BoundedCurvePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ChFi2d/ChFi2d_AnaFilletAlgoPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ChFi2d/ChFi2d_ChamferAPIPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ChFi2d/ChFi2d_FilletAPIPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ChFi2d/ChFi2d_FilletAlgoPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/CirclePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ConePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ConicPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/CrossSection.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/CustomFeature.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/CylinderPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/DatumFeature.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/EllipsePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ExtrusionHelper.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FT2FC.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FaceMaker.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FaceMakerBullseye.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FaceMakerCheese.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeatureChamfer.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeatureCompound.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeatureExtrusion.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeatureFace.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeatureFillet.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeatureGeometrySet.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeatureMirroring.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeatureOffset.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartBoolean.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartBox.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartCircle.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartCommon.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartCurveNet.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartCut.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartFuse.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartImportBrep.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartImportIges.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartImportStep.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartPolygon.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartSection.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeaturePartSpline.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/FeatureRevolution.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Geom2d/ArcOfCircle2dPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Geom2d/ArcOfConic2dPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Geom2d/ArcOfEllipse2dPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Geom2d/ArcOfHyperbola2dPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Geom2d/ArcOfParabola2dPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Geom2d/BSplineCurve2dPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Geom2d/BezierCurve2dPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Geom2d/Circle2dPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Geom2d/Conic2dPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Geom2d/Curve2dPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Geom2d/Ellipse2dPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Geom2d/Geometry2dPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Geom2d/Hyperbola2dPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Geom2d/Line2dPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Geom2d/Line2dSegmentPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Geom2d/OffsetCurve2dPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Geom2d/Parabola2dPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/GeomPlate/BuildPlateSurfacePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/GeomPlate/CurveConstraintPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/GeomPlate/PointConstraintPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Geometry.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Geometry2d.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/GeometryBoolExtensionPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/GeometryCurvePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/GeometryDefaultExtension.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/GeometryDoubleExtensionPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/GeometryExtension.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/GeometryExtensionPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/GeometryIntExtensionPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/GeometryMigrationExtension.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/GeometryPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/GeometryStringExtensionPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/GeometrySurfacePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/HLRBRep/HLRBRep_AlgoPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/HLRBRep/HLRBRep_PolyAlgoPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/HLRBRep/HLRToShapePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/HLRBRep/PolyHLRToShapePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/HyperbolaPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/IGES/ImportExportSettings.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ImportIges.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ImportStep.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Interface.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/LinePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/LineSegmentPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/OCAF/ImportExportSettings.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/OffsetCurvePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/OffsetSurfacePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ParabolaPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Part2DObject.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Part2DObjectPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/PartFeature.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/PartFeaturePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/PartFeatureReference.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/PartFeatures.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/PartPyCXX.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/PlanePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/PlateSurfacePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/PointPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/PreCompiled.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/PrimitiveFeature.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/PrismExtension.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ProgressIndicator.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/PropertyGeometryList.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/PropertyTopoShape.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/PropertyTopoShapeList.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/RectangularTrimmedSurfacePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/STEP/ImportExportSettings.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ShapeFix/ShapeFix_EdgeConnectPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ShapeFix/ShapeFix_EdgePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ShapeFix/ShapeFix_FaceConnectPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ShapeFix/ShapeFix_FacePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ShapeFix/ShapeFix_FixSmallFacePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ShapeFix/ShapeFix_FixSmallSolidPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ShapeFix/ShapeFix_FreeBoundsPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ShapeFix/ShapeFix_RootPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ShapeFix/ShapeFix_ShapePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ShapeFix/ShapeFix_ShapeTolerancePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ShapeFix/ShapeFix_ShellPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ShapeFix/ShapeFix_SolidPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ShapeFix/ShapeFix_SplitCommonVertexPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ShapeFix/ShapeFix_SplitToolPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ShapeFix/ShapeFix_WirePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ShapeFix/ShapeFix_WireVertexPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ShapeFix/ShapeFix_WireframePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ShapeUpgrade/UnifySameDomainPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/SpherePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/SurfaceOfExtrusionPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/SurfaceOfRevolutionPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/Tools.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/TopoShape.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/TopoShapeCompSolidPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/TopoShapeCompoundPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/TopoShapeEdgePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/TopoShapeFacePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/TopoShapePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/TopoShapeShellPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/TopoShapeSolidPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/TopoShapeVertexPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/TopoShapeWirePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/ToroidPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/TrimmedCurvePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/edgecluster.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Part/App/modelRefine.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

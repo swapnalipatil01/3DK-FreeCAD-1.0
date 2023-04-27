@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Init.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathCommands.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\TestPathApp.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\InitGui.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\__init__.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\boxtest.fcstd" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\boxtest1.fcstd" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\Drilling_1.FCStd" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\drill_test1.FCStd" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\PathTestUtils.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\test_adaptive.fcstd" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\test_centroid_00.ngc" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\test_filenaming.fcstd" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\test_geomop.fcstd" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\test_holes00.fcstd" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestCentroidPost.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestGrblPost.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestLinuxCNCPost.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestMach3Mach4Post.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathAdaptive.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathCore.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathDepthParams.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathDressupDogbone.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathDressupDogboneII.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathDressupHoldingTags.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathDrillGenerator.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathDrillable.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathGeneratorDogboneII.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathGeom.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathHelix.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathHelpers.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathHelixGenerator.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathLanguage.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathLog.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathOpDeburr.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathOpUtil.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathPost.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathPreferences.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathPropertyBag.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathRotationGenerator.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathSetupSheet.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathStock.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathToolChangeGenerator.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathThreadMilling.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathThreadMillingGenerator.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathToolBit.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathToolController.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathUtil.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathVcarve.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestPathVoronoi.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestRefactoredCentroidPost.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestRefactoredGrblPost.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestRefactoredLinuxCNCPost.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestRefactoredMach3Mach4Post.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\TestRefactoredTestPost.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\Tools\Bit\test-path-tool-bit-bit-00.fctb" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\Tools\Library\test-path-tool-bit-library-00.fctl" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\PathTests\Tools\Shape\test-path-tool-bit-shape-00.fcstd" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

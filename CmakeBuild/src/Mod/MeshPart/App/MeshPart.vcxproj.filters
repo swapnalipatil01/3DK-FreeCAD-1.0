@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\MeshPart\App\MeshPart_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\MeshPart\App\AppMeshPart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\MeshPart\App\AppMeshPartPy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\MeshPart\App\CurveProjector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\MeshPart\App\MeshAlgos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\MeshPart\App\Mesher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\MeshPart\App\PreCompiled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\MeshPart\App\MeshPart_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\MeshPart\App\MeshPart_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\MeshPart\App\MeshPart_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\MeshPart\App\CurveProjector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\MeshPart\App\MeshAlgos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\MeshPart\App\Mesher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\MeshPart\App\PreCompiled.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\MeshPart\Init.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\MeshPart\App\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{97A4190E-D9AE-30BF-9F4B-811E3F267D26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4A8D6A3B-149E-38E3-9093-51752D7AB560}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

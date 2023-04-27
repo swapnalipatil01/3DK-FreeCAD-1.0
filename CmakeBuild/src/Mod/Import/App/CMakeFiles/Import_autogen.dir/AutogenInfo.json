@@ -1,0 +1,224 @@
+{
+	"BUILD_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/Import_autogen",
+	"CMAKE_BINARY_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild",
+	"CMAKE_CURRENT_BINARY_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App",
+	"CMAKE_CURRENT_SOURCE_DIR" : "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App",
+	"CMAKE_EXECUTABLE" : "I:/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : [ "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/CMakeLists.txt" ],
+	"CMAKE_SOURCE_DIR" : "F:/F/FreeCAD before build/FreeCAD",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/ExportOCAF.h",
+			"MU",
+			"EWIEGA46WW/moc_ExportOCAF.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/ImportOCAF.h",
+			"MU",
+			"EWIEGA46WW/moc_ImportOCAF.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/ImportOCAF2.h",
+			"MU",
+			"EWIEGA46WW/moc_ImportOCAF2.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/PreCompiled.h",
+			"MU",
+			"EWIEGA46WW/moc_PreCompiled.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/StepShape.h",
+			"MU",
+			"EWIEGA46WW/moc_StepShape.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/dxf/ImpExpDxf.h",
+			"MU",
+			"ZG4MPD67XD/moc_ImpExpDxf.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/dxf/dxf.h",
+			"MU",
+			"ZG4MPD67XD/moc_dxf.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/Import_autogen/include",
+	"INCLUDE_DIR_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/Import_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/Import_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/Import_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/Import_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/Import_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/Import_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/Import_autogen/mocs_compilation_MinSizeRel.cpp",
+	"MOC_COMPILATION_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/Import_autogen/mocs_compilation_RelWithDebInfo.cpp",
+	"MOC_COMPILATION_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/Import_autogen/mocs_compilation_Release.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"FCAppImport",
+		"HAVE_ACOSH",
+		"HAVE_ASINH",
+		"HAVE_ATANH",
+		"HAVE_SNPRINTF",
+		"Import_EXPORTS",
+		"PYCXX_6_2_COMPATIBILITY",
+		"QT_CORE_LIB",
+		"QT_NO_DEBUG",
+		"QT_XML_LIB",
+		"WIN32",
+		"_OCC64"
+	],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"FCAppImport",
+		"HAVE_ACOSH",
+		"HAVE_ASINH",
+		"HAVE_ATANH",
+		"HAVE_RAPIDJSON",
+		"HAVE_SNPRINTF",
+		"Import_EXPORTS",
+		"PYCXX_6_2_COMPATIBILITY",
+		"QT_CORE_LIB",
+		"QT_XML_LIB",
+		"UNICODE",
+		"WIN32",
+		"_CRT_NONSTDC_NO_DEPRECATE",
+		"_CRT_SECURE_NO_WARNINGS",
+		"_OCC64",
+		"_UNICODE"
+	],
+	"MOC_DEFINITIONS_Release" : 
+	[
+		"FCAppImport",
+		"HAVE_ACOSH",
+		"HAVE_ASINH",
+		"HAVE_ATANH",
+		"HAVE_RAPIDJSON",
+		"HAVE_SNPRINTF",
+		"Import_EXPORTS",
+		"PYCXX_6_2_COMPATIBILITY",
+		"QT_CORE_LIB",
+		"QT_NO_DEBUG",
+		"QT_XML_LIB",
+		"UNICODE",
+		"WIN32",
+		"_CRT_NONSTDC_NO_DEPRECATE",
+		"_CRT_SECURE_NO_WARNINGS",
+		"_OCC64",
+		"_UNICODE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src",
+		"F:/F/FreeCAD before build/FreeCAD/src",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App",
+		"F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/inc",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/include",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-src/include",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtCore",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/mkspecs/win32-msvc",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtXml"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/CMakeFiles/Import_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/CMakeFiles/Import_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/CMakeFiles/Import_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/CMakeFiles/Import_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/CMakeFiles/Import_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/CMakeFiles/Import_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/CMakeFiles/Import_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/CMakeFiles/Import_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/CMakeFiles/Import_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/CMakeFiles/Import_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/AppImport.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/AppImportPy.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/ExportOCAF.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/ImportOCAF.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/ImportOCAF2.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/PreCompiled.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/StepShape.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/StepShapePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/dxf/ImpExpDxf.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/dxf/dxf.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

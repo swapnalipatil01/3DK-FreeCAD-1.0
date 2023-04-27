@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\Init.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\KukaExporter.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\RobotExample.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\RobotExampleTrajectoryOutOfShapes.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\InitGui.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\MovieTool.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\Lib\Kuka\kr500_1.wrl" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\Lib\Kuka\kr500_1.csv" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\Lib\Kuka\kr_500_2.pdf">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\Lib\Kuka\kr210.WRL" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\Lib\Kuka\kr_210_2.csv" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\Lib\Kuka\kr_210_2.pdf">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\Lib\Kuka\kr16.wrl" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\Lib\Kuka\kr_16.csv" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\Lib\Kuka\kr_16.pdf">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\Lib\Kuka\kr125_3.wrl" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\Lib\Kuka\kr_125.csv" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\Lib\Kuka\kr125_2.pdf">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{23F39D93-BA4F-3AD1-B3C8-2C0D72223C50}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

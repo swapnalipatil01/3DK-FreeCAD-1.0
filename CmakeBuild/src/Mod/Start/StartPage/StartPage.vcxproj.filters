@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\StartPage.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\TranslationTexts.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\__init__.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\LoadMRU.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\LoadExample.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\LoadNew.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\LoadCustom.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\StartPage.css" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\StartPage.js" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\StartPage.html" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\EnableDownload.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\OpenSettings.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\images\userhub.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\images\poweruserhub.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\images\developerhub.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\images\manual.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\images\freecad.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\images\installed.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\images\new_file_thumbnail.svg" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\images\settings.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Start\StartPage\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{23F39D93-BA4F-3AD1-B3C8-2C0D72223C50}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

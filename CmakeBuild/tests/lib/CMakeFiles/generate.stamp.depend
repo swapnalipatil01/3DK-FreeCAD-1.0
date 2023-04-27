@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+F:/F/FreeCAD before build/FreeCAD/tests/lib/CMakeLists.txt
+I:/CMake/share/cmake-3.24/Modules/CMakeDependentOption.cmake
+I:/CMake/share/cmake-3.24/Modules/GNUInstallDirs.cmake

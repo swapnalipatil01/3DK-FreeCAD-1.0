@@ -1,0 +1,793 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\qrc_PartDesign.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\AppPartDesignGui.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\Command.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\CommandPrimitive.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\CommandBody.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\PreCompiled.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\SketchWorkflow.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\Utils.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\Workbench.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\WorkflowManager.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskFeaturePick.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ReferenceSelection.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskFeatureParameters.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskSketchBasedParameters.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskExtrudeParameters.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskPadParameters.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskPocketParameters.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskChamferParameters.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskFilletParameters.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskDraftParameters.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskThicknessParameters.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskDressUpParameters.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskRevolutionParameters.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskTransformedMessages.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskTransformedParameters.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskMirroredParameters.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskLinearPatternParameters.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskPolarPatternParameters.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskScaledParameters.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskMultiTransformParameters.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskHoleParameters.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskDatumParameters.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskShapeBinder.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskBooleanParameters.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskPrimitiveParameters.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskPipeParameters.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskLoftParameters.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskHelixParameters.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\DlgActiveBody.cpp">
+      <Filter>TaskDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProvider.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderBody.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderSketchBased.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderPad.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderHole.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderPocket.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderChamfer.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderFillet.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderDraft.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderThickness.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderDressUp.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderRevolution.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderGroove.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderTransformed.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderMirrored.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderLinearPattern.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderPolarPattern.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderScaled.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderMultiTransform.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderDatum.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderDatumPoint.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderDatumLine.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderDatumPlane.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderDatumCS.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderShapeBinder.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderBoolean.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderAddSub.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderPrimitive.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderPipe.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderLoft.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderHelix.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderBase.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\EnumFlags.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\PreCompiled.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\SketchWorkflow.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\Utils.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\Workbench.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\WorkflowManager.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskFeaturePick.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ReferenceSelection.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskFeatureParameters.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskSketchBasedParameters.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskExtrudeParameters.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskPadParameters.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskPocketParameters.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskChamferParameters.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskFilletParameters.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskDraftParameters.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskThicknessParameters.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskDressUpParameters.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskRevolutionParameters.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskTransformedMessages.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskTransformedParameters.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskMirroredParameters.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskLinearPatternParameters.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskPolarPatternParameters.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskScaledParameters.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskMultiTransformParameters.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskHoleParameters.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskDatumParameters.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskShapeBinder.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskBooleanParameters.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskPrimitiveParameters.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskPipeParameters.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskLoftParameters.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskHelixParameters.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\DlgActiveBody.h">
+      <Filter>TaskDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProvider.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderBody.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderSketchBased.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderPad.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderHole.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderPocket.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderChamfer.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderFillet.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderDraft.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderThickness.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderDressUp.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderRevolution.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderGroove.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderTransformed.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderMirrored.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderLinearPattern.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderPolarPattern.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderScaled.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderMultiTransform.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderDatum.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderDatumPoint.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderDatumLine.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderDatumPlane.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderDatumCS.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderShapeBinder.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderBoolean.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderAddSub.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderPrimitive.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderPipe.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderLoft.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderHelix.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderBase.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Debug\ui_TaskFeaturePick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Debug\ui_TaskPadPocketParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Debug\ui_TaskChamferParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Debug\ui_TaskFilletParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Debug\ui_TaskDraftParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Debug\ui_TaskThicknessParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Debug\ui_TaskRevolutionParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Debug\ui_TaskTransformedMessages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Debug\ui_TaskMirroredParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Debug\ui_TaskLinearPatternParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Debug\ui_TaskPolarPatternParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Debug\ui_TaskScaledParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Debug\ui_TaskMultiTransformParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Debug\ui_TaskHoleParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Debug\ui_TaskShapeBinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Debug\ui_TaskBooleanParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Debug\ui_TaskPipeParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Debug\ui_TaskPipeOrientation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Debug\ui_TaskPipeScaling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Debug\ui_TaskLoftParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Debug\ui_TaskHelixParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Release\ui_TaskFeaturePick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Release\ui_TaskPadPocketParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Release\ui_TaskChamferParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Release\ui_TaskFilletParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Release\ui_TaskDraftParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Release\ui_TaskThicknessParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Release\ui_TaskRevolutionParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Release\ui_TaskTransformedMessages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Release\ui_TaskMirroredParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Release\ui_TaskLinearPatternParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Release\ui_TaskPolarPatternParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Release\ui_TaskScaledParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Release\ui_TaskMultiTransformParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Release\ui_TaskHoleParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Release\ui_TaskShapeBinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Release\ui_TaskBooleanParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Release\ui_TaskPipeParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Release\ui_TaskPipeOrientation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Release\ui_TaskPipeScaling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Release\ui_TaskLoftParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_Release\ui_TaskHelixParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_MinSizeRel\ui_TaskFeaturePick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_MinSizeRel\ui_TaskPadPocketParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_MinSizeRel\ui_TaskChamferParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_MinSizeRel\ui_TaskFilletParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_MinSizeRel\ui_TaskDraftParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_MinSizeRel\ui_TaskThicknessParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_MinSizeRel\ui_TaskRevolutionParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_MinSizeRel\ui_TaskTransformedMessages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_MinSizeRel\ui_TaskMirroredParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_MinSizeRel\ui_TaskLinearPatternParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_MinSizeRel\ui_TaskPolarPatternParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_MinSizeRel\ui_TaskScaledParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_MinSizeRel\ui_TaskMultiTransformParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_MinSizeRel\ui_TaskHoleParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_MinSizeRel\ui_TaskShapeBinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_MinSizeRel\ui_TaskBooleanParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_MinSizeRel\ui_TaskPipeParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_MinSizeRel\ui_TaskPipeOrientation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_MinSizeRel\ui_TaskPipeScaling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_MinSizeRel\ui_TaskLoftParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_MinSizeRel\ui_TaskHelixParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_RelWithDebInfo\ui_TaskFeaturePick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_RelWithDebInfo\ui_TaskPadPocketParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_RelWithDebInfo\ui_TaskChamferParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_RelWithDebInfo\ui_TaskFilletParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_RelWithDebInfo\ui_TaskDraftParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_RelWithDebInfo\ui_TaskThicknessParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_RelWithDebInfo\ui_TaskRevolutionParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_RelWithDebInfo\ui_TaskTransformedMessages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_RelWithDebInfo\ui_TaskMirroredParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_RelWithDebInfo\ui_TaskLinearPatternParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_RelWithDebInfo\ui_TaskPolarPatternParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_RelWithDebInfo\ui_TaskScaledParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_RelWithDebInfo\ui_TaskMultiTransformParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_RelWithDebInfo\ui_TaskHoleParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_RelWithDebInfo\ui_TaskShapeBinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_RelWithDebInfo\ui_TaskBooleanParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_RelWithDebInfo\ui_TaskPipeParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_RelWithDebInfo\ui_TaskPipeOrientation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_RelWithDebInfo\ui_TaskPipeScaling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_RelWithDebInfo\ui_TaskLoftParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\include_RelWithDebInfo\ui_TaskHelixParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\Resources\PartDesign.qrc">
+      <Filter>Module</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\ViewProviderPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\Resources\icons\PartDesignWorkbench.svg" />
+    <CustomBuild Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\f284c83fa0112a71bc726568d502f288\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskFeaturePick.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskPadPocketParameters.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskChamferParameters.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskFilletParameters.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskDraftParameters.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskThicknessParameters.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskRevolutionParameters.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskTransformedMessages.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskMirroredParameters.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskLinearPatternParameters.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskPolarPatternParameters.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskScaledParameters.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskMultiTransformParameters.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskHoleParameters.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskShapeBinder.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskBooleanParameters.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskPipeParameters.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskPipeOrientation.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskPipeScaling.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskLoftParameters.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Gui\TaskHelixParameters.ui">
+      <Filter>TaskDialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\autouic_Debug.stamp" />
+    <None Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\autouic_Release.stamp" />
+    <None Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\PartDesign\Gui\PartDesignGui_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{67952501-129B-38B9-B8A2-AFC31960E5FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{97A4190E-D9AE-30BF-9F4B-811E3F267D26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{ED76D2E6-C746-32E5-AF99-8CE93CF44E6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Python">
+      <UniqueIdentifier>{6C63549E-F050-3F10-8976-2E1C2A7AE03C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4A8D6A3B-149E-38E3-9093-51752D7AB560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TaskDialogs">
+      <UniqueIdentifier>{92C71A09-AABC-39FF-B010-DB398D1C3E78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewProvider">
+      <UniqueIdentifier>{6964E306-9C56-37A1-A064-B90A6B6CADC4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

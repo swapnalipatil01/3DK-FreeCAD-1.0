@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-src/CMakeLists.txt
+F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-src/support/cmake/JoinPaths.cmake
+F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-src/support/cmake/cxx14.cmake
+I:/CMake/share/cmake-3.24/Modules/CMakeParseArguments.cmake
+I:/CMake/share/cmake-3.24/Modules/CheckCXXCompilerFlag.cmake
+I:/CMake/share/cmake-3.24/Modules/GNUInstallDirs.cmake

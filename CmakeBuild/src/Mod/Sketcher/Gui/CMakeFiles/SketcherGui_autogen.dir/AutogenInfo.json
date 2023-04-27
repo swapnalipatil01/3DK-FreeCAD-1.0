@@ -1,0 +1,736 @@
+{
+	"BUILD_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui/SketcherGui_autogen",
+	"CMAKE_BINARY_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild",
+	"CMAKE_CURRENT_BINARY_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui",
+	"CMAKE_CURRENT_SOURCE_DIR" : "F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui",
+	"CMAKE_EXECUTABLE" : "I:/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/CMakeLists.txt",
+		"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/Resources/Sketcher.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "F:/F/FreeCAD before build/FreeCAD",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/AutoConstraint.h",
+			"MU",
+			"EWIEGA46WW/moc_AutoConstraint.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/CommandConstraints.h",
+			"MU",
+			"EWIEGA46WW/moc_CommandConstraints.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/ConstraintFilters.h",
+			"MU",
+			"EWIEGA46WW/moc_ConstraintFilters.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/DrawSketchHandler.h",
+			"MU",
+			"EWIEGA46WW/moc_DrawSketchHandler.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/DrawSketchHandlerArc.h",
+			"MU",
+			"EWIEGA46WW/moc_DrawSketchHandlerArc.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/DrawSketchHandlerArcOfEllipse.h",
+			"MU",
+			"EWIEGA46WW/moc_DrawSketchHandlerArcOfEllipse.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/DrawSketchHandlerArcOfHyperbola.h",
+			"MU",
+			"EWIEGA46WW/moc_DrawSketchHandlerArcOfHyperbola.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/DrawSketchHandlerArcOfParabola.h",
+			"MU",
+			"EWIEGA46WW/moc_DrawSketchHandlerArcOfParabola.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/DrawSketchHandlerBSpline.h",
+			"MU",
+			"EWIEGA46WW/moc_DrawSketchHandlerBSpline.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/DrawSketchHandlerBSplineByInterpolation.h",
+			"MU",
+			"EWIEGA46WW/moc_DrawSketchHandlerBSplineByInterpolation.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/DrawSketchHandlerCarbonCopy.h",
+			"MU",
+			"EWIEGA46WW/moc_DrawSketchHandlerCarbonCopy.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/DrawSketchHandlerCircle.h",
+			"MU",
+			"EWIEGA46WW/moc_DrawSketchHandlerCircle.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/DrawSketchHandlerEllipse.h",
+			"MU",
+			"EWIEGA46WW/moc_DrawSketchHandlerEllipse.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/DrawSketchHandlerExtend.h",
+			"MU",
+			"EWIEGA46WW/moc_DrawSketchHandlerExtend.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/DrawSketchHandlerExternal.h",
+			"MU",
+			"EWIEGA46WW/moc_DrawSketchHandlerExternal.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/DrawSketchHandlerFillet.h",
+			"MU",
+			"EWIEGA46WW/moc_DrawSketchHandlerFillet.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/DrawSketchHandlerLine.h",
+			"MU",
+			"EWIEGA46WW/moc_DrawSketchHandlerLine.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/DrawSketchHandlerLineSet.h",
+			"MU",
+			"EWIEGA46WW/moc_DrawSketchHandlerLineSet.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/DrawSketchHandlerPoint.h",
+			"MU",
+			"EWIEGA46WW/moc_DrawSketchHandlerPoint.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/DrawSketchHandlerPolygon.h",
+			"MU",
+			"EWIEGA46WW/moc_DrawSketchHandlerPolygon.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/DrawSketchHandlerRectangle.h",
+			"MU",
+			"EWIEGA46WW/moc_DrawSketchHandlerRectangle.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/DrawSketchHandlerSlot.h",
+			"MU",
+			"EWIEGA46WW/moc_DrawSketchHandlerSlot.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/DrawSketchHandlerSplitting.h",
+			"MU",
+			"EWIEGA46WW/moc_DrawSketchHandlerSplitting.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/DrawSketchHandlerTrimming.h",
+			"MU",
+			"EWIEGA46WW/moc_DrawSketchHandlerTrimming.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/EditDatumDialog.h",
+			"MU",
+			"EWIEGA46WW/moc_EditDatumDialog.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/EditModeCoinManager.h",
+			"MU",
+			"EWIEGA46WW/moc_EditModeCoinManager.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/EditModeCoinManagerParameters.h",
+			"MU",
+			"EWIEGA46WW/moc_EditModeCoinManagerParameters.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/EditModeConstraintCoinManager.h",
+			"MU",
+			"EWIEGA46WW/moc_EditModeConstraintCoinManager.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/EditModeGeometryCoinConverter.h",
+			"MU",
+			"EWIEGA46WW/moc_EditModeGeometryCoinConverter.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/EditModeGeometryCoinManager.h",
+			"MU",
+			"EWIEGA46WW/moc_EditModeGeometryCoinManager.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/EditModeInformationOverlayCoinConverter.h",
+			"MU",
+			"EWIEGA46WW/moc_EditModeInformationOverlayCoinConverter.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/GeometryCreationMode.h",
+			"MU",
+			"EWIEGA46WW/moc_GeometryCreationMode.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/PreCompiled.h",
+			"MU",
+			"EWIEGA46WW/moc_PreCompiled.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/PropertyConstraintListItem.h",
+			"MU",
+			"EWIEGA46WW/moc_PropertyConstraintListItem.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/PropertyVisualLayerList.h",
+			"MU",
+			"EWIEGA46WW/moc_PropertyVisualLayerList.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/ShortcutListener.h",
+			"MU",
+			"EWIEGA46WW/moc_ShortcutListener.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/SketchMirrorDialog.h",
+			"MU",
+			"EWIEGA46WW/moc_SketchMirrorDialog.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/SketchOrientationDialog.h",
+			"MU",
+			"EWIEGA46WW/moc_SketchOrientationDialog.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/SketchRectangularArrayDialog.h",
+			"MU",
+			"EWIEGA46WW/moc_SketchRectangularArrayDialog.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/SketcherRegularPolygonDialog.h",
+			"MU",
+			"EWIEGA46WW/moc_SketcherRegularPolygonDialog.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/SketcherSettings.h",
+			"MU",
+			"EWIEGA46WW/moc_SketcherSettings.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/SnapManager.h",
+			"MU",
+			"EWIEGA46WW/moc_SnapManager.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/SoZoomTranslation.h",
+			"MU",
+			"EWIEGA46WW/moc_SoZoomTranslation.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/TaskDlgEditSketch.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskDlgEditSketch.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/TaskSketcherConstraints.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskSketcherConstraints.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/TaskSketcherCreateCommands.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskSketcherCreateCommands.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/TaskSketcherElements.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskSketcherElements.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/TaskSketcherMessages.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskSketcherMessages.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/TaskSketcherSolverAdvanced.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskSketcherSolverAdvanced.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/TaskSketcherValidation.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskSketcherValidation.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/Utils.h",
+			"MU",
+			"EWIEGA46WW/moc_Utils.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/ViewProviderPython.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderPython.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/ViewProviderSketch.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderSketch.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/ViewProviderSketchCoinAttorney.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderSketchCoinAttorney.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/ViewProviderSketchGeometryExtension.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderSketchGeometryExtension.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/VisualLayer.h",
+			"MU",
+			"EWIEGA46WW/moc_VisualLayer.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/Workbench.h",
+			"MU",
+			"EWIEGA46WW/moc_Workbench.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui/SketcherGui_autogen/include",
+	"INCLUDE_DIR_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui/SketcherGui_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui/SketcherGui_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui/SketcherGui_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui/SketcherGui_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui/SketcherGui_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui/SketcherGui_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui/SketcherGui_autogen/mocs_compilation_MinSizeRel.cpp",
+	"MOC_COMPILATION_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui/SketcherGui_autogen/mocs_compilation_RelWithDebInfo.cpp",
+	"MOC_COMPILATION_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui/SketcherGui_autogen/mocs_compilation_Release.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"HAVE_ACOSH",
+		"HAVE_ASINH",
+		"HAVE_ATANH",
+		"HAVE_SNPRINTF",
+		"PYCXX_6_2_COMPATIBILITY",
+		"PYSIDE_QML_SUPPORT=1",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_OPENGL_LIB",
+		"QT_PRINTSUPPORT_LIB",
+		"QT_SVG_LIB",
+		"QT_UITOOLS_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_WINEXTRAS_LIB",
+		"QT_XML_LIB",
+		"SketcherGui_EXPORTS",
+		"WIN32",
+		"_OCC64",
+		"_PreComp_"
+	],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"HAVE_ACOSH",
+		"HAVE_ASINH",
+		"HAVE_ATANH",
+		"HAVE_RAPIDJSON",
+		"HAVE_SNPRINTF",
+		"PYCXX_6_2_COMPATIBILITY",
+		"PYSIDE_QML_SUPPORT=1",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_OPENGL_LIB",
+		"QT_PRINTSUPPORT_LIB",
+		"QT_SVG_LIB",
+		"QT_UITOOLS_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_WINEXTRAS_LIB",
+		"QT_XML_LIB",
+		"SketcherGui_EXPORTS",
+		"UNICODE",
+		"WIN32",
+		"_CRT_NONSTDC_NO_DEPRECATE",
+		"_CRT_SECURE_NO_WARNINGS",
+		"_OCC64",
+		"_PreComp_",
+		"_UNICODE"
+	],
+	"MOC_DEFINITIONS_Release" : 
+	[
+		"HAVE_ACOSH",
+		"HAVE_ASINH",
+		"HAVE_ATANH",
+		"HAVE_RAPIDJSON",
+		"HAVE_SNPRINTF",
+		"PYCXX_6_2_COMPATIBILITY",
+		"PYSIDE_QML_SUPPORT=1",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_OPENGL_LIB",
+		"QT_PRINTSUPPORT_LIB",
+		"QT_SVG_LIB",
+		"QT_UITOOLS_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_WINEXTRAS_LIB",
+		"QT_XML_LIB",
+		"SketcherGui_EXPORTS",
+		"UNICODE",
+		"WIN32",
+		"_CRT_NONSTDC_NO_DEPRECATE",
+		"_CRT_SECURE_NO_WARNINGS",
+		"_OCC64",
+		"_PreComp_",
+		"_UNICODE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src",
+		"F:/F/FreeCAD before build/FreeCAD/src",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/inc",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/eigen3",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-src/include",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/include",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtCore",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/mkspecs/win32-msvc",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtXml",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtWidgets",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtGui",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtANGLE",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtOpenGL",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtPrintSupport",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtSvg",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtNetwork",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtUiTools",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtWinExtras",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/shiboken2",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/PySide2",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtConcurrent"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui/qrc_Sketcher.cpp"
+	],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui/CMakeFiles/SketcherGui_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui/CMakeFiles/SketcherGui_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui/CMakeFiles/SketcherGui_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui/CMakeFiles/SketcherGui_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui/CMakeFiles/SketcherGui_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui/CMakeFiles/SketcherGui_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui/CMakeFiles/SketcherGui_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui/CMakeFiles/SketcherGui_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui/CMakeFiles/SketcherGui_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui/CMakeFiles/SketcherGui_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/AppSketcherGui.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/Command.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/CommandAlterGeometry.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/CommandConstraints.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/CommandCreateGeo.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/CommandSketcherBSpline.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/CommandSketcherTools.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/CommandSketcherVirtualSpace.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/DrawSketchHandler.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/EditDatumDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/EditModeCoinManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/EditModeCoinManagerParameters.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/EditModeConstraintCoinManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/EditModeGeometryCoinConverter.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/EditModeGeometryCoinManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/EditModeInformationOverlayCoinConverter.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/PreCompiled.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/PropertyConstraintListItem.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/PropertyVisualLayerList.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/ShortcutListener.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/SketchMirrorDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/SketchOrientationDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/SketchRectangularArrayDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/SketcherRegularPolygonDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/SketcherSettings.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/SnapManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/SoZoomTranslation.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/TaskDlgEditSketch.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/TaskSketcherConstraints.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/TaskSketcherCreateCommands.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/TaskSketcherElements.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/TaskSketcherMessages.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/TaskSketcherSolverAdvanced.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/TaskSketcherValidation.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/Utils.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/ViewProviderPython.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/ViewProviderSketch.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/ViewProviderSketchCoinAttorney.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/ViewProviderSketchGeometryExtension.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/ViewProviderSketchGeometryExtensionPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/VisualLayer.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/Sketcher/Gui/Workbench.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : 
+	[
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Sketcher/Gui/qrc_Sketcher.cpp"
+	],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

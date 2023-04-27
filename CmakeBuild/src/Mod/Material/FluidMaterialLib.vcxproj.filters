@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Material\FluidMaterial\None.FCMat">
+      <Filter>MatLib</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Material\FluidMaterial\Air.FCMat">
+      <Filter>MatLib</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Material\FluidMaterial\Argon.FCMat">
+      <Filter>MatLib</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Material\FluidMaterial\Carbon_dioxide.FCMat">
+      <Filter>MatLib</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Material\FluidMaterial\Nitrogen.FCMat">
+      <Filter>MatLib</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Material\FluidMaterial\Water.FCMat">
+      <Filter>MatLib</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Material\FluidMaterial\Readme.md">
+      <Filter>MatLib</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Material\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="MatLib">
+      <UniqueIdentifier>{898DDA0E-3671-37AC-9F15-D6CABCDDDC06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

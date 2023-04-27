@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+F:/F/FreeCAD before build/FreeCAD/src/Mod/Path/libarea/CMakeLists.txt
+I:/CMake/share/cmake-3.24/Modules/FindBoost.cmake
+I:/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake
+I:/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake

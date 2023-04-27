@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+F:/F/FreeCAD before build/FreeCAD/src/Mod/Fem/App/CMakeLists.txt
+I:/CMake/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake
+I:/CMake/share/cmake-3.24/Modules/FindOpenMP.cmake
+I:/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake
+I:/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake

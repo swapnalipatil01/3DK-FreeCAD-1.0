@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Test\__init__.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Test\Init.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Test\BaseTests.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Test\Document.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Test\Metadata.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Test\Menu.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Test\TestApp.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Test\TestGui.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Test\UnicodeTests.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Test\UnitTests.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Test\Workbench.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Test\unittestgui.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Test\testmakeWireString.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Test\TestPythonSyntax.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Test\InitGui.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Test\TestData\basic_metadata.xml" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Test\TestData\bad_root_node.xml" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Test\TestData\bad_xml.xml" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Test\TestData\bad_version.xml" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Test\TestData\content_items.xml" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

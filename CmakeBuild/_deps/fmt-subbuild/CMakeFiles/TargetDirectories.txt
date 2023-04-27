@@ -1,0 +1,3 @@
+F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-subbuild/CMakeFiles/fmt-populate.dir
+F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-subbuild/CMakeFiles/ALL_BUILD.dir
+F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-subbuild/CMakeFiles/ZERO_CHECK.dir

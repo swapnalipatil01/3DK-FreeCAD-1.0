@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\PreferencePackTemplates\Arch_Colors.cfg" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\PreferencePackTemplates\Console_Colors.cfg" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\PreferencePackTemplates\Draft_Colors.cfg" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\PreferencePackTemplates\Editor_Colors.cfg" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\PreferencePackTemplates\Editor_Font.cfg" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\PreferencePackTemplates\Main_window_layout.cfg" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\PreferencePackTemplates\Part_Colors.cfg" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\PreferencePackTemplates\Path_Colors.cfg" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\PreferencePackTemplates\Shortcuts.cfg" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\PreferencePackTemplates\Sketcher_Colors.cfg" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\PreferencePackTemplates\Start_Colors.cfg" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\PreferencePackTemplates\TechDraw_Colors.cfg" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\PreferencePackTemplates\View.cfg" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\PreferencePackTemplates\Window_Colors.cfg" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\PreferencePackTemplates\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

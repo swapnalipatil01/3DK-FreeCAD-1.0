@@ -1,0 +1,1650 @@
+{
+	"BUILD_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui/TechDrawGui_autogen",
+	"CMAKE_BINARY_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild",
+	"CMAKE_CURRENT_BINARY_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui",
+	"CMAKE_CURRENT_SOURCE_DIR" : "F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui",
+	"CMAKE_EXECUTABLE" : "I:/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/CMakeLists.txt",
+		"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/Resources/TechDraw.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "F:/F/FreeCAD before build/FreeCAD",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/DimensionValidators.h",
+			"MU",
+			"EWIEGA46WW/moc_DimensionValidators.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/DlgPageChooser.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgPageChooser.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/DlgPrefsTechDrawAdvancedImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgPrefsTechDrawAdvancedImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/DlgPrefsTechDrawAnnotationImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgPrefsTechDrawAnnotationImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/DlgPrefsTechDrawColorsImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgPrefsTechDrawColorsImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/DlgPrefsTechDrawDimensionsImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgPrefsTechDrawDimensionsImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/DlgPrefsTechDrawGeneralImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgPrefsTechDrawGeneralImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/DlgPrefsTechDrawHLRImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgPrefsTechDrawHLRImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/DlgPrefsTechDrawScaleImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgPrefsTechDrawScaleImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/DlgStringListEditor.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgStringListEditor.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/DlgTemplateField.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgTemplateField.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/DrawGuiUtil.h",
+			"MU",
+			"EWIEGA46WW/moc_DrawGuiUtil.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/Grabber3d.h",
+			"MU",
+			"EWIEGA46WW/moc_Grabber3d.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/MDIViewPage.h",
+			"MU",
+			"EWIEGA46WW/moc_MDIViewPage.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/PreCompiled.h",
+			"MU",
+			"EWIEGA46WW/moc_PreCompiled.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/PreferencesGui.h",
+			"MU",
+			"EWIEGA46WW/moc_PreferencesGui.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGCustomBorder.h",
+			"MU",
+			"EWIEGA46WW/moc_QGCustomBorder.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGCustomClip.h",
+			"MU",
+			"EWIEGA46WW/moc_QGCustomClip.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGCustomImage.h",
+			"MU",
+			"EWIEGA46WW/moc_QGCustomImage.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGCustomLabel.h",
+			"MU",
+			"EWIEGA46WW/moc_QGCustomLabel.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGCustomRect.h",
+			"MU",
+			"EWIEGA46WW/moc_QGCustomRect.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGCustomSvg.h",
+			"MU",
+			"EWIEGA46WW/moc_QGCustomSvg.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGCustomText.h",
+			"MU",
+			"EWIEGA46WW/moc_QGCustomText.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGDisplayArea.h",
+			"MU",
+			"EWIEGA46WW/moc_QGDisplayArea.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGEPath.h",
+			"MU",
+			"EWIEGA46WW/moc_QGEPath.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIArrow.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIArrow.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGICMark.h",
+			"MU",
+			"EWIEGA46WW/moc_QGICMark.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGICaption.h",
+			"MU",
+			"EWIEGA46WW/moc_QGICaption.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGICenterLine.h",
+			"MU",
+			"EWIEGA46WW/moc_QGICenterLine.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIDecoration.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIDecoration.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIDimLines.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIDimLines.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIDrawingTemplate.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIDrawingTemplate.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIEdge.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIEdge.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIFace.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIFace.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIGhostHighlight.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIGhostHighlight.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIHighlight.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIHighlight.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGILeaderLine.h",
+			"MU",
+			"EWIEGA46WW/moc_QGILeaderLine.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIMatting.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIMatting.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIPrimPath.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIPrimPath.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIProjGroup.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIProjGroup.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIRichAnno.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIRichAnno.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGISVGTemplate.h",
+			"MU",
+			"EWIEGA46WW/moc_QGISVGTemplate.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGISectionLine.h",
+			"MU",
+			"EWIEGA46WW/moc_QGISectionLine.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGITemplate.h",
+			"MU",
+			"EWIEGA46WW/moc_QGITemplate.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGITile.h",
+			"MU",
+			"EWIEGA46WW/moc_QGITile.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIVertex.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIVertex.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIView.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIView.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIViewAnnotation.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIViewAnnotation.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIViewBalloon.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIViewBalloon.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIViewClip.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIViewClip.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIViewCollection.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIViewCollection.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIViewDimension.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIViewDimension.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIViewImage.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIViewImage.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIViewPart.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIViewPart.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIViewSection.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIViewSection.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIViewSpreadsheet.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIViewSpreadsheet.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIViewSymbol.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIViewSymbol.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIWeldSymbol.h",
+			"MU",
+			"EWIEGA46WW/moc_QGIWeldSymbol.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGMText.h",
+			"MU",
+			"EWIEGA46WW/moc_QGMText.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGSPage.h",
+			"MU",
+			"EWIEGA46WW/moc_QGSPage.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGTracker.h",
+			"MU",
+			"EWIEGA46WW/moc_QGTracker.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGVNavStyle.h",
+			"MU",
+			"EWIEGA46WW/moc_QGVNavStyle.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGVNavStyleBlender.h",
+			"MU",
+			"EWIEGA46WW/moc_QGVNavStyleBlender.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGVNavStyleCAD.h",
+			"MU",
+			"EWIEGA46WW/moc_QGVNavStyleCAD.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGVNavStyleGesture.h",
+			"MU",
+			"EWIEGA46WW/moc_QGVNavStyleGesture.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGVNavStyleInventor.h",
+			"MU",
+			"EWIEGA46WW/moc_QGVNavStyleInventor.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGVNavStyleMaya.h",
+			"MU",
+			"EWIEGA46WW/moc_QGVNavStyleMaya.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGVNavStyleOCC.h",
+			"MU",
+			"EWIEGA46WW/moc_QGVNavStyleOCC.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGVNavStyleOpenSCAD.h",
+			"MU",
+			"EWIEGA46WW/moc_QGVNavStyleOpenSCAD.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGVNavStyleRevit.h",
+			"MU",
+			"EWIEGA46WW/moc_QGVNavStyleRevit.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGVNavStyleTinkerCAD.h",
+			"MU",
+			"EWIEGA46WW/moc_QGVNavStyleTinkerCAD.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGVNavStyleTouchpad.h",
+			"MU",
+			"EWIEGA46WW/moc_QGVNavStyleTouchpad.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGVPage.h",
+			"MU",
+			"EWIEGA46WW/moc_QGVPage.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/Rez.h",
+			"MU",
+			"EWIEGA46WW/moc_Rez.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/SymbolChooser.h",
+			"MU",
+			"EWIEGA46WW/moc_SymbolChooser.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskActiveView.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskActiveView.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskBalloon.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskBalloon.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskCenterLine.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskCenterLine.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskComplexSection.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskComplexSection.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskCosVertex.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskCosVertex.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskCosmeticLine.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskCosmeticLine.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskCustomizeFormat.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskCustomizeFormat.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskDetail.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskDetail.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskDimRepair.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskDimRepair.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskDimension.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskDimension.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskGeomHatch.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskGeomHatch.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskHatch.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskHatch.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskLeaderLine.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskLeaderLine.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskLineDecor.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskLineDecor.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskLinkDim.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskLinkDim.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskProjGroup.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskProjGroup.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskProjection.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskProjection.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskRichAnno.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskRichAnno.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskSectionView.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskSectionView.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskSelectLineAttributes.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskSelectLineAttributes.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskSurfaceFinishSymbols.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskSurfaceFinishSymbols.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskWeldingSymbol.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskWeldingSymbol.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TemplateTextField.h",
+			"MU",
+			"EWIEGA46WW/moc_TemplateTextField.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderAnnotation.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderAnnotation.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderBalloon.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderBalloon.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderCosmeticExtension.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderCosmeticExtension.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderDimension.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderDimension.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderDrawingView.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderDrawingView.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderDrawingViewExtension.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderDrawingViewExtension.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderGeomHatch.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderGeomHatch.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderHatch.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderHatch.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderImage.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderImage.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderLeader.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderLeader.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderPage.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderPage.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderPageExtension.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderPageExtension.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderProjGroup.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderProjGroup.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderProjGroupItem.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderProjGroupItem.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderRichAnno.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderRichAnno.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderSpreadsheet.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderSpreadsheet.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderSymbol.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderSymbol.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderTemplate.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderTemplate.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderTemplateExtension.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderTemplateExtension.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderTile.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderTile.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderViewClip.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderViewClip.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderViewPart.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderViewPart.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderViewSection.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderViewSection.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderWeld.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderWeld.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/Widgets/CompassDialWidget.h",
+			"MU",
+			"WHF3XMZT5M/moc_CompassDialWidget.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/Widgets/CompassWidget.h",
+			"MU",
+			"WHF3XMZT5M/moc_CompassWidget.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/Widgets/VectorEditWidget.h",
+			"MU",
+			"WHF3XMZT5M/moc_VectorEditWidget.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/Workbench.h",
+			"MU",
+			"EWIEGA46WW/moc_Workbench.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ZVALUE.h",
+			"MU",
+			"EWIEGA46WW/moc_ZVALUE.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/mrichtextedit.h",
+			"MU",
+			"EWIEGA46WW/moc_mrichtextedit.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/mtextedit.h",
+			"MU",
+			"EWIEGA46WW/moc_mtextedit.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui/TechDrawGui_autogen/include",
+	"INCLUDE_DIR_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui/TechDrawGui_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui/TechDrawGui_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui/TechDrawGui_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui/TechDrawGui_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui/TechDrawGui_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui/TechDrawGui_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui/TechDrawGui_autogen/mocs_compilation_MinSizeRel.cpp",
+	"MOC_COMPILATION_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui/TechDrawGui_autogen/mocs_compilation_RelWithDebInfo.cpp",
+	"MOC_COMPILATION_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui/TechDrawGui_autogen/mocs_compilation_Release.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"HAVE_ACOSH",
+		"HAVE_ASINH",
+		"HAVE_ATANH",
+		"HAVE_SNPRINTF",
+		"MOD_TECHDRAW_HANDLE_FACES=1",
+		"PYCXX_6_2_COMPATIBILITY",
+		"PYSIDE_QML_SUPPORT=1",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_OPENGL_LIB",
+		"QT_PRINTSUPPORT_LIB",
+		"QT_SVG_LIB",
+		"QT_UITOOLS_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_WINEXTRAS_LIB",
+		"QT_XMLPATTERNS_LIB",
+		"QT_XML_LIB",
+		"TechDrawGui_EXPORTS",
+		"WIN32",
+		"_OCC64",
+		"_PreComp_"
+	],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"HAVE_ACOSH",
+		"HAVE_ASINH",
+		"HAVE_ATANH",
+		"HAVE_RAPIDJSON",
+		"HAVE_SNPRINTF",
+		"MOD_TECHDRAW_HANDLE_FACES=1",
+		"PYCXX_6_2_COMPATIBILITY",
+		"PYSIDE_QML_SUPPORT=1",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_OPENGL_LIB",
+		"QT_PRINTSUPPORT_LIB",
+		"QT_SVG_LIB",
+		"QT_UITOOLS_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_WINEXTRAS_LIB",
+		"QT_XMLPATTERNS_LIB",
+		"QT_XML_LIB",
+		"TechDrawGui_EXPORTS",
+		"UNICODE",
+		"WIN32",
+		"_CRT_NONSTDC_NO_DEPRECATE",
+		"_CRT_SECURE_NO_WARNINGS",
+		"_OCC64",
+		"_PreComp_",
+		"_UNICODE"
+	],
+	"MOC_DEFINITIONS_Release" : 
+	[
+		"HAVE_ACOSH",
+		"HAVE_ASINH",
+		"HAVE_ATANH",
+		"HAVE_RAPIDJSON",
+		"HAVE_SNPRINTF",
+		"MOD_TECHDRAW_HANDLE_FACES=1",
+		"PYCXX_6_2_COMPATIBILITY",
+		"PYSIDE_QML_SUPPORT=1",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_OPENGL_LIB",
+		"QT_PRINTSUPPORT_LIB",
+		"QT_SVG_LIB",
+		"QT_UITOOLS_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_WINEXTRAS_LIB",
+		"QT_XMLPATTERNS_LIB",
+		"QT_XML_LIB",
+		"TechDrawGui_EXPORTS",
+		"UNICODE",
+		"WIN32",
+		"_CRT_NONSTDC_NO_DEPRECATE",
+		"_CRT_SECURE_NO_WARNINGS",
+		"_OCC64",
+		"_PreComp_",
+		"_UNICODE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src",
+		"F:/F/FreeCAD before build/FreeCAD/src",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui",
+		"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/inc",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-src/include",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/include",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtXmlPatterns",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtNetwork",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtCore",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/mkspecs/win32-msvc",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtXml",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtConcurrent",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtWidgets",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtGui",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtANGLE",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtOpenGL",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtPrintSupport",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtSvg",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtUiTools",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtWinExtras",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/shiboken2",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/PySide2"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui/qrc_TechDraw.cpp"
+	],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui/CMakeFiles/TechDrawGui_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui/CMakeFiles/TechDrawGui_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui/CMakeFiles/TechDrawGui_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui/CMakeFiles/TechDrawGui_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui/CMakeFiles/TechDrawGui_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui/CMakeFiles/TechDrawGui_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui/CMakeFiles/TechDrawGui_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui/CMakeFiles/TechDrawGui_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui/CMakeFiles/TechDrawGui_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui/CMakeFiles/TechDrawGui_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/AppTechDrawGui.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/AppTechDrawGuiPy.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/Command.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/CommandAnnotate.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/CommandCreateDims.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/CommandDecorate.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/CommandExtensionDims.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/CommandExtensionPack.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/CommandStack.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/DimensionValidators.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/DlgPageChooser.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/DlgPrefsTechDrawAdvancedImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/DlgPrefsTechDrawAnnotationImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/DlgPrefsTechDrawColorsImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/DlgPrefsTechDrawDimensionsImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/DlgPrefsTechDrawGeneralImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/DlgPrefsTechDrawHLRImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/DlgPrefsTechDrawScaleImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/DlgStringListEditor.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/DlgTemplateField.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/DrawGuiUtil.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/Grabber3d.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/MDIViewPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/PreCompiled.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/PreferencesGui.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGCustomBorder.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGCustomClip.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGCustomImage.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGCustomLabel.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGCustomRect.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGCustomSvg.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGCustomText.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGDisplayArea.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGEPath.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIArrow.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGICMark.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGICaption.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGICenterLine.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIDecoration.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIDimLines.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIDrawingTemplate.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIEdge.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIFace.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIGhostHighlight.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIHighlight.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGILeaderLine.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIMatting.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIPrimPath.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIProjGroup.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIRichAnno.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGISVGTemplate.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGISectionLine.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGITemplate.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGITile.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIVertex.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIView.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIViewAnnotation.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIViewBalloon.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIViewClip.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIViewCollection.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIViewDimension.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIViewImage.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIViewPart.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIViewSection.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIViewSpreadsheet.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIViewSymbol.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGIWeldSymbol.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGMText.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGSPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGTracker.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGVNavStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGVNavStyleBlender.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGVNavStyleCAD.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGVNavStyleGesture.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGVNavStyleInventor.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGVNavStyleMaya.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGVNavStyleOCC.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGVNavStyleOpenSCAD.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGVNavStyleRevit.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGVNavStyleTinkerCAD.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGVNavStyleTouchpad.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/QGVPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/Rez.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/SymbolChooser.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskActiveView.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskBalloon.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskCenterLine.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskComplexSection.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskCosVertex.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskCosmeticLine.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskCustomizeFormat.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskDetail.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskDimRepair.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskDimension.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskGeomHatch.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskHatch.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskLeaderLine.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskLineDecor.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskLinkDim.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskProjGroup.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskProjection.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskRichAnno.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskSectionView.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskSelectLineAttributes.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskSurfaceFinishSymbols.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TaskWeldingSymbol.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/TemplateTextField.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderAnnotation.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderBalloon.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderCosmeticExtension.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderDimension.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderDrawingView.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderDrawingViewExtension.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderGeomHatch.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderHatch.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderImage.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderLeader.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderPageExtension.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderProjGroup.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderProjGroupItem.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderRichAnno.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderSpreadsheet.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderSymbol.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderTemplate.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderTemplateExtension.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderTile.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderViewClip.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderViewPart.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderViewSection.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/ViewProviderWeld.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/Widgets/CompassDialWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/Widgets/CompassWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/Widgets/VectorEditWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/Workbench.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/mrichtextedit.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/TechDraw/Gui/mtextedit.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : 
+	[
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/TechDraw/Gui/qrc_TechDraw.cpp"
+	],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

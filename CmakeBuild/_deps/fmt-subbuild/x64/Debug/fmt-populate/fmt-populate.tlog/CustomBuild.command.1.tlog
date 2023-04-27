@@ -1,0 +1,152 @@
+^F:\F\FREECAD BEFORE BUILD\3DK-FREECAD-1.0\CMAKEBUILD\_DEPS\FMT-SUBBUILD\CMAKEFILES\135C835DA5AAEF05F57250E8F8450AB7\FMT-POPULATE-MKDIR.RULE
+setlocal
+I:\CMake\bin\cmake.exe -Dcfgdir=/Debug -P "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-subbuild/fmt-populate-prefix/tmp/fmt-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -E touch "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\F\FREECAD BEFORE BUILD\3DK-FREECAD-1.0\CMAKEBUILD\_DEPS\FMT-SUBBUILD\CMAKEFILES\135C835DA5AAEF05F57250E8F8450AB7\FMT-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -P "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/download-fmt-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -P "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/verify-fmt-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -P "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/extract-fmt-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -E touch "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\F\FREECAD BEFORE BUILD\3DK-FREECAD-1.0\CMAKEBUILD\_DEPS\FMT-SUBBUILD\CMAKEFILES\135C835DA5AAEF05F57250E8F8450AB7\FMT-POPULATE-UPDATE.RULE
+setlocal
+I:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -E touch "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-update"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\F\FREECAD BEFORE BUILD\3DK-FREECAD-1.0\CMAKEBUILD\_DEPS\FMT-SUBBUILD\CMAKEFILES\135C835DA5AAEF05F57250E8F8450AB7\FMT-POPULATE-PATCH.RULE
+setlocal
+I:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -E touch "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\F\FREECAD BEFORE BUILD\3DK-FREECAD-1.0\CMAKEBUILD\_DEPS\FMT-SUBBUILD\CMAKEFILES\135C835DA5AAEF05F57250E8F8450AB7\FMT-POPULATE-CONFIGURE.RULE
+setlocal
+cd "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-build"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -E touch "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\F\FREECAD BEFORE BUILD\3DK-FREECAD-1.0\CMAKEBUILD\_DEPS\FMT-SUBBUILD\CMAKEFILES\135C835DA5AAEF05F57250E8F8450AB7\FMT-POPULATE-BUILD.RULE
+setlocal
+cd "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-build"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -E touch "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\F\FREECAD BEFORE BUILD\3DK-FREECAD-1.0\CMAKEBUILD\_DEPS\FMT-SUBBUILD\CMAKEFILES\135C835DA5AAEF05F57250E8F8450AB7\FMT-POPULATE-INSTALL.RULE
+setlocal
+cd "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-build"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -E touch "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\F\FREECAD BEFORE BUILD\3DK-FREECAD-1.0\CMAKEBUILD\_DEPS\FMT-SUBBUILD\CMAKEFILES\135C835DA5AAEF05F57250E8F8450AB7\FMT-POPULATE-TEST.RULE
+setlocal
+cd "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\_deps\fmt-build"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -E touch "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\F\FREECAD BEFORE BUILD\3DK-FREECAD-1.0\CMAKEBUILD\_DEPS\FMT-SUBBUILD\CMAKEFILES\FFA9C62F43A656C7871EAA82321B8858\FMT-POPULATE-COMPLETE.RULE
+setlocal
+I:\CMake\bin\cmake.exe -E make_directory "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -E touch "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-subbuild/CMakeFiles/Debug/fmt-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -E touch "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\F\FREECAD BEFORE BUILD\3DK-FREECAD-1.0\CMAKEBUILD\_DEPS\FMT-SUBBUILD\CMAKEFILES\03B3BD605C96E2B4BA35DF3018F5D1A3\FMT-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\F\FREECAD BEFORE BUILD\3DK-FREECAD-1.0\CMAKEBUILD\_DEPS\FMT-SUBBUILD\CMAKELISTS.TXT
+setlocal
+I:\CMake\bin\cmake.exe "-SF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-subbuild" "-BF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-subbuild" --check-stamp-file "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

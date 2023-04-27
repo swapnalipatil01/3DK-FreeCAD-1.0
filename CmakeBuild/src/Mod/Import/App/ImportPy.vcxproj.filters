@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\__init__.py">
+      <Filter>SCL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\AggregationDataTypes.py">
+      <Filter>SCL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\BaseType.py">
+      <Filter>SCL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\Builtin.py">
+      <Filter>SCL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\ConstructedDataTypes.py">
+      <Filter>SCL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\essa_par.py">
+      <Filter>SCL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\Model.py">
+      <Filter>SCL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\Part21.py">
+      <Filter>SCL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\Rules.py">
+      <Filter>SCL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\SCLBase.py">
+      <Filter>SCL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\SimpleDataTypes.py">
+      <Filter>SCL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\TypeChecker.py">
+      <Filter>SCL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\Utils.py">
+      <Filter>SCL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\SimpleReader.py">
+      <Filter>SCL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\Aufspannung.stp">
+      <Filter>SCL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\gasket1.p21">
+      <Filter>SCL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\Product1.stp">
+      <Filter>SCL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\automotive_design.py">
+      <Filter>SCL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\ifc2x3.py">
+      <Filter>SCL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\ifc4.py">
+      <Filter>SCL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\PlmXmlParser.py">
+      <Filter>SCL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SCL">
+      <UniqueIdentifier>{2FFEFE7F-BE6C-3EC4-953C-C33BCFBC4EC3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

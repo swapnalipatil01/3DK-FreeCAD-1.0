@@ -1,0 +1,3414 @@
+{
+	"BUILD_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/FreeCADGui_autogen",
+	"CMAKE_BINARY_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild",
+	"CMAKE_CURRENT_BINARY_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui",
+	"CMAKE_CURRENT_SOURCE_DIR" : "F:/F/FreeCAD before build/FreeCAD/src/Gui",
+	"CMAKE_EXECUTABLE" : "I:/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"F:/F/FreeCAD before build/FreeCAD/src/Gui/CMakeLists.txt",
+		"F:/F/FreeCAD before build/FreeCAD/src/Gui/Icons/resource.qrc",
+		"F:/F/FreeCAD before build/FreeCAD/src/Gui/Language/translation.qrc",
+		"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/schemes.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "F:/F/FreeCAD before build/FreeCAD",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/3Dconnexion/GuiAbstractNativeEvent.h",
+			"MU",
+			"NLVYVN76PQ/moc_GuiAbstractNativeEvent.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/3Dconnexion/GuiNativeEventWin32.h",
+			"MU",
+			"NLVYVN76PQ/moc_GuiNativeEventWin32.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/3Dconnexion/I3dMouseParams.h",
+			"MU",
+			"NLVYVN76PQ/moc_I3dMouseParams.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/3Dconnexion/MouseParameters.h",
+			"MU",
+			"NLVYVN76PQ/moc_MouseParameters.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Action.h",
+			"MU",
+			"EWIEGA46WW/moc_Action.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ActionFunction.h",
+			"MU",
+			"EWIEGA46WW/moc_ActionFunction.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ActiveObjectList.h",
+			"MU",
+			"EWIEGA46WW/moc_ActiveObjectList.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Application.h",
+			"MU",
+			"EWIEGA46WW/moc_Application.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Assistant.h",
+			"MU",
+			"EWIEGA46WW/moc_Assistant.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/AutoSaver.h",
+			"MU",
+			"EWIEGA46WW/moc_AutoSaver.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/AxisOrigin.h",
+			"MU",
+			"EWIEGA46WW/moc_AxisOrigin.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/BitmapFactory.h",
+			"MU",
+			"EWIEGA46WW/moc_BitmapFactory.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/CallTips.h",
+			"MU",
+			"EWIEGA46WW/moc_CallTips.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Camera.h",
+			"MU",
+			"EWIEGA46WW/moc_Camera.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Clipping.h",
+			"MU",
+			"EWIEGA46WW/moc_Clipping.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/CoinRiftWidget.h",
+			"MU",
+			"EWIEGA46WW/moc_CoinRiftWidget.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ComboView.h",
+			"MU",
+			"EWIEGA46WW/moc_ComboView.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Command.h",
+			"MU",
+			"EWIEGA46WW/moc_Command.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/CommandActionPy.h",
+			"MU",
+			"EWIEGA46WW/moc_CommandActionPy.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/CommandCompleter.h",
+			"MU",
+			"EWIEGA46WW/moc_CommandCompleter.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/CommandT.h",
+			"MU",
+			"EWIEGA46WW/moc_CommandT.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Control.h",
+			"MU",
+			"EWIEGA46WW/moc_Control.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DAGView/DAGFilter.h",
+			"MU",
+			"XTYKMXCNLR/moc_DAGFilter.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DAGView/DAGModel.h",
+			"MU",
+			"XTYKMXCNLR/moc_DAGModel.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DAGView/DAGModelGraph.h",
+			"MU",
+			"XTYKMXCNLR/moc_DAGModelGraph.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DAGView/DAGRectItem.h",
+			"MU",
+			"XTYKMXCNLR/moc_DAGRectItem.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DAGView/DAGView.h",
+			"MU",
+			"XTYKMXCNLR/moc_DAGView.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DemoMode.h",
+			"MU",
+			"EWIEGA46WW/moc_DemoMode.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgActionsImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgActionsImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgActivateWindowImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgActivateWindowImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgAddProperty.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgAddProperty.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgCheckableMessageBox.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgCheckableMessageBox.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgCreateNewPreferencePackImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgCreateNewPreferencePackImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgCustomizeImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgCustomizeImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgCustomizeSpNavSettings.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgCustomizeSpNavSettings.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgCustomizeSpaceball.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgCustomizeSpaceball.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgDisplayPropertiesImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgDisplayPropertiesImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgEditFileIncludePropertyExternal.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgEditFileIncludePropertyExternal.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgEditorImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgEditorImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgExpressionInput.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgExpressionInput.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgGeneralImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgGeneralImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgInputDialogImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgInputDialogImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgKeyboardImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgKeyboardImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgMacroExecuteImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgMacroExecuteImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgMacroRecordImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgMacroRecordImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgMaterialPropertiesImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgMaterialPropertiesImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgObjectSelection.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgObjectSelection.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgOnlineHelpImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgOnlineHelpImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgParameterFind.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgParameterFind.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgParameterImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgParameterImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgPreferencePackManagementImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgPreferencePackManagementImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgPreferencesImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgPreferencesImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgProjectInformationImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgProjectInformationImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgProjectUtility.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgProjectUtility.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgPropertyLink.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgPropertyLink.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgReportViewImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgReportViewImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgRevertToBackupConfigImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgRevertToBackupConfigImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgRunExternal.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgRunExternal.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgSettings3DViewImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgSettings3DViewImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgSettingsCacheDirectory.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgSettingsCacheDirectory.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgSettingsColorGradientImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgSettingsColorGradientImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgSettingsDocumentImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgSettingsDocumentImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgSettingsImageImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgSettingsImageImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgSettingsMacroImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgSettingsMacroImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgSettingsNavigation.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgSettingsNavigation.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgSettingsNotificationArea.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgSettingsNotificationArea.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgSettingsPythonConsole.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgSettingsPythonConsole.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgSettingsSelection.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgSettingsSelection.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgSettingsViewColor.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgSettingsViewColor.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgSettingsWorkbenchesImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgSettingsWorkbenchesImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgToolbarsImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgToolbarsImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgUndoRedo.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgUndoRedo.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgUnitsCalculatorImp.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgUnitsCalculatorImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DockWindow.h",
+			"MU",
+			"EWIEGA46WW/moc_DockWindow.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DockWindowManager.h",
+			"MU",
+			"EWIEGA46WW/moc_DockWindowManager.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Document.h",
+			"MU",
+			"EWIEGA46WW/moc_Document.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DocumentModel.h",
+			"MU",
+			"EWIEGA46WW/moc_DocumentModel.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DocumentObserver.h",
+			"MU",
+			"EWIEGA46WW/moc_DocumentObserver.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DocumentObserverPython.h",
+			"MU",
+			"EWIEGA46WW/moc_DocumentObserverPython.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DocumentRecovery.h",
+			"MU",
+			"EWIEGA46WW/moc_DocumentRecovery.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DownloadItem.h",
+			"MU",
+			"EWIEGA46WW/moc_DownloadItem.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DownloadManager.h",
+			"MU",
+			"EWIEGA46WW/moc_DownloadManager.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/EditorView.h",
+			"MU",
+			"EWIEGA46WW/moc_EditorView.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ExpressionBinding.h",
+			"MU",
+			"EWIEGA46WW/moc_ExpressionBinding.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ExpressionBindingPy.h",
+			"MU",
+			"EWIEGA46WW/moc_ExpressionBindingPy.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ExpressionCompleter.h",
+			"MU",
+			"EWIEGA46WW/moc_ExpressionCompleter.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/FileDialog.h",
+			"MU",
+			"EWIEGA46WW/moc_FileDialog.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/FileHandler.h",
+			"MU",
+			"EWIEGA46WW/moc_FileHandler.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Flag.h",
+			"MU",
+			"EWIEGA46WW/moc_Flag.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/GLBuffer.h",
+			"MU",
+			"EWIEGA46WW/moc_GLBuffer.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/GLPainter.h",
+			"MU",
+			"EWIEGA46WW/moc_GLPainter.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/GestureNavigationStyle.h",
+			"MU",
+			"EWIEGA46WW/moc_GestureNavigationStyle.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/GraphicsViewZoom.h",
+			"MU",
+			"EWIEGA46WW/moc_GraphicsViewZoom.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/GraphvizView.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/GuiApplication.h",
+			"MU",
+			"EWIEGA46WW/moc_GuiApplication.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/GuiApplicationNativeEventAware.h",
+			"MU",
+			"EWIEGA46WW/moc_GuiApplicationNativeEventAware.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/GuiConsole.h",
+			"MU",
+			"EWIEGA46WW/moc_GuiConsole.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ImageView.h",
+			"MU",
+			"EWIEGA46WW/moc_ImageView.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/InputField.h",
+			"MU",
+			"EWIEGA46WW/moc_InputField.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/InputVector.h",
+			"MU",
+			"EWIEGA46WW/moc_InputVector.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Inventor/MarkerBitmaps.h",
+			"MU",
+			"O7KPP3LJMT/moc_MarkerBitmaps.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Inventor/SmSwitchboard.h",
+			"MU",
+			"O7KPP3LJMT/moc_SmSwitchboard.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Inventor/SoAutoZoomTranslation.h",
+			"MU",
+			"O7KPP3LJMT/moc_SoAutoZoomTranslation.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Inventor/SoDrawingGrid.h",
+			"MU",
+			"O7KPP3LJMT/moc_SoDrawingGrid.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/InventorAll.h",
+			"MU",
+			"EWIEGA46WW/moc_InventorAll.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Language/Translator.h",
+			"MU",
+			"B4IKPJ6UPQ/moc_Translator.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ListWidgetDragBugFix.h",
+			"MU",
+			"EWIEGA46WW/moc_ListWidgetDragBugFix.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/MDIView.h",
+			"MU",
+			"EWIEGA46WW/moc_MDIView.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/MDIViewPy.h",
+			"MU",
+			"EWIEGA46WW/moc_MDIViewPy.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/MDIViewPyWrap.h",
+			"MU",
+			"EWIEGA46WW/moc_MDIViewPyWrap.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Macro.h",
+			"MU",
+			"EWIEGA46WW/moc_Macro.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/MainWindow.h",
+			"MU",
+			"EWIEGA46WW/moc_MainWindow.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/MainWindowPy.h",
+			"MU",
+			"EWIEGA46WW/moc_MainWindowPy.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ManualAlignment.h",
+			"MU",
+			"EWIEGA46WW/moc_ManualAlignment.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/MenuManager.h",
+			"MU",
+			"EWIEGA46WW/moc_MenuManager.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/MergeDocuments.h",
+			"MU",
+			"EWIEGA46WW/moc_MergeDocuments.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/MetaTypes.h",
+			"MU",
+			"EWIEGA46WW/moc_MetaTypes.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/MouseSelection.h",
+			"MU",
+			"EWIEGA46WW/moc_MouseSelection.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Namespace.h",
+			"MU",
+			"EWIEGA46WW/moc_Namespace.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/NaviCube.h",
+			"MU",
+			"EWIEGA46WW/moc_NaviCube.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/NavigationStyle.h",
+			"MU",
+			"EWIEGA46WW/moc_NavigationStyle.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/NetworkRetriever.h",
+			"MU",
+			"EWIEGA46WW/moc_NetworkRetriever.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/NotificationArea.h",
+			"MU",
+			"EWIEGA46WW/moc_NotificationArea.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/NotificationBox.h",
+			"MU",
+			"EWIEGA46WW/moc_NotificationBox.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Notifications.h",
+			"MU",
+			"EWIEGA46WW/moc_Notifications.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/OnlineDocumentation.h",
+			"MU",
+			"EWIEGA46WW/moc_OnlineDocumentation.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Placement.h",
+			"MU",
+			"EWIEGA46WW/moc_Placement.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/PreCompiled.h",
+			"MU",
+			"EWIEGA46WW/moc_PreCompiled.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/PrefWidgets.h",
+			"MU",
+			"EWIEGA46WW/moc_PrefWidgets.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/PreferencePackManager.h",
+			"MU",
+			"EWIEGA46WW/moc_PreferencePackManager.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ProgressBar.h",
+			"MU",
+			"EWIEGA46WW/moc_ProgressBar.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ProgressDialog.h",
+			"MU",
+			"EWIEGA46WW/moc_ProgressDialog.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ProjectView.h",
+			"MU",
+			"EWIEGA46WW/moc_ProjectView.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/PropertyPage.h",
+			"MU",
+			"EWIEGA46WW/moc_PropertyPage.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/PropertyView.h",
+			"MU",
+			"EWIEGA46WW/moc_PropertyView.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/PythonConsole.h",
+			"MU",
+			"EWIEGA46WW/moc_PythonConsole.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/PythonConsolePy.h",
+			"MU",
+			"EWIEGA46WW/moc_PythonConsolePy.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/PythonDebugger.h",
+			"MU",
+			"EWIEGA46WW/moc_PythonDebugger.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/PythonEditor.h",
+			"MU",
+			"EWIEGA46WW/moc_PythonEditor.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/PythonWrapper.h",
+			"MU",
+			"EWIEGA46WW/moc_PythonWrapper.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QListWidgetCustom.h",
+			"MU",
+			"EWIEGA46WW/moc_QListWidgetCustom.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/actionbox.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/actiongroup.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/actionlabel.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/actionpanel.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/actionpanelscheme.h",
+			"MU",
+			"UFXXL5K7FQ/moc_actionpanelscheme.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/androidpanelscheme.h",
+			"MU",
+			"UFXXL5K7FQ/moc_androidpanelscheme.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/freecadscheme.h",
+			"MU",
+			"UFXXL5K7FQ/moc_freecadscheme.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/macpanelscheme.h",
+			"MU",
+			"UFXXL5K7FQ/moc_macpanelscheme.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/taskgroup_p.h",
+			"MU",
+			"UFXXL5K7FQ/moc_taskgroup_p.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/taskheader_p.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/winvistapanelscheme.h",
+			"MU",
+			"UFXXL5K7FQ/moc_winvistapanelscheme.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/winxppanelscheme.h",
+			"MU",
+			"UFXXL5K7FQ/moc_winxppanelscheme.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QtAll.h",
+			"MU",
+			"EWIEGA46WW/moc_QtAll.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QuantitySpinBox.h",
+			"MU",
+			"EWIEGA46WW/moc_QuantitySpinBox.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QuantitySpinBox_p.h",
+			"MU",
+			"EWIEGA46WW/moc_QuantitySpinBox_p.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/Basic.h",
+			"MU",
+			"3ZMZNS6RDW/moc_Basic.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/ContextMenu.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/ImageReader.h",
+			"MU",
+			"3ZMZNS6RDW/moc_ImageReader.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/InteractionMode.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/KeyboardP.h",
+			"MU",
+			"3ZMZNS6RDW/moc_KeyboardP.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/NativeEvent.h",
+			"MU",
+			"3ZMZNS6RDW/moc_NativeEvent.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/QtCoinCompatibility.h",
+			"MU",
+			"3ZMZNS6RDW/moc_QtCoinCompatibility.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/Quarter.h",
+			"MU",
+			"3ZMZNS6RDW/moc_Quarter.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/QuarterP.h",
+			"MU",
+			"3ZMZNS6RDW/moc_QuarterP.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/QuarterWidget.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/QuarterWidgetP.h",
+			"MU",
+			"3ZMZNS6RDW/moc_QuarterWidgetP.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/SensorManager.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/SignalThread.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/SoQTQuarterAdaptor.h",
+			"MU",
+			"3ZMZNS6RDW/moc_SoQTQuarterAdaptor.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/devices/InputDevice.h",
+			"MU",
+			"V6X5LXUAYW/moc_InputDevice.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/devices/Keyboard.h",
+			"MU",
+			"V6X5LXUAYW/moc_Keyboard.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/devices/Mouse.h",
+			"MU",
+			"V6X5LXUAYW/moc_Mouse.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/devices/SpaceNavigatorDevice.h",
+			"MU",
+			"V6X5LXUAYW/moc_SpaceNavigatorDevice.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/eventhandlers/DragDropHandler.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/eventhandlers/EventFilter.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/eventhandlers/FocusHandler.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ReportView.h",
+			"MU",
+			"EWIEGA46WW/moc_ReportView.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SceneInspector.h",
+			"MU",
+			"EWIEGA46WW/moc_SceneInspector.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Selection.h",
+			"MU",
+			"EWIEGA46WW/moc_Selection.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SelectionFilter.h",
+			"MU",
+			"EWIEGA46WW/moc_SelectionFilter.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SelectionObject.h",
+			"MU",
+			"EWIEGA46WW/moc_SelectionObject.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SelectionObserverPython.h",
+			"MU",
+			"EWIEGA46WW/moc_SelectionObserverPython.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SelectionView.h",
+			"MU",
+			"EWIEGA46WW/moc_SelectionView.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ShortcutManager.h",
+			"MU",
+			"EWIEGA46WW/moc_ShortcutManager.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoAxisCrossKit.h",
+			"MU",
+			"EWIEGA46WW/moc_SoAxisCrossKit.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoDatumLabel.h",
+			"MU",
+			"EWIEGA46WW/moc_SoDatumLabel.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCBackgroundGradient.h",
+			"MU",
+			"EWIEGA46WW/moc_SoFCBackgroundGradient.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCBoundingBox.h",
+			"MU",
+			"EWIEGA46WW/moc_SoFCBoundingBox.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCCSysDragger.h",
+			"MU",
+			"EWIEGA46WW/moc_SoFCCSysDragger.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCColorBar.h",
+			"MU",
+			"EWIEGA46WW/moc_SoFCColorBar.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCColorGradient.h",
+			"MU",
+			"EWIEGA46WW/moc_SoFCColorGradient.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCColorLegend.h",
+			"MU",
+			"EWIEGA46WW/moc_SoFCColorLegend.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCDB.h",
+			"MU",
+			"EWIEGA46WW/moc_SoFCDB.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCInteractiveElement.h",
+			"MU",
+			"EWIEGA46WW/moc_SoFCInteractiveElement.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCOffscreenRenderer.h",
+			"MU",
+			"EWIEGA46WW/moc_SoFCOffscreenRenderer.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCSelection.h",
+			"MU",
+			"EWIEGA46WW/moc_SoFCSelection.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCSelectionAction.h",
+			"MU",
+			"EWIEGA46WW/moc_SoFCSelectionAction.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCSelectionContext.h",
+			"MU",
+			"EWIEGA46WW/moc_SoFCSelectionContext.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCUnifiedSelection.h",
+			"MU",
+			"EWIEGA46WW/moc_SoFCUnifiedSelection.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCVectorizeSVGAction.h",
+			"MU",
+			"EWIEGA46WW/moc_SoFCVectorizeSVGAction.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCVectorizeU3DAction.h",
+			"MU",
+			"EWIEGA46WW/moc_SoFCVectorizeU3DAction.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoMouseWheelEvent.h",
+			"MU",
+			"EWIEGA46WW/moc_SoMouseWheelEvent.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoNavigationDragger.h",
+			"MU",
+			"EWIEGA46WW/moc_SoNavigationDragger.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoTextLabel.h",
+			"MU",
+			"EWIEGA46WW/moc_SoTextLabel.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoTouchEvents.h",
+			"MU",
+			"EWIEGA46WW/moc_SoTouchEvents.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SpaceballEvent.h",
+			"MU",
+			"EWIEGA46WW/moc_SpaceballEvent.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SpinBox.h",
+			"MU",
+			"EWIEGA46WW/moc_SpinBox.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Splashscreen.h",
+			"MU",
+			"EWIEGA46WW/moc_Splashscreen.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SplitView3DInventor.h",
+			"MU",
+			"EWIEGA46WW/moc_SplitView3DInventor.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SyntaxHighlighter.h",
+			"MU",
+			"EWIEGA46WW/moc_SyntaxHighlighter.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TaskCSysDragger.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskCSysDragger.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TaskDlgRelocation.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskDlgRelocation.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TaskElementColors.h",
+			"MU",
+			"EWIEGA46WW/moc_TaskElementColors.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TaskView/TaskAppearance.h",
+			"MU",
+			"JPEZ3YQRVV/moc_TaskAppearance.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TaskView/TaskDialog.h",
+			"MU",
+			"JPEZ3YQRVV/moc_TaskDialog.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TaskView/TaskDialogPython.h",
+			"MU",
+			"JPEZ3YQRVV/moc_TaskDialogPython.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TaskView/TaskEditControl.h",
+			"MU",
+			"JPEZ3YQRVV/moc_TaskEditControl.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TaskView/TaskImage.h",
+			"MU",
+			"JPEZ3YQRVV/moc_TaskImage.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TaskView/TaskOrientation.h",
+			"MU",
+			"JPEZ3YQRVV/moc_TaskOrientation.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TaskView/TaskSelectLinkProperty.h",
+			"MU",
+			"JPEZ3YQRVV/moc_TaskSelectLinkProperty.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TaskView/TaskView.h",
+			"MU",
+			"JPEZ3YQRVV/moc_TaskView.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TaskView/TaskWatcher.h",
+			"MU",
+			"JPEZ3YQRVV/moc_TaskWatcher.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TextDocumentEditorView.h",
+			"MU",
+			"EWIEGA46WW/moc_TextDocumentEditorView.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TextEdit.h",
+			"MU",
+			"EWIEGA46WW/moc_TextEdit.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TextureMapping.h",
+			"MU",
+			"EWIEGA46WW/moc_TextureMapping.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Thumbnail.h",
+			"MU",
+			"EWIEGA46WW/moc_Thumbnail.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ToolBarManager.h",
+			"MU",
+			"EWIEGA46WW/moc_ToolBarManager.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ToolBox.h",
+			"MU",
+			"EWIEGA46WW/moc_ToolBox.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ToolBoxManager.h",
+			"MU",
+			"EWIEGA46WW/moc_ToolBoxManager.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Tools.h",
+			"MU",
+			"EWIEGA46WW/moc_Tools.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TransactionObject.h",
+			"MU",
+			"EWIEGA46WW/moc_TransactionObject.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Transform.h",
+			"MU",
+			"EWIEGA46WW/moc_Transform.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Tree.h",
+			"MU",
+			"EWIEGA46WW/moc_Tree.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TreeParams.h",
+			"MU",
+			"EWIEGA46WW/moc_TreeParams.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TreeView.h",
+			"MU",
+			"EWIEGA46WW/moc_TreeView.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/UiLoader.h",
+			"MU",
+			"EWIEGA46WW/moc_UiLoader.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/UserSettings.h",
+			"MU",
+			"EWIEGA46WW/moc_UserSettings.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Utilities.h",
+			"MU",
+			"EWIEGA46WW/moc_Utilities.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/VectorListEditor.h",
+			"MU",
+			"EWIEGA46WW/moc_VectorListEditor.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/View.h",
+			"MU",
+			"EWIEGA46WW/moc_View.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/View3DInventor.h",
+			"MU",
+			"EWIEGA46WW/moc_View3DInventor.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/View3DInventorExamples.h",
+			"MU",
+			"EWIEGA46WW/moc_View3DInventorExamples.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/View3DInventorRiftViewer.h",
+			"MU",
+			"EWIEGA46WW/moc_View3DInventorRiftViewer.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/View3DInventorSelection.h",
+			"MU",
+			"EWIEGA46WW/moc_View3DInventorSelection.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/View3DInventorViewer.h",
+			"MU",
+			"EWIEGA46WW/moc_View3DInventorViewer.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/View3DPy.h",
+			"MU",
+			"EWIEGA46WW/moc_View3DPy.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/View3DSettings.h",
+			"MU",
+			"EWIEGA46WW/moc_View3DSettings.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/View3DViewerPy.h",
+			"MU",
+			"EWIEGA46WW/moc_View3DViewerPy.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewParams.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewParams.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProvider.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProvider.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderAnnotation.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderAnnotation.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderBuilder.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderBuilder.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderDocumentObject.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderDocumentObject.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderDocumentObjectGroup.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderDocumentObjectGroup.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderDragger.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderDragger.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderExtension.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderExtension.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderExtern.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderExtern.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderFeature.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderFeature.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderGeoFeatureGroup.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderGeoFeatureGroup.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderGeoFeatureGroupExtension.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderGeoFeatureGroupExtension.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderGeometryObject.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderGeometryObject.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderGroupExtension.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderGroupExtension.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderImagePlane.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderImagePlane.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderInventorObject.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderInventorObject.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderLine.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderLine.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderLink.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderLink.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderMaterialObject.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderMaterialObject.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderMeasureDistance.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderMeasureDistance.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderOrigin.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderOrigin.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderOriginFeature.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderOriginFeature.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderOriginGroup.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderOriginGroup.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderOriginGroupExtension.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderOriginGroupExtension.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderPart.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderPart.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderPlacement.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderPlacement.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderPlane.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderPlane.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderPythonFeature.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderPythonFeature.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderTextDocument.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderTextDocument.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderVRMLObject.h",
+			"MU",
+			"EWIEGA46WW/moc_ViewProviderVRMLObject.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/WaitCursor.h",
+			"MU",
+			"EWIEGA46WW/moc_WaitCursor.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/WhatsThis.h",
+			"MU",
+			"EWIEGA46WW/moc_WhatsThis.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/WidgetFactory.h",
+			"MU",
+			"EWIEGA46WW/moc_WidgetFactory.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Widgets.h",
+			"MU",
+			"EWIEGA46WW/moc_Widgets.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Window.h",
+			"MU",
+			"EWIEGA46WW/moc_Window.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Workbench.h",
+			"MU",
+			"EWIEGA46WW/moc_Workbench.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/WorkbenchFactory.h",
+			"MU",
+			"EWIEGA46WW/moc_WorkbenchFactory.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/WorkbenchManager.h",
+			"MU",
+			"EWIEGA46WW/moc_WorkbenchManager.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/propertyeditor/PropertyEditor.h",
+			"MU",
+			"PGW74P2MF6/moc_PropertyEditor.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/propertyeditor/PropertyItem.h",
+			"MU",
+			"PGW74P2MF6/moc_PropertyItem.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/propertyeditor/PropertyItemDelegate.h",
+			"MU",
+			"PGW74P2MF6/moc_PropertyItemDelegate.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/propertyeditor/PropertyModel.h",
+			"MU",
+			"PGW74P2MF6/moc_PropertyModel.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/FreeCADGui_autogen/include",
+	"INCLUDE_DIR_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/FreeCADGui_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/FreeCADGui_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/FreeCADGui_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/FreeCADGui_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/FreeCADGui_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/FreeCADGui_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/FreeCADGui_autogen/mocs_compilation_MinSizeRel.cpp",
+	"MOC_COMPILATION_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/FreeCADGui_autogen/mocs_compilation_RelWithDebInfo.cpp",
+	"MOC_COMPILATION_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/FreeCADGui_autogen/mocs_compilation_Release.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"BUILD_ADDONMGR",
+		"COIN_DLL",
+		"FCGui",
+		"FreeCADGui_EXPORTS",
+		"HAVE_PYSIDE2",
+		"HAVE_SHIBOKEN2",
+		"HAVE_SNPRINTF",
+		"OVR_OS_WIN32",
+		"PYCXX_6_2_COMPATIBILITY",
+		"PYSIDE_QML_SUPPORT=1",
+		"QSINT_MAKEDLL",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_OPENGL_LIB",
+		"QT_PRINTSUPPORT_LIB",
+		"QT_SVG_LIB",
+		"QT_UITOOLS_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_WINEXTRAS_LIB",
+		"QT_XML_LIB",
+		"QUARTER_INTERNAL",
+		"QUARTER_MAKE_DLL",
+		"WIN32",
+		"_OCC64",
+		"_PreComp_",
+		"_USE_3DCONNEXION_SDK"
+	],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"BUILD_ADDONMGR",
+		"COIN_DLL",
+		"FCGui",
+		"FreeCADGui_EXPORTS",
+		"HAVE_PYSIDE2",
+		"HAVE_RAPIDJSON",
+		"HAVE_SHIBOKEN2",
+		"HAVE_SNPRINTF",
+		"OVR_OS_WIN32",
+		"PYCXX_6_2_COMPATIBILITY",
+		"PYSIDE_QML_SUPPORT=1",
+		"QSINT_MAKEDLL",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_OPENGL_LIB",
+		"QT_PRINTSUPPORT_LIB",
+		"QT_SVG_LIB",
+		"QT_UITOOLS_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_WINEXTRAS_LIB",
+		"QT_XML_LIB",
+		"QUARTER_INTERNAL",
+		"QUARTER_MAKE_DLL",
+		"UNICODE",
+		"WIN32",
+		"_CRT_NONSTDC_NO_DEPRECATE",
+		"_CRT_SECURE_NO_WARNINGS",
+		"_OCC64",
+		"_PreComp_",
+		"_UNICODE",
+		"_USE_3DCONNEXION_SDK"
+	],
+	"MOC_DEFINITIONS_Release" : 
+	[
+		"BUILD_ADDONMGR",
+		"COIN_DLL",
+		"FCGui",
+		"FreeCADGui_EXPORTS",
+		"HAVE_PYSIDE2",
+		"HAVE_RAPIDJSON",
+		"HAVE_SHIBOKEN2",
+		"HAVE_SNPRINTF",
+		"OVR_OS_WIN32",
+		"PYCXX_6_2_COMPATIBILITY",
+		"PYSIDE_QML_SUPPORT=1",
+		"QSINT_MAKEDLL",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_OPENGL_LIB",
+		"QT_PRINTSUPPORT_LIB",
+		"QT_SVG_LIB",
+		"QT_UITOOLS_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_WINEXTRAS_LIB",
+		"QT_XML_LIB",
+		"QUARTER_INTERNAL",
+		"QUARTER_MAKE_DLL",
+		"UNICODE",
+		"WIN32",
+		"_CRT_NONSTDC_NO_DEPRECATE",
+		"_CRT_SECURE_NO_WARNINGS",
+		"_OCC64",
+		"_PreComp_",
+		"_UNICODE",
+		"_USE_3DCONNEXION_SDK"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src",
+		"F:/F/FreeCAD before build/FreeCAD/src",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild",
+		"F:/F/FreeCAD before build/FreeCAD/src/Gui",
+		"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui",
+		"F:/F/FreeCAD before build/FreeCAD/src",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/Language",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/propertyeditor",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/TaskView",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/Quarter",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/DAGView",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/eigen3",
+		"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/OpenGL/api",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/PySide2/QtCore",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/PySide2/QtGui",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/PySide2/QtWidgets",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-src/include",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/include",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtCore",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/mkspecs/win32-msvc",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtWidgets",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtGui",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtANGLE",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtOpenGL",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtPrintSupport",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtSvg",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtNetwork",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtUiTools",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtWinExtras",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/shiboken2",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/PySide2",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtXml"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/QSint/actionpanel/moc_actionbox.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/QSint/actionpanel/moc_actiongroup.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/QSint/actionpanel/moc_actionlabel.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/QSint/actionpanel/moc_actionpanel.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/QSint/actionpanel/moc_taskheader_p.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/Quarter/eventhandlers/moc_DragDropHandler.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/Quarter/eventhandlers/moc_EventFilter.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/Quarter/eventhandlers/moc_FocusHandler.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/Quarter/moc_ContextMenu.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/Quarter/moc_InteractionMode.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/Quarter/moc_QuarterWidget.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/Quarter/moc_SensorManager.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/Quarter/moc_SignalThread.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/qrc_resource.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/qrc_schemes.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/qrc_translation.cpp",
+		"F:/F/FreeCAD before build/FreeCAD/src/Gui/GraphvizView.cpp",
+		"F:/F/FreeCAD before build/FreeCAD/src/Gui/GraphvizView.h",
+		"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/actionbox.h",
+		"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/actiongroup.h",
+		"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/actionlabel.h",
+		"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/actionpanel.h",
+		"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/taskheader_p.h",
+		"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/ContextMenu.h",
+		"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/InteractionMode.h",
+		"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/QuarterWidget.h",
+		"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/SensorManager.h",
+		"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/SignalThread.h",
+		"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/eventhandlers/DragDropHandler.h",
+		"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/eventhandlers/EventFilter.h",
+		"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/eventhandlers/FocusHandler.h"
+	],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/CMakeFiles/FreeCADGui_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/CMakeFiles/FreeCADGui_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/CMakeFiles/FreeCADGui_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/CMakeFiles/FreeCADGui_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/CMakeFiles/FreeCADGui_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/CMakeFiles/FreeCADGui_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/CMakeFiles/FreeCADGui_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/CMakeFiles/FreeCADGui_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/CMakeFiles/FreeCADGui_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/CMakeFiles/FreeCADGui_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/3Dconnexion/GuiAbstractNativeEvent.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/3Dconnexion/GuiNativeEventWin32.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/3Dconnexion/MouseParameters.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/Action.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ActionFunction.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ActiveObjectList.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Application.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ApplicationPy.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/Assistant.cpp", "MU", null ],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/AutoSaver.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/AxisOrigin.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/AxisOriginPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/BitmapFactory.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/BlenderNavigationStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/CADNavigationStyle.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/CallTips.cpp", "MU", null ],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/Camera.cpp", "MU", null ],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/Clipping.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/CoinRiftWidget.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/ComboView.cpp", "MU", null ],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/Command.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/CommandActionPy.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/CommandCompleter.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/CommandDoc.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/CommandFeat.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/CommandLink.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/CommandMacro.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/CommandPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/CommandStd.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/CommandStructure.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/CommandTest.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/CommandView.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/CommandWindow.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/Control.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DAGView/DAGFilter.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DAGView/DAGModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DAGView/DAGModelGraph.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DAGView/DAGRectItem.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DAGView/DAGView.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/DemoMode.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgActionsImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgActivateWindowImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgAddProperty.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgCheckableMessageBox.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgCreateNewPreferencePackImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgCustomizeImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgCustomizeSpNavSettings.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgCustomizeSpaceball.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgDisplayPropertiesImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgEditFileIncludePropertyExternal.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgEditorImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgExpressionInput.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgGeneralImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgInputDialogImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgKeyboardImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgMacroExecuteImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgMacroRecordImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgMaterialPropertiesImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgObjectSelection.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgOnlineHelpImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgParameterFind.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgParameterImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgPreferencePackManagementImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgPreferencesImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgProjectInformationImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgProjectUtility.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgPropertyLink.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgReportViewImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgRevertToBackupConfigImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgRunExternal.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgSettings3DViewImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgSettingsCacheDirectory.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgSettingsColorGradientImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgSettingsDocumentImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgSettingsImageImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgSettingsMacroImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgSettingsNavigation.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgSettingsNotificationArea.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgSettingsPythonConsole.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgSettingsSelection.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgSettingsViewColor.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgSettingsWorkbenchesImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgToolbarsImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgUndoRedo.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DlgUnitsCalculatorImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DockWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DockWindowManager.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/Document.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DocumentModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DocumentObserver.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DocumentObserverPython.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DocumentPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DocumentRecovery.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DownloadItem.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/DownloadManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/EditorView.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ExpressionBinding.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ExpressionBindingPy.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ExpressionCompleter.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/FileDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/FileHandler.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/Flag.cpp", "MU", null ],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/GLBuffer.cpp", "MU", null ],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/GLPainter.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/GestureNavigationStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/GraphicsViewZoom.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/GraphvizView.cpp",
+			"mU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/GuiApplication.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/GuiApplicationNativeEventAware.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/GuiConsole.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/ImageView.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/InputField.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/InputVector.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Inventor/MarkerBitmaps.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Inventor/SmSwitchboard.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Inventor/SoAutoZoomTranslation.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Inventor/SoDrawingGrid.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/InventorNavigationStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Language/Translator.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/LinkViewPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ListWidgetDragBugFix.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/MDIView.cpp", "MU", null ],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/MDIViewPy.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/MDIViewPyWrap.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/Macro.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/MainWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/MainWindowPy.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ManualAlignment.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/MayaGestureNavigationStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/MenuManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/MergeDocuments.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/MouseSelection.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/NaviCube.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/NavigationStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/NetworkRetriever.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/NotificationArea.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/NotificationBox.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/OnlineDocumentation.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/OpenCascadeNavigationStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/OpenSCADNavigationStyle.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/Placement.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/PreCompiled.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/PrefWidgets.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/PreferencePackManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ProgressBar.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ProgressDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ProjectView.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/PropertyPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/PropertyView.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/PythonConsole.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/PythonConsolePy.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/PythonDebugger.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/PythonEditor.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/PythonWorkbenchPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/PythonWrapper.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QListWidgetCustom.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/actionbox.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/actiongroup.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/actionlabel.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/actionpanel.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/actionpanelscheme.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/androidpanelscheme.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/freecadscheme.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/macpanelscheme.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/taskgroup_p.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/taskheader_p.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/winvistapanelscheme.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QSint/actionpanel/winxppanelscheme.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/QuantitySpinBox.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/ContextMenu.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/DragDropHandler.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/EventFilter.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/FocusHandler.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/ImageReader.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/InputDevice.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/InteractionMode.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/Keyboard.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/KeyboardP.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/Mouse.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/NativeEvent.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/QtCoinCompatibility.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/Quarter.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/QuarterP.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/QuarterWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/QuarterWidgetP.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/SensorManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/SignalThread.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/SoQTQuarterAdaptor.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Quarter/SpaceNavigatorDevice.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ReportView.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/RevitNavigationStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SceneInspector.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/Selection.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SelectionFilter.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SelectionObject.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SelectionObjectPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SelectionObserverPython.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SelectionView.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ShortcutManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoAxisCrossKit.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoDatumLabel.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCBackgroundGradient.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCBoundingBox.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCCSysDragger.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCColorBar.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCColorGradient.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCColorLegend.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCDB.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCInteractiveElement.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCOffscreenRenderer.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCSelection.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCSelectionAction.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCSelectionContext.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCUnifiedSelection.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCVectorizeSVGAction.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoFCVectorizeU3DAction.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoMouseWheelEvent.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoNavigationDragger.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoTextLabel.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SoTouchEvents.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SpaceballEvent.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/SpinBox.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/Splashscreen.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SplitView3DInventor.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/SyntaxHighlighter.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TaskCSysDragger.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TaskDlgRelocation.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TaskElementColors.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TaskView/TaskAppearance.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TaskView/TaskDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TaskView/TaskDialogPython.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TaskView/TaskEditControl.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TaskView/TaskImage.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TaskView/TaskOrientation.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TaskView/TaskSelectLinkProperty.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TaskView/TaskView.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TaskView/TaskWatcher.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TextDocumentEditorView.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/TextEdit.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TextureMapping.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/Thumbnail.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TinkerCADNavigationStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ToolBarManager.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/ToolBox.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ToolBoxManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TouchpadNavigationStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TransactionObject.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/Transform.cpp", "MU", null ],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/Tree.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/TreeParams.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/TreeView.cpp", "MU", null ],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/UiLoader.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/UserSettings.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/Utilities.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/VectorListEditor.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/View.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/View3DInventor.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/View3DInventorExamples.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/View3DInventorRiftViewer.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/View3DInventorSelection.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/View3DInventorViewer.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/View3DPy.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/View3DSettings.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/View3DViewerPy.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewParams.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProvider.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderAnnotation.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderBuilder.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderDocumentObject.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderDocumentObjectGroup.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderDocumentObjectPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderDragger.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderExtension.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderExtensionPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderExtern.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderFeature.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderGeoFeatureGroup.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderGeoFeatureGroupExtension.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderGeometryObject.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderGroupExtension.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderImagePlane.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderInventorObject.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderLine.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderLink.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderLinkPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderMaterialObject.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderMeasureDistance.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderOrigin.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderOriginFeature.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderOriginGroup.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderOriginGroupExtension.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderPart.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderPlacement.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderPlane.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderPythonFeature.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderTextDocument.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/ViewProviderVRMLObject.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/WaitCursor.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/WhatsThis.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/WidgetFactory.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/Widgets.cpp", "MU", null ],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/Window.cpp", "MU", null ],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/Workbench.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/WorkbenchFactory.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/WorkbenchManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/WorkbenchPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/propertyeditor/PropertyEditor.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/propertyeditor/PropertyItem.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/propertyeditor/PropertyItemDelegate.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Gui/propertyeditor/PropertyModel.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/Gui/resource.cpp", "MU", null ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : 
+	[
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/QSint/actionpanel/moc_actionbox.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/QSint/actionpanel/moc_actiongroup.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/QSint/actionpanel/moc_actionlabel.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/QSint/actionpanel/moc_actionpanel.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/QSint/actionpanel/moc_taskheader_p.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/Quarter/eventhandlers/moc_DragDropHandler.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/Quarter/eventhandlers/moc_EventFilter.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/Quarter/eventhandlers/moc_FocusHandler.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/Quarter/moc_ContextMenu.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/Quarter/moc_InteractionMode.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/Quarter/moc_QuarterWidget.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/Quarter/moc_SensorManager.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/Quarter/moc_SignalThread.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/qrc_resource.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/qrc_schemes.cpp",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Gui/qrc_translation.cpp"
+	],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

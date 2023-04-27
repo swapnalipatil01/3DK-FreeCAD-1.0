@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Path\Gui\PathGui_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Path\Gui\qrc_Path.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\Command.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\AppPathGui.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\AppPathGuiPy.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\PreCompiled.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\DlgSettingsPathColor.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\TaskDlgPathCompound.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\DlgProcessorChooser.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\ViewProviderPath.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\ViewProviderPathCompound.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\ViewProviderPathShape.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\ViewProviderArea.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Path\Gui\PathGui_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Path\Gui\PathGui_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Path\Gui\PathGui_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\PreCompiled.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\DlgSettingsPathColor.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\TaskDlgPathCompound.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\DlgProcessorChooser.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\ViewProviderPath.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\ViewProviderPathCompound.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\ViewProviderPathShape.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\ViewProviderArea.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Path\Gui\PathGui_autogen\include_Debug\ui_DlgSettingsPathColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Path\Gui\PathGui_autogen\include_Debug\ui_TaskDlgPathCompound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Path\Gui\PathGui_autogen\include_Debug\ui_DlgProcessorChooser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Path\Gui\PathGui_autogen\include_Release\ui_DlgSettingsPathColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Path\Gui\PathGui_autogen\include_Release\ui_TaskDlgPathCompound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Path\Gui\PathGui_autogen\include_Release\ui_DlgProcessorChooser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Path\Gui\PathGui_autogen\include_MinSizeRel\ui_DlgSettingsPathColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Path\Gui\PathGui_autogen\include_MinSizeRel\ui_TaskDlgPathCompound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Path\Gui\PathGui_autogen\include_MinSizeRel\ui_DlgProcessorChooser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Path\Gui\PathGui_autogen\include_RelWithDebInfo\ui_DlgSettingsPathColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Path\Gui\PathGui_autogen\include_RelWithDebInfo\ui_TaskDlgPathCompound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Path\Gui\PathGui_autogen\include_RelWithDebInfo\ui_DlgProcessorChooser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\Resources\Path.qrc">
+      <Filter>Module</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\Resources\icons\PathWorkbench.svg" />
+    <CustomBuild Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\ef8d9388cac06b074428e91ae351d8bc\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\DlgSettingsPathColor.ui">
+      <Filter>Module</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\TaskDlgPathCompound.ui">
+      <Filter>Module</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Path\Gui\DlgProcessorChooser.ui">
+      <Filter>Module</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Path\Gui\PathGui_autogen\autouic_Debug.stamp" />
+    <None Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Path\Gui\PathGui_autogen\autouic_Release.stamp" />
+    <None Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Path\Gui\PathGui_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Path\Gui\PathGui_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{67952501-129B-38B9-B8A2-AFC31960E5FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{97A4190E-D9AE-30BF-9F4B-811E3F267D26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{ED76D2E6-C746-32E5-AF99-8CE93CF44E6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{23F39D93-BA4F-3AD1-B3C8-2C0D72223C50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4A8D6A3B-149E-38E3-9093-51752D7AB560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewProvider">
+      <UniqueIdentifier>{6964E306-9C56-37A1-A064-B90A6B6CADC4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

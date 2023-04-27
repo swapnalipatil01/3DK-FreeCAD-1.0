@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\NETGENPlugin\NETGENPlugin_Hypothesis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\NETGENPlugin\NETGENPlugin_Hypothesis_2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\NETGENPlugin\NETGENPlugin_Mesher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\NETGENPlugin\NETGENPlugin_NETGEN_2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\NETGENPlugin\NETGENPlugin_NETGEN_2D3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\NETGENPlugin\NETGENPlugin_NETGEN_2D_ONLY.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\NETGENPlugin\NETGENPlugin_NETGEN_3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\NETGENPlugin\NETGENPlugin_SimpleHypothesis_2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\NETGENPlugin\NETGENPlugin_SimpleHypothesis_3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\NETGENPlugin_Defs.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\NETGENPlugin_Hypothesis.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\NETGENPlugin_Hypothesis_2D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\NETGENPlugin_Hypothesis_2D_ONLY_i.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\NETGENPlugin_Hypothesis_2D_i.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\NETGENPlugin_Hypothesis_3D_i.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\NETGENPlugin_Hypothesis_i.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\NETGENPlugin_Mesher.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\NETGENPlugin_NETGEN_2D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\NETGENPlugin_NETGEN_2D3D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\NETGENPlugin_NETGEN_2D3D_i.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\NETGENPlugin_NETGEN_2D_ONLY.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\NETGENPlugin_NETGEN_2D_ONLY_i.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\NETGENPlugin_NETGEN_2D_i.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\NETGENPlugin_NETGEN_3D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\NETGENPlugin_NETGEN_3D_i.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\NETGENPlugin_SimpleHypothesis_2D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\NETGENPlugin_SimpleHypothesis_2D_i.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\NETGENPlugin_SimpleHypothesis_3D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\NETGENPlugin_SimpleHypothesis_3D_i.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{97A4190E-D9AE-30BF-9F4B-811E3F267D26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4A8D6A3B-149E-38E3-9093-51752D7AB560}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

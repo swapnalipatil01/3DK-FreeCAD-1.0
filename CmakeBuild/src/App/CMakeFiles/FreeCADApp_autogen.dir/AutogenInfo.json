@@ -1,0 +1,843 @@
+{
+	"BUILD_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/App/FreeCADApp_autogen",
+	"CMAKE_BINARY_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild",
+	"CMAKE_CURRENT_BINARY_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/App",
+	"CMAKE_CURRENT_SOURCE_DIR" : "F:/F/FreeCAD before build/FreeCAD/src/App",
+	"CMAKE_EXECUTABLE" : "I:/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : [ "F:/F/FreeCAD before build/FreeCAD/src/App/CMakeLists.txt" ],
+	"CMAKE_SOURCE_DIR" : "F:/F/FreeCAD before build/FreeCAD",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/Annotation.h",
+			"MU",
+			"EWIEGA46WW/moc_Annotation.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/Application.h",
+			"MU",
+			"EWIEGA46WW/moc_Application.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/AutoTransaction.h",
+			"MU",
+			"EWIEGA46WW/moc_AutoTransaction.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/Branding.h",
+			"MU",
+			"EWIEGA46WW/moc_Branding.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/Color.h",
+			"MU",
+			"EWIEGA46WW/moc_Color.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/ColorModel.h",
+			"MU",
+			"EWIEGA46WW/moc_ColorModel.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/ComplexGeoData.h",
+			"MU",
+			"EWIEGA46WW/moc_ComplexGeoData.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/Document.h",
+			"MU",
+			"EWIEGA46WW/moc_Document.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/DocumentObject.h",
+			"MU",
+			"EWIEGA46WW/moc_DocumentObject.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/DocumentObjectExtension.h",
+			"MU",
+			"EWIEGA46WW/moc_DocumentObjectExtension.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/DocumentObjectFileIncluded.h",
+			"MU",
+			"EWIEGA46WW/moc_DocumentObjectFileIncluded.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/DocumentObjectGroup.h",
+			"MU",
+			"EWIEGA46WW/moc_DocumentObjectGroup.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/DocumentObserver.h",
+			"MU",
+			"EWIEGA46WW/moc_DocumentObserver.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/DocumentObserverPython.h",
+			"MU",
+			"EWIEGA46WW/moc_DocumentObserverPython.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/DynamicProperty.h",
+			"MU",
+			"EWIEGA46WW/moc_DynamicProperty.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/ElementMap.h",
+			"MU",
+			"EWIEGA46WW/moc_ElementMap.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/Enumeration.h",
+			"MU",
+			"EWIEGA46WW/moc_Enumeration.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/Expression.h",
+			"MU",
+			"EWIEGA46WW/moc_Expression.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/ExpressionParser.h",
+			"MU",
+			"EWIEGA46WW/moc_ExpressionParser.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/ExpressionTokenizer.h",
+			"MU",
+			"EWIEGA46WW/moc_ExpressionTokenizer.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/ExpressionVisitors.h",
+			"MU",
+			"EWIEGA46WW/moc_ExpressionVisitors.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/Extension.h",
+			"MU",
+			"EWIEGA46WW/moc_Extension.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/ExtensionContainer.h",
+			"MU",
+			"EWIEGA46WW/moc_ExtensionContainer.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/FeatureCustom.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureCustom.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/FeaturePython.h",
+			"MU",
+			"EWIEGA46WW/moc_FeaturePython.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/FeaturePythonPyImp.h",
+			"MU",
+			"EWIEGA46WW/moc_FeaturePythonPyImp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/FeatureTest.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureTest.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/GeoFeature.h",
+			"MU",
+			"EWIEGA46WW/moc_GeoFeature.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/GeoFeatureGroupExtension.h",
+			"MU",
+			"EWIEGA46WW/moc_GeoFeatureGroupExtension.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/GroupExtension.h",
+			"MU",
+			"EWIEGA46WW/moc_GroupExtension.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/ImagePlane.h",
+			"MU",
+			"EWIEGA46WW/moc_ImagePlane.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/IndexedName.h",
+			"MU",
+			"EWIEGA46WW/moc_IndexedName.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/InventorObject.h",
+			"MU",
+			"EWIEGA46WW/moc_InventorObject.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/License.h",
+			"MU",
+			"EWIEGA46WW/moc_License.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/Link.h",
+			"MU",
+			"EWIEGA46WW/moc_Link.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/MappedElement.h",
+			"MU",
+			"EWIEGA46WW/moc_MappedElement.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/MappedName.h",
+			"MU",
+			"EWIEGA46WW/moc_MappedName.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/Material.h",
+			"MU",
+			"EWIEGA46WW/moc_Material.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/MaterialObject.h",
+			"MU",
+			"EWIEGA46WW/moc_MaterialObject.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/MeasureDistance.h",
+			"MU",
+			"EWIEGA46WW/moc_MeasureDistance.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/MergeDocuments.h",
+			"MU",
+			"EWIEGA46WW/moc_MergeDocuments.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/Metadata.h",
+			"MU",
+			"EWIEGA46WW/moc_Metadata.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/ObjectIdentifier.h",
+			"MU",
+			"EWIEGA46WW/moc_ObjectIdentifier.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/Origin.h",
+			"MU",
+			"EWIEGA46WW/moc_Origin.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/OriginFeature.h",
+			"MU",
+			"EWIEGA46WW/moc_OriginFeature.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/OriginGroupExtension.h",
+			"MU",
+			"EWIEGA46WW/moc_OriginGroupExtension.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/Part.h",
+			"MU",
+			"EWIEGA46WW/moc_Part.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/Path.h",
+			"MU",
+			"EWIEGA46WW/moc_Path.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/Placement.h",
+			"MU",
+			"EWIEGA46WW/moc_Placement.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/PreCompiled.h",
+			"MU",
+			"EWIEGA46WW/moc_PreCompiled.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/Property.h",
+			"MU",
+			"EWIEGA46WW/moc_Property.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/PropertyContainer.h",
+			"MU",
+			"EWIEGA46WW/moc_PropertyContainer.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/PropertyExpressionEngine.h",
+			"MU",
+			"EWIEGA46WW/moc_PropertyExpressionEngine.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/PropertyFile.h",
+			"MU",
+			"EWIEGA46WW/moc_PropertyFile.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/PropertyGeo.h",
+			"MU",
+			"EWIEGA46WW/moc_PropertyGeo.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/PropertyLinks.h",
+			"MU",
+			"EWIEGA46WW/moc_PropertyLinks.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/PropertyPythonObject.h",
+			"MU",
+			"EWIEGA46WW/moc_PropertyPythonObject.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/PropertyStandard.h",
+			"MU",
+			"EWIEGA46WW/moc_PropertyStandard.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/PropertyUnits.h",
+			"MU",
+			"EWIEGA46WW/moc_PropertyUnits.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/Range.h",
+			"MU",
+			"EWIEGA46WW/moc_Range.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/TextDocument.h",
+			"MU",
+			"EWIEGA46WW/moc_TextDocument.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/TransactionalObject.h",
+			"MU",
+			"EWIEGA46WW/moc_TransactionalObject.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/Transactions.h",
+			"MU",
+			"EWIEGA46WW/moc_Transactions.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/VRMLObject.h",
+			"MU",
+			"EWIEGA46WW/moc_VRMLObject.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/App/FreeCADApp_autogen/include",
+	"INCLUDE_DIR_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/App/FreeCADApp_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/App/FreeCADApp_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/App/FreeCADApp_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/App/FreeCADApp_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/App/FreeCADApp_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/App/FreeCADApp_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/App/FreeCADApp_autogen/mocs_compilation_MinSizeRel.cpp",
+	"MOC_COMPILATION_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/App/FreeCADApp_autogen/mocs_compilation_RelWithDebInfo.cpp",
+	"MOC_COMPILATION_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/App/FreeCADApp_autogen/mocs_compilation_Release.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"BOOST_DYN_LINK",
+		"DOCDIR=\"doc\"",
+		"FCApp",
+		"FreeCADApp_EXPORTS",
+		"HAVE_SEH",
+		"HAVE_SNPRINTF",
+		"LIBRARYDIR=\"lib\"",
+		"PYCXX_6_2_COMPATIBILITY",
+		"QT_CORE_LIB",
+		"QT_NO_DEBUG",
+		"QT_XML_LIB",
+		"RESOURCEDIR=\"data\"",
+		"WIN32",
+		"_OCC64",
+		"_PreComp_"
+	],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"BOOST_DYN_LINK",
+		"DOCDIR=\"doc\"",
+		"FCApp",
+		"FreeCADApp_EXPORTS",
+		"HAVE_RAPIDJSON",
+		"HAVE_SEH",
+		"HAVE_SNPRINTF",
+		"LIBRARYDIR=\"lib\"",
+		"PYCXX_6_2_COMPATIBILITY",
+		"QT_CORE_LIB",
+		"QT_XML_LIB",
+		"RESOURCEDIR=\"data\"",
+		"UNICODE",
+		"WIN32",
+		"_CRT_NONSTDC_NO_DEPRECATE",
+		"_CRT_SECURE_NO_WARNINGS",
+		"_OCC64",
+		"_PreComp_",
+		"_UNICODE"
+	],
+	"MOC_DEFINITIONS_Release" : 
+	[
+		"BOOST_DYN_LINK",
+		"DOCDIR=\"doc\"",
+		"FCApp",
+		"FreeCADApp_EXPORTS",
+		"HAVE_RAPIDJSON",
+		"HAVE_SEH",
+		"HAVE_SNPRINTF",
+		"LIBRARYDIR=\"lib\"",
+		"PYCXX_6_2_COMPATIBILITY",
+		"QT_CORE_LIB",
+		"QT_NO_DEBUG",
+		"QT_XML_LIB",
+		"RESOURCEDIR=\"data\"",
+		"UNICODE",
+		"WIN32",
+		"_CRT_NONSTDC_NO_DEPRECATE",
+		"_CRT_SECURE_NO_WARNINGS",
+		"_OCC64",
+		"_PreComp_",
+		"_UNICODE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src",
+		"F:/F/FreeCAD before build/FreeCAD/src",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/App",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/include",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-src/include",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtCore",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/mkspecs/win32-msvc",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtXml"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/App/CMakeFiles/FreeCADApp_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/App/CMakeFiles/FreeCADApp_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/App/CMakeFiles/FreeCADApp_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/App/CMakeFiles/FreeCADApp_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/App/CMakeFiles/FreeCADApp_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/App/CMakeFiles/FreeCADApp_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/App/CMakeFiles/FreeCADApp_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/App/CMakeFiles/FreeCADApp_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/App/CMakeFiles/FreeCADApp_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/App/CMakeFiles/FreeCADApp_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/Annotation.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/Application.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/ApplicationPy.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/AutoTransaction.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/App/Branding.cpp", "MU", null ],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/App/Color.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/ColorModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/ComplexGeoData.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/ComplexGeoDataPyImp.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/App/Document.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/DocumentObject.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/DocumentObjectExtension.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/DocumentObjectExtensionPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/DocumentObjectFileIncluded.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/DocumentObjectGroup.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/DocumentObjectGroupPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/DocumentObjectPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/DocumentObserver.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/DocumentObserverPython.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/DocumentPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/DynamicProperty.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/Enumeration.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/Expression.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/ExpressionTokenizer.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/App/Extension.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/ExtensionContainer.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/ExtensionContainerPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/ExtensionPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/FeaturePython.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/FeatureTest.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/GeoFeature.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/GeoFeatureGroupExtension.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/GeoFeatureGroupExtensionPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/GeoFeaturePyImp.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/App/Graphviz.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/GroupExtension.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/GroupExtensionPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/ImagePlane.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/IndexedName.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/InventorObject.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/App/Link.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/LinkBaseExtensionPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/MappedElement.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/MappedName.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/App/Material.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/MaterialObject.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/MaterialPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/MeasureDistance.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/MergeDocuments.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/App/Metadata.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/MetadataPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/ObjectIdentifier.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/App/Origin.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/OriginFeature.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/OriginGroupExtension.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/OriginGroupExtensionPyImp.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/App/Part.cpp", "MU", null ],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/App/PartPyImp.cpp", "MU", null ],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/App/Path.cpp", "MU", null ],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/App/Placement.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/PreCompiled.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/App/Property.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/PropertyContainer.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/PropertyContainerPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/PropertyExpressionEngine.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/PropertyFile.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/PropertyGeo.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/PropertyLinks.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/PropertyPythonObject.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/PropertyStandard.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/PropertyUnits.cpp",
+			"MU",
+			null
+		],
+		[ "F:/F/FreeCAD before build/FreeCAD/src/App/Range.cpp", "MU", null ],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/TextDocument.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/TransactionalObject.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/Transactions.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/App/VRMLObject.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,84 @@
+{
+	"BUILD_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh/DriverSTL_autogen",
+	"CMAKE_BINARY_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild",
+	"CMAKE_CURRENT_BINARY_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh",
+	"CMAKE_CURRENT_SOURCE_DIR" : "F:/F/FreeCAD before build/FreeCAD/src/3rdParty/salomesmesh",
+	"CMAKE_EXECUTABLE" : "I:/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/salomesmesh/CMakeLists.txt"
+	],
+	"CMAKE_SOURCE_DIR" : "F:/F/FreeCAD before build/FreeCAD",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/salomesmesh/inc/DriverSTL_R_SMDS_Mesh.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/salomesmesh/inc/DriverSTL_W_SMDS_Mesh.h",
+			"mU",
+			"",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh/DriverSTL_autogen/include",
+	"INCLUDE_DIR_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh/DriverSTL_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh/DriverSTL_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh/DriverSTL_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh/DriverSTL_autogen/include_Release",
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh/CMakeFiles/DriverSTL_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh/CMakeFiles/DriverSTL_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh/CMakeFiles/DriverSTL_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh/CMakeFiles/DriverSTL_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh/CMakeFiles/DriverSTL_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "",
+	"QT_UIC_EXECUTABLE" : "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh/CMakeFiles/DriverSTL_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh/CMakeFiles/DriverSTL_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh/CMakeFiles/DriverSTL_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh/CMakeFiles/DriverSTL_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh/CMakeFiles/DriverSTL_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/salomesmesh/src/DriverSTL/Basics_Utils.cpp",
+			"mU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/salomesmesh/src/DriverSTL/DriverSTL_R_SMDS_Mesh.cpp",
+			"mU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/salomesmesh/src/DriverSTL/DriverSTL_W_SMDS_Mesh.cpp",
+			"mU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/salomesmesh/src/DriverSTL/SMESH_File.cpp",
+			"mU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/3rdParty/salomesmesh/src/DriverSTL/STL_Test.cpp",
+			"mU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

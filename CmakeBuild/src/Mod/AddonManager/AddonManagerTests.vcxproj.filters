@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\__init__.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\test_information.md" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\app\__init__.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\app\mocks.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\app\test_addon.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\app\test_dependency_installer.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\app\test_freecad_interface.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\app\test_git.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\app\test_installer.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\app\test_macro.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\app\test_macro_parser.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\app\test_metadata.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\app\test_utilities.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\app\test_uninstaller.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\__init__.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\addon_update_stats.json" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\bad_macro_metadata.FCStd" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\combination.xml" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\corrupted_metadata.zip" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\depends_on_all_workbenches.xml" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\DoNothing.FCMacro" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\git_submodules.txt" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\good_macro_metadata.FCStd" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\good_package.xml" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\icon_cache.zip" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\icon_cache.zip.sha1" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\macro_only.xml" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\macro_template.FCStd" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\MacrosRecipesWikiPage.zip" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\metadata.zip" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\missing_macro_metadata.FCStd" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\prefpack_only.xml" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\test_addon_with_fcmacro.zip" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\test_github_style_repo.zip" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\test_repo.zip" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\test_simple_repo.zip" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\test_version_detection.xml" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\TestWorkbench.zip" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\data\workbench_only.xml" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\gui\__init__.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\gui\gui_mocks.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\gui\test_gui.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\gui\test_installer_gui.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\gui\test_update_all_gui.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\gui\test_uninstaller_gui.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\gui\test_workers_startup.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerTest\gui\test_workers_utility.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\add_toolbar_button_dialog.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\Addon.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManager.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManager.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_connection_checker.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_dependency_installer.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_devmode.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_devmode_add_content.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_devmode_license_selector.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_devmode_licenses_table.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_devmode_metadata_checker.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_devmode_person_editor.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_devmode_people_table.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_devmode_predictor.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_devmode_validators.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_firstrun.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_freecad_interface.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_git.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_installer.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_installer_gui.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_macro.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_macro_parser.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_metadata.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_pyside_interface.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_update_all_gui.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_uninstaller.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_uninstaller_gui.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_utilities.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_workers_installation.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_workers_startup.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\addonmanager_workers_utility.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerOptions.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerOptions_AddCustomRepository.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\AddonManagerOptions.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\ALLOWED_PYTHON_PACKAGES.txt" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\change_branch.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\change_branch.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\compact_view.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\dependency_resolution_dialog.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\developer_mode.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\developer_mode_add_content.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\developer_mode_advanced_freecad_versions.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\developer_mode_copyright_info.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\developer_mode_dependencies.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\developer_mode_edit_dependency.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\developer_mode_freecad_versions.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\developer_mode_license.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\developer_mode_licenses_table.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\developer_mode_people.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\developer_mode_people_table.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\developer_mode_select_from_list.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\developer_mode_tags.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\expanded_view.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\first_run.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\Init.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\InitGui.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\install_to_toolbar.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\loading.html" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\manage_python_dependencies.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\NetworkManager.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\package_details.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\package_list.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\PythonDependencyUpdateDialog.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\select_toolbar_dialog.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\TestAddonManagerApp.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\update_all.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\TestAddonManagerGui.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\Resources\AddonManager.qrc" />
+    <CustomBuild Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\AddonManager\AddonManager_rc.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\AddonManager\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4C5CD344-21D3-3352-94D3-3C11761A7EFC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>SMESH</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SMESH.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SMESH_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SMESH.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SMESH</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SMESH.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SMESH</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SMESH.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SMESH</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh\SMESH_autogen\include_Debug;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\Driver;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\cmake\vtk-8.2\..\..\..\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include" /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/include" /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/vtk-8.2" /Zm150 /bigobj /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4068;4290;4251;4018;4800;4996;4244;4805;4806;4275;4005;4099;4101;4146;4267;4390;4503;4436</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;FC_DEBUG;SMESH_EXPORTS;SMESHCONTROLS_EXPORTS;SMESHimpl_EXPORTS;MESHDriverGMF_EXPORTS;MESHDRIVERMED_EXPORTS;MEDWRAPPER_EXPORTS;MEDWRAPPER_BASE_EXPORTS;MEDWRAPPER_FACTORY_EXPORTS;SMESHUtils_EXPORTS;UTILS_EXPORTS;MEDWRAPPER_V2_2_EXPORTS;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_RAPIDJSON;_OCC64;NO_PARALLEL_THREADS;OCCGEOMETRY;NETGEN_VERSION=395734;WNT;CSFDB;USE_CLOCK;MSDOS;NO_ONEXIT;NO_My_ctype;NO_ISATTY;NO_FPINIT;NETGEN_PYTHON;NG_PYTHON;_WIN32_WINNT=0x1000;WNT_WINDOW;NOMINMAX;MSVC_EXPRESS;HAVE_STRUCT_TIMESPEC;LZ4_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;FC_DEBUG;SMESH_EXPORTS;SMESHCONTROLS_EXPORTS;SMESHimpl_EXPORTS;MESHDriverGMF_EXPORTS;MESHDRIVERMED_EXPORTS;MEDWRAPPER_EXPORTS;MEDWRAPPER_BASE_EXPORTS;MEDWRAPPER_FACTORY_EXPORTS;SMESHUtils_EXPORTS;UTILS_EXPORTS;MEDWRAPPER_V2_2_EXPORTS;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_RAPIDJSON;_OCC64;NO_PARALLEL_THREADS;OCCGEOMETRY;NETGEN_VERSION=395734;WNT;CSFDB;USE_CLOCK;MSDOS;NO_ONEXIT;NO_My_ctype;NO_ISATTY;NO_FPINIT;NETGEN_PYTHON;NG_PYTHON;_WIN32_WINNT=0x1000;WNT_WINDOW;NOMINMAX;MSVC_EXPRESS;HAVE_STRUCT_TIMESPEC;LZ4_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh\SMESH_autogen\include_Debug;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\Driver;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\cmake\vtk-8.2\..\..\..\include\vtk-8.2;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh\SMESH_autogen\include_Debug;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\Driver;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\cmake\vtk-8.2\..\..\..\include\vtk-8.2;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic UIC for target SMESH</Message>
+      <Command>setlocal
+cd "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -E cmake_autogen "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh/CMakeFiles/SMESH_autogen.dir/AutogenInfo.json" Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Debug\DriverSTL_d.lib;..\..\..\lib\Debug\DriverDAT_d.lib;..\..\..\lib\Debug\DriverUNV_d.lib;MSVCRTD.lib;MSVCPRTD.lib;Rpcrt4.lib;vcruntimed.lib;ucrtd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\medC.lib;..\..\..\lib\Debug\SMESHDS_d.lib;..\..\..\lib\Debug\SMDS_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersVerdict-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkverdict-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkIOXML-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkIOXMLParser-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkexpat-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkIOLegacy-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkIOCore-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkdoubleconversion-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtklz4-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtklzma-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkhdf5-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkhdf5_hl-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkInteractionStyle-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersExtraction-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersStatistics-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkImagingFourier-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkImagingCore-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkRenderingFreeType-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkfreetype-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkzlib-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkRenderingOpenGL2-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkRenderingCore-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersSources-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersGeneral-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonComputationalGeometry-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersGeometry-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersCore-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonExecutionModel-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonColor-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonDataModel-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonMisc-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonSystem-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtksys-8.2_d.lib;ws2_32.lib;Psapi.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonTransforms-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonMath-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonCore-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkglew-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_filesystem-vc141-mt-gd-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_program_options-vc141-mt-gd-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_regex-vc141-mt-gd-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_system-vc141-mt-gd-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_thread-vc141-mt-gd-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_date_time-vc141-mt-gd-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_chrono-vc141-mt-gd-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_atomic-vc141-mt-gd-x64-1_67.lib;..\..\..\lib\Debug\Driver_d.lib;MSVCRTD.lib;MSVCPRTD.lib;Rpcrt4.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\nglib_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\ngcore_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTLd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKOffsetd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKFilletd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKFeatd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKbin.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBinLd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKXDESTEPd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEPd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEPAttrd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEP209d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEPBased.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKXDEIGESd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKIGESd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBoold.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKXSBased.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKMeshVSd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKRWMeshd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKXCAFd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKVCAFd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKCAFd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBOd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKPrimd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKLCAFd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKCDFd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKV3dd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKMeshd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKShHealingd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKHLRd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKTopAlgod.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKGeomAlgod.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBRepd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKGeomBased.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKG3dd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKG2dd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKServiced.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKMathd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKerneld.lib;wsock32.lib;psapi.lib;advapi32.lib;windowscodecs.lib;winmm.lib;gdi32.lib;user32.lib;opengl32.lib;freetype.lib;vcruntimed.lib;ucrtd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/lib;F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4273 /ignore:4217 /ignore:4049</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/lib/Debug/SMESH_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/bin/SMESH_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh\SMESH_autogen\include_Release;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\Driver;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\cmake\vtk-8.2\..\..\..\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include" /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/include" /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/vtk-8.2" /Zm150 /bigobj /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4068;4290;4251;4018;4800;4996;4244;4805;4806;4275;4005;4099;4101;4146;4267;4390;4503;4436</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SMESH_EXPORTS;SMESHCONTROLS_EXPORTS;SMESHimpl_EXPORTS;MESHDriverGMF_EXPORTS;MESHDRIVERMED_EXPORTS;MEDWRAPPER_EXPORTS;MEDWRAPPER_BASE_EXPORTS;MEDWRAPPER_FACTORY_EXPORTS;SMESHUtils_EXPORTS;UTILS_EXPORTS;MEDWRAPPER_V2_2_EXPORTS;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_RAPIDJSON;_OCC64;NO_PARALLEL_THREADS;OCCGEOMETRY;NETGEN_VERSION=395734;WNT;CSFDB;USE_CLOCK;MSDOS;NO_ONEXIT;NO_My_ctype;NO_ISATTY;NO_FPINIT;NETGEN_PYTHON;NG_PYTHON;_WIN32_WINNT=0x1000;WNT_WINDOW;NOMINMAX;MSVC_EXPRESS;HAVE_STRUCT_TIMESPEC;LZ4_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SMESH_EXPORTS;SMESHCONTROLS_EXPORTS;SMESHimpl_EXPORTS;MESHDriverGMF_EXPORTS;MESHDRIVERMED_EXPORTS;MEDWRAPPER_EXPORTS;MEDWRAPPER_BASE_EXPORTS;MEDWRAPPER_FACTORY_EXPORTS;SMESHUtils_EXPORTS;UTILS_EXPORTS;MEDWRAPPER_V2_2_EXPORTS;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_RAPIDJSON;_OCC64;NO_PARALLEL_THREADS;OCCGEOMETRY;NETGEN_VERSION=395734;WNT;CSFDB;USE_CLOCK;MSDOS;NO_ONEXIT;NO_My_ctype;NO_ISATTY;NO_FPINIT;NETGEN_PYTHON;NG_PYTHON;_WIN32_WINNT=0x1000;WNT_WINDOW;NOMINMAX;MSVC_EXPRESS;HAVE_STRUCT_TIMESPEC;LZ4_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh\SMESH_autogen\include_Release;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\Driver;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\cmake\vtk-8.2\..\..\..\include\vtk-8.2;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh\SMESH_autogen\include_Release;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\Driver;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\cmake\vtk-8.2\..\..\..\include\vtk-8.2;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic UIC for target SMESH</Message>
+      <Command>setlocal
+cd "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -E cmake_autogen "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh/CMakeFiles/SMESH_autogen.dir/AutogenInfo.json" Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Release\DriverSTL.lib;..\..\..\lib\Release\DriverDAT.lib;..\..\..\lib\Release\DriverUNV.lib;MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;vcruntime.lib;ucrt.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\medC.lib;..\..\..\lib\Release\SMESHDS.lib;..\..\..\lib\Release\SMDS.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersVerdict-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkverdict-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkIOXML-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkIOXMLParser-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkexpat-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkIOLegacy-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkIOCore-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkdoubleconversion-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtklz4-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtklzma-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkhdf5-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkhdf5_hl-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkInteractionStyle-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersExtraction-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersStatistics-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkImagingFourier-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkImagingCore-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkRenderingFreeType-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkfreetype-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkzlib-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkRenderingOpenGL2-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkRenderingCore-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersSources-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersGeneral-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonComputationalGeometry-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersGeometry-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersCore-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonExecutionModel-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonColor-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonDataModel-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonMisc-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonSystem-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonTransforms-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonMath-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonCore-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkglew-8.2.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_filesystem-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_program_options-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_regex-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_system-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_thread-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_date_time-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_chrono-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_atomic-vc141-mt-x64-1_67.lib;..\..\..\lib\Release\Driver.lib;MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\nglib.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\ngcore.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTL.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKOffset.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKFillet.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKFeat.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBin.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBinL.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKXDESTEP.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEP.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEPAttr.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEP209.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEPBase.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKXDEIGES.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKIGES.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBool.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKXSBase.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKMeshVS.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKRWMesh.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKXCAF.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKVCAF.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKCAF.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBO.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKPrim.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKLCAF.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKCDF.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKV3d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKMesh.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKShHealing.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKHLR.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKTopAlgo.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKGeomAlgo.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBRep.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKGeomBase.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKG3d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKG2d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKService.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKMath.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKernel.lib;wsock32.lib;psapi.lib;advapi32.lib;windowscodecs.lib;winmm.lib;gdi32.lib;user32.lib;opengl32.lib;freetype.lib;vcruntime.lib;ucrt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/lib;F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4273 /ignore:4217 /ignore:4049</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/lib/Release/SMESH.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/bin/SMESH.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh\SMESH_autogen\include_MinSizeRel;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\Driver;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\cmake\vtk-8.2\..\..\..\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include" /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/include" /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/vtk-8.2" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4068;4290;4251;4018;4800;4996;4244;4805;4806;4275;4005;4099;4101;4146;4267;4390;4503;4436</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SMESH_EXPORTS;SMESHCONTROLS_EXPORTS;SMESHimpl_EXPORTS;MESHDriverGMF_EXPORTS;MESHDRIVERMED_EXPORTS;MEDWRAPPER_EXPORTS;MEDWRAPPER_BASE_EXPORTS;MEDWRAPPER_FACTORY_EXPORTS;SMESHUtils_EXPORTS;UTILS_EXPORTS;MEDWRAPPER_V2_2_EXPORTS;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;_OCC64;NO_PARALLEL_THREADS;OCCGEOMETRY;NETGEN_VERSION=395734;WNT;CSFDB;USE_CLOCK;MSDOS;NO_ONEXIT;NO_My_ctype;NO_ISATTY;NO_FPINIT;NETGEN_PYTHON;NG_PYTHON;_WIN32_WINNT=0x1000;WNT_WINDOW;NOMINMAX;MSVC_EXPRESS;_CRT_SECURE_NO_WARNINGS;HAVE_STRUCT_TIMESPEC;LZ4_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SMESH_EXPORTS;SMESHCONTROLS_EXPORTS;SMESHimpl_EXPORTS;MESHDriverGMF_EXPORTS;MESHDRIVERMED_EXPORTS;MEDWRAPPER_EXPORTS;MEDWRAPPER_BASE_EXPORTS;MEDWRAPPER_FACTORY_EXPORTS;SMESHUtils_EXPORTS;UTILS_EXPORTS;MEDWRAPPER_V2_2_EXPORTS;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;_OCC64;NO_PARALLEL_THREADS;OCCGEOMETRY;NETGEN_VERSION=395734;WNT;CSFDB;USE_CLOCK;MSDOS;NO_ONEXIT;NO_My_ctype;NO_ISATTY;NO_FPINIT;NETGEN_PYTHON;NG_PYTHON;_WIN32_WINNT=0x1000;WNT_WINDOW;NOMINMAX;MSVC_EXPRESS;_CRT_SECURE_NO_WARNINGS;HAVE_STRUCT_TIMESPEC;LZ4_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh\SMESH_autogen\include_MinSizeRel;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\Driver;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\cmake\vtk-8.2\..\..\..\include\vtk-8.2;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh\SMESH_autogen\include_MinSizeRel;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\Driver;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\cmake\vtk-8.2\..\..\..\include\vtk-8.2;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic UIC for target SMESH</Message>
+      <Command>setlocal
+cd "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -E cmake_autogen "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh/CMakeFiles/SMESH_autogen.dir/AutogenInfo.json" MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\MinSizeRel\DriverSTL.lib;..\..\..\lib\MinSizeRel\DriverDAT.lib;..\..\..\lib\MinSizeRel\DriverUNV.lib;MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;vcruntime.lib;ucrt.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\medC.lib;..\..\..\lib\MinSizeRel\SMESHDS.lib;..\..\..\lib\MinSizeRel\SMDS.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersVerdict-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkverdict-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkIOXML-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkIOXMLParser-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkexpat-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkIOLegacy-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkIOCore-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkdoubleconversion-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtklz4-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtklzma-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkhdf5-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkhdf5_hl-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkInteractionStyle-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersExtraction-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersStatistics-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkImagingFourier-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkImagingCore-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkRenderingFreeType-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkfreetype-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkzlib-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkRenderingOpenGL2-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkRenderingCore-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersSources-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersGeneral-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonComputationalGeometry-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersGeometry-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersCore-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonExecutionModel-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonColor-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonDataModel-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonMisc-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonSystem-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtksys-8.2_d.lib;ws2_32.lib;Psapi.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonTransforms-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonMath-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonCore-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkglew-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_filesystem-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_program_options-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_regex-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_system-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_thread-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_date_time-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_chrono-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_atomic-vc141-mt-x64-1_67.lib;..\..\..\lib\MinSizeRel\Driver.lib;MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\nglib_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\ngcore_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTLd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKOffsetd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKFilletd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKFeatd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKbin.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBinLd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKXDESTEPd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEPd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEPAttrd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEP209d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEPBased.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKXDEIGESd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKIGESd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBoold.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKXSBased.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKMeshVSd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKRWMeshd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKXCAFd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKVCAFd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKCAFd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBOd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKPrimd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKLCAFd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKCDFd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKV3dd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKMeshd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKShHealingd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKHLRd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKTopAlgod.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKGeomAlgod.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBRepd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKGeomBased.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKG3dd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKG2dd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKServiced.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKMathd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKerneld.lib;wsock32.lib;psapi.lib;advapi32.lib;windowscodecs.lib;winmm.lib;gdi32.lib;user32.lib;opengl32.lib;freetype.lib;vcruntime.lib;ucrt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/lib;F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4273 /ignore:4217 /ignore:4049</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/lib/MinSizeRel/SMESH.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/bin/MinSizeRel/SMESH.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh\SMESH_autogen\include_RelWithDebInfo;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\Driver;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\cmake\vtk-8.2\..\..\..\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include" /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/include" /external:I "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/vtk-8.2" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4068;4290;4251;4018;4800;4996;4244;4805;4806;4275;4005;4099;4101;4146;4267;4390;4503;4436</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SMESH_EXPORTS;SMESHCONTROLS_EXPORTS;SMESHimpl_EXPORTS;MESHDriverGMF_EXPORTS;MESHDRIVERMED_EXPORTS;MEDWRAPPER_EXPORTS;MEDWRAPPER_BASE_EXPORTS;MEDWRAPPER_FACTORY_EXPORTS;SMESHUtils_EXPORTS;UTILS_EXPORTS;MEDWRAPPER_V2_2_EXPORTS;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;_OCC64;NO_PARALLEL_THREADS;OCCGEOMETRY;NETGEN_VERSION=395734;WNT;CSFDB;USE_CLOCK;MSDOS;NO_ONEXIT;NO_My_ctype;NO_ISATTY;NO_FPINIT;NETGEN_PYTHON;NG_PYTHON;_WIN32_WINNT=0x1000;WNT_WINDOW;NOMINMAX;MSVC_EXPRESS;_CRT_SECURE_NO_WARNINGS;HAVE_STRUCT_TIMESPEC;LZ4_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SMESH_EXPORTS;SMESHCONTROLS_EXPORTS;SMESHimpl_EXPORTS;MESHDriverGMF_EXPORTS;MESHDRIVERMED_EXPORTS;MEDWRAPPER_EXPORTS;MEDWRAPPER_BASE_EXPORTS;MEDWRAPPER_FACTORY_EXPORTS;SMESHUtils_EXPORTS;UTILS_EXPORTS;MEDWRAPPER_V2_2_EXPORTS;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;_OCC64;NO_PARALLEL_THREADS;OCCGEOMETRY;NETGEN_VERSION=395734;WNT;CSFDB;USE_CLOCK;MSDOS;NO_ONEXIT;NO_My_ctype;NO_ISATTY;NO_FPINIT;NETGEN_PYTHON;NG_PYTHON;_WIN32_WINNT=0x1000;WNT_WINDOW;NOMINMAX;MSVC_EXPRESS;_CRT_SECURE_NO_WARNINGS;HAVE_STRUCT_TIMESPEC;LZ4_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh\SMESH_autogen\include_RelWithDebInfo;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\Driver;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\cmake\vtk-8.2\..\..\..\include\vtk-8.2;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh\SMESH_autogen\include_RelWithDebInfo;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\Driver;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\cmake\vtk-8.2\..\..\..\include\vtk-8.2;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic UIC for target SMESH</Message>
+      <Command>setlocal
+cd "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh"
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+I:\CMake\bin\cmake.exe -E cmake_autogen "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh/CMakeFiles/SMESH_autogen.dir/AutogenInfo.json" RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\RelWithDebInfo\DriverSTL.lib;..\..\..\lib\RelWithDebInfo\DriverDAT.lib;..\..\..\lib\RelWithDebInfo\DriverUNV.lib;MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;vcruntime.lib;ucrt.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\medC.lib;..\..\..\lib\RelWithDebInfo\SMESHDS.lib;..\..\..\lib\RelWithDebInfo\SMDS.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersVerdict-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkverdict-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkIOXML-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkIOXMLParser-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkexpat-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkIOLegacy-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkIOCore-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkdoubleconversion-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtklz4-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtklzma-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkhdf5-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkhdf5_hl-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkInteractionStyle-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersExtraction-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersStatistics-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkImagingFourier-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkImagingCore-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkRenderingFreeType-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkfreetype-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkzlib-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkRenderingOpenGL2-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkRenderingCore-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersSources-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersGeneral-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonComputationalGeometry-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersGeometry-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkFiltersCore-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonExecutionModel-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonColor-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonDataModel-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonMisc-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonSystem-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtksys-8.2_d.lib;ws2_32.lib;Psapi.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonTransforms-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonMath-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkCommonCore-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\vtkglew-8.2_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_filesystem-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_program_options-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_regex-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_system-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_thread-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_date_time-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_chrono-vc141-mt-x64-1_67.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\boost_atomic-vc141-mt-x64-1_67.lib;..\..\..\lib\RelWithDebInfo\Driver.lib;MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\nglib_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\ngcore_d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTLd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKOffsetd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKFilletd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKFeatd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKbin.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBinLd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKXDESTEPd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEPd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEPAttrd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEP209d.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKSTEPBased.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKXDEIGESd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKIGESd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBoold.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKXSBased.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKMeshVSd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKRWMeshd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKXCAFd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKVCAFd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKCAFd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBOd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKPrimd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKLCAFd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKCDFd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKV3dd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKMeshd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKShHealingd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKHLRd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKTopAlgod.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKGeomAlgod.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKBRepd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKGeomBased.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKG3dd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKG2dd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKServiced.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKMathd.lib;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\lib\TKerneld.lib;wsock32.lib;psapi.lib;advapi32.lib;windowscodecs.lib;winmm.lib;gdi32.lib;user32.lib;opengl32.lib;freetype.lib;vcruntime.lib;ucrt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/lib;F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4273 /ignore:4217 /ignore:4049</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/lib/RelWithDebInfo/SMESH.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/bin/RelWithDebInfo/SMESH.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/F/FreeCAD before build/FreeCAD/src/3rdParty/salomesmesh/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe "-SF:/F/FreeCAD before build/FreeCAD" "-BF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild" --check-stamp-file "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/F/FreeCAD before build/FreeCAD/src/3rdParty/salomesmesh/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe "-SF:/F/FreeCAD before build/FreeCAD" "-BF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild" --check-stamp-file "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/F/FreeCAD before build/FreeCAD/src/3rdParty/salomesmesh/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe "-SF:/F/FreeCAD before build/FreeCAD" "-BF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild" --check-stamp-file "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/F/FreeCAD before build/FreeCAD/src/3rdParty/salomesmesh/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe "-SF:/F/FreeCAD before build/FreeCAD" "-BF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild" --check-stamp-file "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/3rdParty/salomesmesh/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_0D_Algo.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_1D_Algo.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_2D_Algo.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_3D_Algo.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_Algo.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_Array1.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_Array2.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_Block.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_Comment.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_ComputeError.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_Controls.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_ControlsDef.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_DataMapOfElemPtrSequenceOfElemPtr.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_DefineArray2.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_DefineIndexedMap.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_DriverDAT.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_DriverGMF.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_DriverMED.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_DriverSTL.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_DriverUNV.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_ExceptHandlers.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_Exception.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_File.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_Gen.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_Group.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_HypoFilter.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_Hypothesis.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_IndexedDataMapOfShapeIndexedMapOfShape.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_IndexedMap.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_MAT2d.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_Mesh.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_MeshAlgos.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_MeshEditor.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_MeshVSLink.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_MesherHelper.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_Octree.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_OctreeNode.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_Pattern.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_ProxyMesh.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_Quadtree.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_SMDS.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_SMESH.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_SMESHDS.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_SequenceOfElemPtr.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_SequenceOfNode.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_StdMeshers.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_TryCatch.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_TypeDefs.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_Utils.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_subMesh.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_subMeshEventListener.hxx" />
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\SMESH_tree.hxx" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\Controls\SMESH_Controls.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\DriverGMF.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\DriverGMF_Read.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\DriverGMF_Write.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\DriverMED_Family.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\DriverMED_R_SMESHDS_Mesh.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\DriverMED_W_Field.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\DriverMED_W_SMESHDS_Mesh.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\GEOMUtils.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\MED_Algorithm.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\MED_CoordUtils.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\MED_Factory.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\MED_GaussDef.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\MED_GaussUtils.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\MED_Structures.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\MED_Utilities.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\MED_V2_2_Wrapper.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\MED_Wrapper.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\SMESH_Algo.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\SMESH_Block.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\SMESH_Exception.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\SMESH_Gen.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\SMESH_Group.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\SMESH_HypoFilter.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\SMESH_Hypothesis.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\SMESH_Mesh.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\SMESH_MeshAlgos.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\SMESH_MeshEditor.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\SMESH_MeshVSLink.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\SMESH_MesherHelper.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\SMESH_Octree.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\SMESH_OctreeNode.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\SMESH_Pattern.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\SMESH_ProxyMesh.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\SMESH_TryCatch.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\SMESH_subMesh.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\Utils_ExceptHandlers.cpp" />
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\SMESH\libmesh.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\ZERO_CHECK.vcxproj">
+      <Project>{3393CF6A-F55C-3A7B-8EED-7DFF9DC0A795}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh\Driver.vcxproj">
+      <Project>{CAAF727F-BFF8-3EC8-9909-1A72B690E094}</Project>
+      <Name>Driver</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh\DriverDAT.vcxproj">
+      <Project>{3B2FED1F-F0DB-379F-AFEB-446A968D0B15}</Project>
+      <Name>DriverDAT</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh\DriverSTL.vcxproj">
+      <Project>{3D2A31C5-FAE4-38AA-B4D3-3247156DB891}</Project>
+      <Name>DriverSTL</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh\DriverUNV.vcxproj">
+      <Project>{A190C48E-9C31-3E0D-B6D5-41769A202105}</Project>
+      <Name>DriverUNV</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh\SMDS.vcxproj">
+      <Project>{36AA36FD-4550-3D3C-BDFF-16CB5A251582}</Project>
+      <Name>SMDS</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\3rdParty\salomesmesh\SMESHDS.vcxproj">
+      <Project>{BEED65F1-CF8D-369E-8C67-EBBF4DF018AD}</Project>
+      <Name>SMESHDS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

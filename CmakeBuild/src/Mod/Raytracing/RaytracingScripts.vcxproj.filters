@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Raytracing\Init.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Raytracing\RaytracingExample.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Raytracing\InitGui.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Raytracing\Templates\LuxClassic.lxs" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Raytracing\Templates\LuxOutdoor.lxs" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Raytracing\Templates\ProjectStd.pov" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Raytracing\Templates\RadiosityNormal.pov" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Raytracing\Templates\RadiosityOutdoorHQ.pov" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Raytracing\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

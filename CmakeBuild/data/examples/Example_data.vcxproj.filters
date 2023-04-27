@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\data\examples\Schenkel.stp" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\data\examples\draft_test_objects.FCStd" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\data\examples\EngineBlock.FCStd" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\data\examples\PartDesignExample.FCStd" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\data\examples\RobotExample.FCStd" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\data\examples\ArchDetail.FCStd" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\data\examples\FemCalculixCantilever2D.FCStd" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\data\examples\FemCalculixCantilever3D.FCStd" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\data\examples\FemCalculixCantilever3D_newSolver.FCStd" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\data\examples\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Sketcher\App\Sketcher_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\SketchObjectSF.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\SketchGeometryExtension.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\ExternalGeometryExtension.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\SolverGeometryExtension.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\SketchObject.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\SketchAnalysis.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\PythonConverter.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\planegcs\GCS.cpp">
+      <Filter>PlaneGCS</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\planegcs\Geo.cpp">
+      <Filter>PlaneGCS</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\planegcs\Constraints.cpp">
+      <Filter>PlaneGCS</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\planegcs\SubSystem.cpp">
+      <Filter>PlaneGCS</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\planegcs\qp_eq.cpp">
+      <Filter>PlaneGCS</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\AppSketcher.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\AppSketcherPy.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\PreCompiled.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\SketchObjectSFPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\SketchObjectPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\SketchGeometryExtensionPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\ExternalGeometryExtensionPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\GeometryFacadePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\ExternalGeometryFacadePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\ConstraintPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\SketchPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\PropertyConstraintList.cpp">
+      <Filter>Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\Constraint.cpp">
+      <Filter>Datatypes</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\Sketch.cpp">
+      <Filter>Datatypes</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\GeoList.cpp">
+      <Filter>Datatypes</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\GeometryFacade.cpp">
+      <Filter>Datatypes</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\ExternalGeometryFacade.cpp">
+      <Filter>Datatypes</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\GeoEnum.cpp">
+      <Filter>Datatypes</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Sketcher\App\Sketcher_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Sketcher\App\Sketcher_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Sketcher\App\Sketcher_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\SketchObjectSF.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\SketchGeometryExtension.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\ExternalGeometryExtension.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\SolverGeometryExtension.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\SketchObject.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\SketchAnalysis.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\Analyse.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\PythonConverter.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\planegcs\GCS.h">
+      <Filter>PlaneGCS</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\planegcs\Util.h">
+      <Filter>PlaneGCS</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\planegcs\Geo.h">
+      <Filter>PlaneGCS</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\planegcs\Constraints.h">
+      <Filter>PlaneGCS</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\planegcs\SubSystem.h">
+      <Filter>PlaneGCS</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\planegcs\qp_eq.h">
+      <Filter>PlaneGCS</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\PreCompiled.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\PropertyConstraintList.h">
+      <Filter>Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\Constraint.h">
+      <Filter>Datatypes</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\Sketch.h">
+      <Filter>Datatypes</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\GeoList.h">
+      <Filter>Datatypes</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\GeometryFacade.h">
+      <Filter>Datatypes</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\ExternalGeometryFacade.h">
+      <Filter>Datatypes</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\GeoEnum.h">
+      <Filter>Datatypes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\SketchObjectSFPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\SketchObjectPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\SketchGeometryExtensionPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\ExternalGeometryExtensionPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\GeometryFacadePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\ExternalGeometryFacadePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\ConstraintPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\SketchPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Sketcher\App\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Datatypes">
+      <UniqueIdentifier>{F2BC6231-CC15-374A-A2E8-FBB731F4BC48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{2D8FE399-230D-35A7-9CBF-E8C86D79B84B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{ED76D2E6-C746-32E5-AF99-8CE93CF44E6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlaneGCS">
+      <UniqueIdentifier>{1268A21D-C554-3A30-92D9-013F32CC6A4D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Properties">
+      <UniqueIdentifier>{35694894-196A-3F3E-B37E-3C22CB691BD5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Python">
+      <UniqueIdentifier>{6C63549E-F050-3F10-8976-2E1C2A7AE03C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4A8D6A3B-149E-38E3-9093-51752D7AB560}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

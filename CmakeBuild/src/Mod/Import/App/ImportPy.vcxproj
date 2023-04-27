@@ -1,0 +1,1369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EBCAC11B-D12A-3F31-A022-4EE9A180CEF7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ImportPy</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Import\App;F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Import\App;F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Import\App;F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src;F:\F\FreeCAD before build\FreeCAD\src;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild;F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Import\App;F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\include;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\inc;F:\F\FreeCAD before build\FreeCADLibs_12.5.4_x64_VC17\bin\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\__init__.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/__init__.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/__init__.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/__init__.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/__init__.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\__init__.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/__init__.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/__init__.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/__init__.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/__init__.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\__init__.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/__init__.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/__init__.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/__init__.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/__init__.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\__init__.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/__init__.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/__init__.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/__init__.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/__init__.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\__init__.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\AggregationDataTypes.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/AggregationDataTypes.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/AggregationDataTypes.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/AggregationDataTypes.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/AggregationDataTypes.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\AggregationDataTypes.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/AggregationDataTypes.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/AggregationDataTypes.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/AggregationDataTypes.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/AggregationDataTypes.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\AggregationDataTypes.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/AggregationDataTypes.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/AggregationDataTypes.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/AggregationDataTypes.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/AggregationDataTypes.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\AggregationDataTypes.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/AggregationDataTypes.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/AggregationDataTypes.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/AggregationDataTypes.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/AggregationDataTypes.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\AggregationDataTypes.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\BaseType.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/BaseType.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/BaseType.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/BaseType.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/BaseType.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\BaseType.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/BaseType.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/BaseType.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/BaseType.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/BaseType.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\BaseType.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/BaseType.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/BaseType.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/BaseType.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/BaseType.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\BaseType.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/BaseType.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/BaseType.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/BaseType.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/BaseType.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\BaseType.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\Builtin.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Builtin.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Builtin.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Builtin.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Builtin.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Builtin.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Builtin.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Builtin.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Builtin.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Builtin.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Builtin.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Builtin.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Builtin.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Builtin.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Builtin.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Builtin.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Builtin.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Builtin.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Builtin.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Builtin.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Builtin.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\ConstructedDataTypes.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/ConstructedDataTypes.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/ConstructedDataTypes.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/ConstructedDataTypes.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/ConstructedDataTypes.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\ConstructedDataTypes.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/ConstructedDataTypes.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/ConstructedDataTypes.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/ConstructedDataTypes.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/ConstructedDataTypes.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\ConstructedDataTypes.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/ConstructedDataTypes.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/ConstructedDataTypes.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/ConstructedDataTypes.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/ConstructedDataTypes.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\ConstructedDataTypes.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/ConstructedDataTypes.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/ConstructedDataTypes.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/ConstructedDataTypes.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/ConstructedDataTypes.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\ConstructedDataTypes.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\essa_par.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/essa_par.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/essa_par.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/essa_par.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/essa_par.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\essa_par.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/essa_par.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/essa_par.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/essa_par.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/essa_par.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\essa_par.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/essa_par.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/essa_par.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/essa_par.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/essa_par.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\essa_par.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/essa_par.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/essa_par.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/essa_par.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/essa_par.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\essa_par.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\Model.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Model.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Model.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Model.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Model.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Model.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Model.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Model.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Model.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Model.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Model.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Model.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Model.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Model.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Model.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Model.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Model.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Model.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Model.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Model.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Model.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\Part21.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Part21.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Part21.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Part21.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Part21.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Part21.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Part21.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Part21.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Part21.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Part21.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Part21.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Part21.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Part21.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Part21.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Part21.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Part21.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Part21.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Part21.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Part21.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Part21.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Part21.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\Rules.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Rules.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Rules.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Rules.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Rules.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Rules.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Rules.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Rules.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Rules.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Rules.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Rules.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Rules.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Rules.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Rules.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Rules.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Rules.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Rules.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Rules.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Rules.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Rules.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Rules.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\SCLBase.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/SCLBase.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/SCLBase.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/SCLBase.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/SCLBase.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\SCLBase.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/SCLBase.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/SCLBase.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/SCLBase.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/SCLBase.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\SCLBase.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/SCLBase.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/SCLBase.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/SCLBase.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/SCLBase.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\SCLBase.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/SCLBase.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/SCLBase.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/SCLBase.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/SCLBase.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\SCLBase.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\SimpleDataTypes.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/SimpleDataTypes.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/SimpleDataTypes.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/SimpleDataTypes.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/SimpleDataTypes.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\SimpleDataTypes.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/SimpleDataTypes.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/SimpleDataTypes.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/SimpleDataTypes.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/SimpleDataTypes.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\SimpleDataTypes.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/SimpleDataTypes.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/SimpleDataTypes.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/SimpleDataTypes.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/SimpleDataTypes.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\SimpleDataTypes.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/SimpleDataTypes.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/SimpleDataTypes.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/SimpleDataTypes.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/SimpleDataTypes.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\SimpleDataTypes.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\TypeChecker.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/TypeChecker.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/TypeChecker.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/TypeChecker.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/TypeChecker.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\TypeChecker.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/TypeChecker.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/TypeChecker.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/TypeChecker.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/TypeChecker.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\TypeChecker.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/TypeChecker.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/TypeChecker.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/TypeChecker.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/TypeChecker.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\TypeChecker.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/TypeChecker.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/TypeChecker.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/TypeChecker.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/TypeChecker.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\TypeChecker.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\Utils.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Utils.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Utils.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Utils.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Utils.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Utils.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Utils.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Utils.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Utils.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Utils.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Utils.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Utils.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Utils.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Utils.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Utils.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Utils.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Utils.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Utils.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Utils.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Utils.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Utils.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\SimpleReader.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/SimpleReader.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/SimpleReader.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/SimpleReader.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/SimpleReader.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\SimpleReader.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/SimpleReader.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/SimpleReader.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/SimpleReader.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/SimpleReader.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\SimpleReader.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/SimpleReader.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/SimpleReader.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/SimpleReader.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/SimpleReader.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\SimpleReader.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/SimpleReader.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/SimpleReader.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/SimpleReader.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/SimpleReader.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\SimpleReader.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\Aufspannung.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Aufspannung.stp to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Aufspannung.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Aufspannung.stp" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Aufspannung.stp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Aufspannung.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Aufspannung.stp to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Aufspannung.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Aufspannung.stp" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Aufspannung.stp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Aufspannung.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Aufspannung.stp to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Aufspannung.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Aufspannung.stp" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Aufspannung.stp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Aufspannung.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Aufspannung.stp to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Aufspannung.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Aufspannung.stp" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Aufspannung.stp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Aufspannung.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\gasket1.p21">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/gasket1.p21 to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/gasket1.p21</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/gasket1.p21" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/gasket1.p21"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\gasket1.p21</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/gasket1.p21 to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/gasket1.p21</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/gasket1.p21" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/gasket1.p21"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\gasket1.p21</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/gasket1.p21 to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/gasket1.p21</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/gasket1.p21" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/gasket1.p21"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\gasket1.p21</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/gasket1.p21 to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/gasket1.p21</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/gasket1.p21" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/gasket1.p21"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\gasket1.p21</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\SCL\Product1.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Product1.stp to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Product1.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Product1.stp" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Product1.stp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Product1.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Product1.stp to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Product1.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Product1.stp" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Product1.stp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Product1.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Product1.stp to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Product1.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Product1.stp" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Product1.stp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Product1.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Product1.stp to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Product1.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/SCL/Product1.stp" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/SCL/Product1.stp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\SCL\Product1.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\automotive_design.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/automotive_design.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/automotive_design.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/automotive_design.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/automotive_design.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\automotive_design.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/automotive_design.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/automotive_design.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/automotive_design.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/automotive_design.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\automotive_design.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/automotive_design.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/automotive_design.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/automotive_design.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/automotive_design.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\automotive_design.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/automotive_design.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/automotive_design.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/automotive_design.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/automotive_design.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\automotive_design.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\ifc2x3.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/ifc2x3.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/ifc2x3.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/ifc2x3.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/ifc2x3.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\ifc2x3.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/ifc2x3.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/ifc2x3.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/ifc2x3.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/ifc2x3.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\ifc2x3.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/ifc2x3.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/ifc2x3.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/ifc2x3.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/ifc2x3.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\ifc2x3.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/ifc2x3.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/ifc2x3.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/ifc2x3.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/ifc2x3.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\ifc2x3.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\ifc4.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/ifc4.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/ifc4.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/ifc4.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/ifc4.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\ifc4.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/ifc4.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/ifc4.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/ifc4.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/ifc4.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\ifc4.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/ifc4.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/ifc4.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/ifc4.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/ifc4.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\ifc4.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/ifc4.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/ifc4.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/ifc4.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/ifc4.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\ifc4.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\PlmXmlParser.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/PlmXmlParser.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/PlmXmlParser.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/PlmXmlParser.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/PlmXmlParser.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\PlmXmlParser.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/PlmXmlParser.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/PlmXmlParser.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/PlmXmlParser.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/PlmXmlParser.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\PlmXmlParser.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/PlmXmlParser.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/PlmXmlParser.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/PlmXmlParser.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/PlmXmlParser.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\PlmXmlParser.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/PlmXmlParser.py to F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/PlmXmlParser.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe -E copy "F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/PlmXmlParser.py" "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/Mod/Import/PlmXmlParser.py"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\Mod\Import\PlmXmlParser.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\App\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+I:\CMake\bin\cmake.exe "-SF:/F/FreeCAD before build/FreeCAD" "-BF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild" --check-stamp-file "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Import\App\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+I:\CMake\bin\cmake.exe "-SF:/F/FreeCAD before build/FreeCAD" "-BF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild" --check-stamp-file "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Import\App\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+I:\CMake\bin\cmake.exe "-SF:/F/FreeCAD before build/FreeCAD" "-BF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild" --check-stamp-file "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Import\App\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/F/FreeCAD before build/FreeCAD/src/Mod/Import/App/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+I:\CMake\bin\cmake.exe "-SF:/F/FreeCAD before build/FreeCAD" "-BF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild" --check-stamp-file "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/Import/App/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Import\App\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\ZERO_CHECK.vcxproj">
+      <Project>{3393CF6A-F55C-3A7B-8EED-7DFF9DC0A795}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

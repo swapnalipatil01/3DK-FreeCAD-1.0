@@ -1,0 +1,1059 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\App\Part_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartBoolean.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartBox.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartCircle.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartCommon.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartCurveNet.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartCut.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartFuse.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartImportBrep.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartImportIges.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartImportStep.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartPolygon.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartSection.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartSpline.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeatureChamfer.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeatureCompound.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeatureExtrusion.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeatureFace.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeatureFillet.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeatureMirroring.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeatureRevolution.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeatureOffset.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PartFeatures.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PartFeature.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PartFeatureReference.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Part2DObject.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PrimitiveFeature.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeatureGeometrySet.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\CustomFeature.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\BodyBase.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\DatumFeature.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\AttachExtension.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PrismExtension.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PropertyTopoShape.cpp">
+      <Filter>Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PropertyGeometryList.cpp">
+      <Filter>Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PropertyTopoShapeList.cpp">
+      <Filter>Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ArcPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ArcOfConicPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ArcOfCirclePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ArcOfParabolaPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\BodyBasePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ConicPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\CirclePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ArcOfEllipsePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\EllipsePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\HyperbolaPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ArcOfHyperbolaPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ParabolaPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\OffsetCurvePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeometryPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeometryExtensionPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeometryIntExtensionPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeometryStringExtensionPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeometryBoolExtensionPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeometryDoubleExtensionPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeometryCurvePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\BoundedCurvePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\TrimmedCurvePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeometrySurfacePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\LinePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\LineSegmentPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PointPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\BezierCurvePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\BSplineCurvePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PlanePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ConePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\CylinderPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\SpherePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ToroidPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\BezierSurfacePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\BSplineSurfacePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\OffsetSurfacePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PlateSurfacePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\RectangularTrimmedSurfacePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\SurfaceOfExtrusionPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\SurfaceOfRevolutionPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PartFeaturePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\AttachExtensionPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Part2DObjectPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\AttachEnginePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\TopoShapePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\TopoShapeCompSolidPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\TopoShapeCompoundPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\TopoShapeEdgePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\TopoShapeFacePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\TopoShapeShellPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\TopoShapeSolidPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\TopoShapeVertexPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\TopoShapeWirePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\BRepOffsetAPI_MakePipeShellPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\BRepOffsetAPI_MakeFillingPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PartPyCXX.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\BRepFeat\MakePrismPyImp.cpp">
+      <Filter>BRepFeat</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ChFi2d\ChFi2d_AnaFilletAlgoPyImp.cpp">
+      <Filter>ChFi2d</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ChFi2d\ChFi2d_FilletAlgoPyImp.cpp">
+      <Filter>ChFi2d</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ChFi2d\ChFi2d_ChamferAPIPyImp.cpp">
+      <Filter>ChFi2d</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ChFi2d\ChFi2d_FilletAPIPyImp.cpp">
+      <Filter>ChFi2d</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\ArcOfCircle2dPyImp.cpp">
+      <Filter>Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\ArcOfConic2dPyImp.cpp">
+      <Filter>Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\ArcOfEllipse2dPyImp.cpp">
+      <Filter>Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\ArcOfHyperbola2dPyImp.cpp">
+      <Filter>Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\ArcOfParabola2dPyImp.cpp">
+      <Filter>Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\BezierCurve2dPyImp.cpp">
+      <Filter>Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\BSplineCurve2dPyImp.cpp">
+      <Filter>Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\Circle2dPyImp.cpp">
+      <Filter>Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\Conic2dPyImp.cpp">
+      <Filter>Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\Ellipse2dPyImp.cpp">
+      <Filter>Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\Geometry2dPyImp.cpp">
+      <Filter>Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\Curve2dPyImp.cpp">
+      <Filter>Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\Hyperbola2dPyImp.cpp">
+      <Filter>Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\Line2dPyImp.cpp">
+      <Filter>Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\Line2dSegmentPyImp.cpp">
+      <Filter>Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\OffsetCurve2dPyImp.cpp">
+      <Filter>Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\Parabola2dPyImp.cpp">
+      <Filter>Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeomPlate\BuildPlateSurfacePyImp.cpp">
+      <Filter>GeomPlate</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeomPlate\CurveConstraintPyImp.cpp">
+      <Filter>GeomPlate</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeomPlate\PointConstraintPyImp.cpp">
+      <Filter>GeomPlate</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\HLRBRep\HLRBRep_AlgoPyImp.cpp">
+      <Filter>HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\HLRBRep\HLRToShapePyImp.cpp">
+      <Filter>HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\HLRBRep\HLRBRep_PolyAlgoPyImp.cpp">
+      <Filter>HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\HLRBRep\PolyHLRToShapePyImp.cpp">
+      <Filter>HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_RootPyImp.cpp">
+      <Filter>ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_EdgePyImp.cpp">
+      <Filter>ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_FacePyImp.cpp">
+      <Filter>ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_ShapePyImp.cpp">
+      <Filter>ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_ShellPyImp.cpp">
+      <Filter>ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_SolidPyImp.cpp">
+      <Filter>ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_WirePyImp.cpp">
+      <Filter>ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_WireframePyImp.cpp">
+      <Filter>ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_WireVertexPyImp.cpp">
+      <Filter>ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_EdgeConnectPyImp.cpp">
+      <Filter>ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_FaceConnectPyImp.cpp">
+      <Filter>ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_FixSmallFacePyImp.cpp">
+      <Filter>ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_FixSmallSolidPyImp.cpp">
+      <Filter>ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_FreeBoundsPyImp.cpp">
+      <Filter>ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_ShapeTolerancePyImp.cpp">
+      <Filter>ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_SplitCommonVertexPyImp.cpp">
+      <Filter>ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_SplitToolPyImp.cpp">
+      <Filter>ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeUpgrade\UnifySameDomainPyImp.cpp">
+      <Filter>ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\IGES\ImportExportSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\OCAF\ImportExportSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\STEP\ImportExportSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Attacher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\AppPart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\AppPartPy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\BRepOffsetAPI_MakeOffsetFix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\BSplineCurveBiArcs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\CrossSection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ExtrusionHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeometryExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeometryDefaultExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeometryMigrationExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geometry2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ImportIges.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ImportStep.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PreCompiled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ProgressIndicator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\TopoShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\edgecluster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\modelRefine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FT2FC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FaceMaker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FaceMakerCheese.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FaceMakerBullseye.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\App\Part_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\App\Part_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Part\App\Part_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartBoolean.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartBox.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartCircle.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartCommon.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartCurveNet.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartCut.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartFuse.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartImportBrep.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartImportIges.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartImportStep.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartPolygon.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartSection.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeaturePartSpline.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeatureChamfer.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeatureCompound.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeatureExtrusion.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeatureFace.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeatureFillet.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeatureMirroring.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeatureRevolution.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeatureOffset.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PartFeatures.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PartFeature.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PartFeatureReference.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Part2DObject.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PrimitiveFeature.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FeatureGeometrySet.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\CustomFeature.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\BodyBase.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\DatumFeature.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\AttachExtension.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PrismExtension.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PropertyTopoShape.h">
+      <Filter>Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PropertyGeometryList.h">
+      <Filter>Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PropertyTopoShapeList.h">
+      <Filter>Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PartPyCXX.h">
+      <Filter>Python</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\IGES\ImportExportSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\OCAF\ImportExportSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\STEP\ImportExportSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Attacher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\BRepOffsetAPI_MakeOffsetFix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\BSplineCurveBiArcs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\CrossSection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ExtrusionHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeometryExtension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeometryDefaultExtension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeometryMigrationExtension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geometry2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ImportIges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ImportStep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PreCompiled.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ProgressIndicator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\TopoShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\TopoShapeOpCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\edgecluster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\modelRefine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Tools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\encodeFilename.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\OCCError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FT2FC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FaceMaker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FaceMakerCheese.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\FaceMakerBullseye.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ArcPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ArcOfConicPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ArcOfCirclePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ArcOfParabolaPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\BodyBasePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ConicPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\CirclePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ArcOfEllipsePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\EllipsePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\HyperbolaPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ArcOfHyperbolaPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ParabolaPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\OffsetCurvePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeometryPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeometryExtensionPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeometryIntExtensionPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeometryStringExtensionPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeometryBoolExtensionPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeometryDoubleExtensionPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeometryCurvePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\BoundedCurvePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\TrimmedCurvePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeometrySurfacePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\LinePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\LineSegmentPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PointPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\BezierCurvePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\BSplineCurvePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PlanePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ConePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\CylinderPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\SpherePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ToroidPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\BezierSurfacePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\BSplineSurfacePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\OffsetSurfacePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PlateSurfacePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\RectangularTrimmedSurfacePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\SurfaceOfExtrusionPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\SurfaceOfRevolutionPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\PartFeaturePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\AttachExtensionPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Part2DObjectPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\AttachEnginePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\TopoShapePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\TopoShapeCompSolidPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\TopoShapeCompoundPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\TopoShapeEdgePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\TopoShapeFacePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\TopoShapeShellPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\TopoShapeSolidPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\TopoShapeVertexPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\TopoShapeWirePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\BRepOffsetAPI_MakePipeShellPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\BRepOffsetAPI_MakeFillingPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\BRepFeat\MakePrismPy.xml">
+      <Filter>BRepFeat</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ChFi2d\ChFi2d_AnaFilletAlgoPy.xml">
+      <Filter>ChFi2d</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ChFi2d\ChFi2d_FilletAlgoPy.xml">
+      <Filter>ChFi2d</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ChFi2d\ChFi2d_ChamferAPIPy.xml">
+      <Filter>ChFi2d</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ChFi2d\ChFi2d_FilletAPIPy.xml">
+      <Filter>ChFi2d</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\ArcOfCircle2dPy.xml">
+      <Filter>Geom2d</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\ArcOfConic2dPy.xml">
+      <Filter>Geom2d</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\ArcOfEllipse2dPy.xml">
+      <Filter>Geom2d</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\ArcOfHyperbola2dPy.xml">
+      <Filter>Geom2d</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\ArcOfParabola2dPy.xml">
+      <Filter>Geom2d</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\BezierCurve2dPy.xml">
+      <Filter>Geom2d</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\BSplineCurve2dPy.xml">
+      <Filter>Geom2d</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\Circle2dPy.xml">
+      <Filter>Geom2d</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\Conic2dPy.xml">
+      <Filter>Geom2d</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\Ellipse2dPy.xml">
+      <Filter>Geom2d</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\Geometry2dPy.xml">
+      <Filter>Geom2d</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\Curve2dPy.xml">
+      <Filter>Geom2d</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\Hyperbola2dPy.xml">
+      <Filter>Geom2d</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\Line2dPy.xml">
+      <Filter>Geom2d</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\Line2dSegmentPy.xml">
+      <Filter>Geom2d</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\OffsetCurve2dPy.xml">
+      <Filter>Geom2d</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\Geom2d\Parabola2dPy.xml">
+      <Filter>Geom2d</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeomPlate\BuildPlateSurfacePy.xml">
+      <Filter>GeomPlate</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeomPlate\CurveConstraintPy.xml">
+      <Filter>GeomPlate</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\GeomPlate\PointConstraintPy.xml">
+      <Filter>GeomPlate</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\HLRBRep\HLRBRep_AlgoPy.xml">
+      <Filter>HLRBRep</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\HLRBRep\HLRToShapePy.xml">
+      <Filter>HLRBRep</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\HLRBRep\HLRBRep_PolyAlgoPy.xml">
+      <Filter>HLRBRep</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\HLRBRep\PolyHLRToShapePy.xml">
+      <Filter>HLRBRep</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_RootPy.xml">
+      <Filter>ShapeFix</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_EdgePy.xml">
+      <Filter>ShapeFix</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_FacePy.xml">
+      <Filter>ShapeFix</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_ShapePy.xml">
+      <Filter>ShapeFix</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_ShellPy.xml">
+      <Filter>ShapeFix</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_SolidPy.xml">
+      <Filter>ShapeFix</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_WirePy.xml">
+      <Filter>ShapeFix</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_WireframePy.xml">
+      <Filter>ShapeFix</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_WireVertexPy.xml">
+      <Filter>ShapeFix</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_EdgeConnectPy.xml">
+      <Filter>ShapeFix</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_FaceConnectPy.xml">
+      <Filter>ShapeFix</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_FixSmallFacePy.xml">
+      <Filter>ShapeFix</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_FixSmallSolidPy.xml">
+      <Filter>ShapeFix</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_FreeBoundsPy.xml">
+      <Filter>ShapeFix</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_ShapeTolerancePy.xml">
+      <Filter>ShapeFix</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_SplitCommonVertexPy.xml">
+      <Filter>ShapeFix</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeFix\ShapeFix_SplitToolPy.xml">
+      <Filter>ShapeFix</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\ShapeUpgrade\UnifySameDomainPy.xml">
+      <Filter>ShapeUpgrade</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Part\App\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="BRepFeat">
+      <UniqueIdentifier>{2D0F5D16-23ED-3430-B11E-659DEA229F6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChFi2d">
+      <UniqueIdentifier>{D82CB489-CC33-3F49-A909-050955CC6A71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{2D8FE399-230D-35A7-9CBF-E8C86D79B84B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geom2d">
+      <UniqueIdentifier>{C8B65870-5D09-33AF-89C3-062636AFBB9D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GeomPlate">
+      <UniqueIdentifier>{3D5BD6AC-C13E-32D4-9434-995A1A74A3F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLRBRep">
+      <UniqueIdentifier>{7B048A5E-430E-3768-BBBC-3CBA45C7D236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{97A4190E-D9AE-30BF-9F4B-811E3F267D26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Properties">
+      <UniqueIdentifier>{35694894-196A-3F3E-B37E-3C22CB691BD5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Python">
+      <UniqueIdentifier>{6C63549E-F050-3F10-8976-2E1C2A7AE03C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShapeFix">
+      <UniqueIdentifier>{40DAA094-09B1-38E6-9957-5E18183571DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShapeUpgrade">
+      <UniqueIdentifier>{FF0CCA66-9D08-3582-B591-2F2E96B30F6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4A8D6A3B-149E-38E3-9093-51752D7AB560}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

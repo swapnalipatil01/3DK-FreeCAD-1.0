@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\__init__.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Init.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\TestPartDesignApp.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\InitGui.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\TestPartDesignGui.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\InvoluteGearFeature.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\InvoluteGearFeature.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\SprocketFeature.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\SprocketFeature.ui" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Scripts\__init__.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Scripts\DistanceBolt.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Scripts\Epitrochoid.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Scripts\FilletArc.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Scripts\Gear.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Scripts\Parallelepiped.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Scripts\RadialCopy.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\Scripts\Spring.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\PartDesignTests\__init__.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\PartDesignTests\TestDatum.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\PartDesignTests\TestShapeBinder.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\PartDesignTests\TestPad.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\PartDesignTests\TestPocket.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\PartDesignTests\TestHole.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\PartDesignTests\TestRevolve.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\PartDesignTests\TestLoft.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\PartDesignTests\TestPipe.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\PartDesignTests\TestPrimitive.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\PartDesignTests\TestMirrored.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\PartDesignTests\TestLinearPattern.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\PartDesignTests\TestPolarPattern.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\PartDesignTests\TestMultiTransform.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\PartDesignTests\TestBoolean.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\PartDesignTests\TestFillet.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\PartDesignTests\TestChamfer.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\PartDesignTests\TestDraft.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\PartDesignTests\TestThickness.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\PartDesignTests\TestInvoluteGear.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\PartDesignTests\Fixtures\InvoluteGear_v0-20.FCStd" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\PartDesignTests\Fixtures\InternalInvoluteGear_v0-20.FCStd" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\fcgear\__init__.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\fcgear\fcgear.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\fcgear\involute.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\fcgear\svggear.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\fcsprocket\__init__.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\fcsprocket\fcsprocket.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\fcsprocket\fcsprocketdialog.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\fcsprocket\sprocket.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

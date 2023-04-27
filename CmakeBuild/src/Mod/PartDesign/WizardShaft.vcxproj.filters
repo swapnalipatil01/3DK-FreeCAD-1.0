@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\WizardShaft\__init__.py">
+      <Filter>wizardshaft</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\WizardShaft\WizardShaft.svg">
+      <Filter>wizardshaft</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\WizardShaft\WizardShaft.py">
+      <Filter>wizardshaft</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\WizardShaft\WizardShaftTable.py">
+      <Filter>wizardshaft</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\WizardShaft\Shaft.py">
+      <Filter>wizardshaft</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\WizardShaft\ShaftFeature.py">
+      <Filter>wizardshaft</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\WizardShaft\ShaftDiagram.py">
+      <Filter>wizardshaft</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\WizardShaft\SegmentFunction.py">
+      <Filter>wizardshaft</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\PartDesign\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="wizardshaft">
+      <UniqueIdentifier>{8A8424BD-FEDC-3165-94C1-44C2D4F56395}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

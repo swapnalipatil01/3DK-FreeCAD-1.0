@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\Init.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\stepZ.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\InitGui.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\DxfPlate\blocks10.rub" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\DxfPlate\blocks112.rub" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\DxfPlate\blocks114.rub" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\DxfPlate\classes14.rub" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\DxfPlate\entities0.rub" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\DxfPlate\entities12.rub" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\DxfPlate\entities14.rub" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\DxfPlate\header0.rub" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\DxfPlate\header12.rub" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\DxfPlate\header14.rub" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\DxfPlate\objects14.rub" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\DxfPlate\tables10.rub" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\DxfPlate\tables112.rub" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\DxfPlate\tables114.rub" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\DxfPlate\tables20.rub" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\DxfPlate\tables212.rub" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\DxfPlate\tables214.rub" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Import\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

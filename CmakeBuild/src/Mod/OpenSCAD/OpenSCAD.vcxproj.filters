@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\OpenSCAD\Init.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\OpenSCAD\InitGui.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\OpenSCAD\OpenSCAD2Dgeom.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\OpenSCAD\OpenSCADFeatures.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\OpenSCAD\OpenSCADUtils.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\OpenSCAD\OpenSCADCommands.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\OpenSCAD\exportCSG.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\OpenSCAD\importCSG.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\OpenSCAD\tokrules.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\OpenSCAD\colorcodeshapes.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\OpenSCAD\expandplacements.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\OpenSCAD\replaceobj.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\OpenSCAD\TestOpenSCADApp.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\OpenSCAD\TestOpenSCADGui.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\OpenSCAD\Resources\OpenSCAD.qrc" />
+    <CustomBuild Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\OpenSCAD\OpenSCAD_rc.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\OpenSCAD\Resources\icons\OpenSCADWorkbench.svg" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\OpenSCAD\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

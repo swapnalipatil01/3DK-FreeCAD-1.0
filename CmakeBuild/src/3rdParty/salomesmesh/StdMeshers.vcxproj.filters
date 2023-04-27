@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\SMESH_MAT2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\SMESH_Quadtree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_Adaptive1D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_Arithmetic1D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_AutomaticLength.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_CartesianParameters3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_Cartesian_3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_CompositeHexa_3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_CompositeSegment_1D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_Deflection1D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_Distribution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_FaceSide.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_FixedPoints1D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_Geometric1D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_HexaFromSkin_3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_Hexa_3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_ImportSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_Import_1D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_Import_1D2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_LayerDistribution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_LayerDistribution2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_LengthFromEdges.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_LocalLength.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_MEFISTO_2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_MaxElementArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_MaxElementVolume.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_MaxLength.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_NotConformAllowed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_NumberOfLayers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_NumberOfLayers2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_NumberOfSegments.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_Penta_3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_PolygonPerFace_2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_Prism_3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_ProjectionSource1D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_ProjectionSource2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_ProjectionSource3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_ProjectionUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_Projection_1D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_Projection_1D2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_Projection_2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_Projection_3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_Propagation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_QuadFromMedialAxis_1D2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_QuadToTriaAdaptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_QuadrangleParams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_QuadranglePreference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_Quadrangle_2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_QuadraticMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_RadialPrism_3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_RadialQuadrangle_1D2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_Regular_1D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_Reversible1D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_SegmentAroundVertex_0D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_SegmentLengthAroundVertex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_StartEndLength.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_TrianglePreference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_UseExisting_1D2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_ViscousLayers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers\StdMeshers_ViscousLayers2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_Adaptive1D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_Arithmetic1D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_AutomaticLength.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_CartesianParameters3D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_Cartesian_3D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_CompositeHexa_3D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_CompositeSegment_1D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_Deflection1D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_Distribution.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_FaceSide.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_FixedPoints1D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_Geometric1D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_HexaFromSkin_3D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_Hexa_3D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_ImportSource.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_Import_1D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_Import_1D2D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_LayerDistribution.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_LayerDistribution2D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_LengthFromEdges.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_LocalLength.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_MEFISTO_2D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_MaxElementArea.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_MaxElementVolume.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_MaxLength.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_NotConformAllowed.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_NumberOfLayers.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_NumberOfLayers2D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_NumberOfSegments.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_Penta_3D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_PolygonPerFace_2D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_Prism_3D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_ProjectionSource1D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_ProjectionSource2D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_ProjectionSource3D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_ProjectionUtils.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_Projection_1D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_Projection_1D2D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_Projection_2D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_Projection_3D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_Propagation.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_QuadFromMedialAxis_1D2D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_QuadToTriaAdaptor.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_QuadrangleParams.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_QuadranglePreference.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_Quadrangle_2D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_QuadraticMesh.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_RadialPrism_3D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_RadialQuadrangle_1D2D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_Regular_1D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_Reversible1D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_SegmentAroundVertex_0D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_SegmentLengthAroundVertex.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_StartEndLength.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_TrianglePreference.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_UseExisting_1D2D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_ViscousLayers.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\inc\StdMeshers_ViscousLayers2D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\3rdParty\salomesmesh\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{97A4190E-D9AE-30BF-9F4B-811E3F267D26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4A8D6A3B-149E-38E3-9093-51752D7AB560}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

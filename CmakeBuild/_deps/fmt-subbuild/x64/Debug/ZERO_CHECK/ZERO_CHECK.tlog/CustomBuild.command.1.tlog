@@ -1,0 +1,10 @@
+^F:\F\FREECAD BEFORE BUILD\3DK-FREECAD-1.0\CMAKEBUILD\_DEPS\FMT-SUBBUILD\CMAKEFILES\03B3BD605C96E2B4BA35DF3018F5D1A3\GENERATE.STAMP.RULE
+setlocal
+I:\CMake\bin\cmake.exe "-SF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-subbuild" "-BF:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-subbuild/fmt-populate.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

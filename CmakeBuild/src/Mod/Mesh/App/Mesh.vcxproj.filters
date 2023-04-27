@@ -1,0 +1,1044 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\App\Mesh_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Algorithm.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Approximation.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Builder.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Curvature.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Decimation.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Definitions.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Degeneration.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Elements.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Evaluation.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Grid.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Info.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\KDTree.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\MeshIO.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\MeshKernel.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Projection.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Segmentation.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\SetOperations.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Smoothing.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Tools.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\TopoAlgorithm.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Triangulation.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Trim.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\TrimByPlane.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Visitor.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\CylinderFit.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\SphereFit.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\IO\Reader3MF.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\IO\ReaderOBJ.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\IO\Writer3MF.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\IO\WriterInventor.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\IO\WriterOBJ.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ApprCylinderFit3.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ApprGaussPointsFit2.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ApprGaussPointsFit3.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ApprLineFit3.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ApprPlaneFit3.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ApprPolyFit3.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ApprQuadraticFit3.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ApprSphereFit3.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ContBox2.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ContBox3.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ConvexHull.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ConvexHull1.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ConvexHull2.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ConvexHull3.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4DelPolygonEdge.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4DelPolyhedronFace.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4DelTetrahedron.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4DelTriangle.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Delaunay.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Delaunay1.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Delaunay2.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Delaunay3.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4DistLine3Segment3.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4DistLine3Triangle3.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4DistSegment3Segment3.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4DistSegment3Triangle3.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4DistVector3Plane3.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4DistVector3Segment3.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4DistVector3Triangle3.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Distance.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ETManifoldMesh.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Eigen.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4FoundationPCH.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ImplicitSurface.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Intersector.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Intersector1.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4IntrLine3Box3.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4IntrLine3Plane3.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4IntrSegment3Box3.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4IntrSegment3Plane3.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4IntrTriangle2Triangle2.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4IntrTriangle3Triangle3.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4LinearSystem.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Math.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Matrix2.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Matrix3.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Matrix4.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Memory.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4MeshCurvature.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4MeshSmoother.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ParametricSurface.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4PolynomialRoots.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4QuadricSurface.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Quaternion.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Surface.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4System.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4TriangulateEC.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4VEManifoldMesh.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Vector2.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Vector3.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Vector4.cpp">
+      <Filter>WildMagic4</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\AppMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\AppMeshPy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Exporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Importer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Edge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\EdgePyImp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Facet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\FacetPyImp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\FeatureMeshCurvature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\FeatureMeshDefects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\FeatureMeshExport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\FeatureMeshImport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\FeatureMeshSegmentByMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\FeatureMeshSetOperations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\FeatureMeshSolid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\FeatureMeshTransform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\FeatureMeshTransformDemolding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\MeshFeature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\MeshFeaturePyImp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\MeshPointPyImp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\MeshProperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\MeshPyImp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\MeshTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\PreCompiled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Segment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\App\Mesh_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\App\Mesh_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\App\Mesh_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Algorithm.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Approximation.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Builder.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Curvature.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Decimation.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Definitions.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Degeneration.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Elements.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Evaluation.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Grid.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Helpers.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Info.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Iterator.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\KDTree.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\MeshIO.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\MeshKernel.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Projection.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Segmentation.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\SetOperations.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Smoothing.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Tools.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\TopoAlgorithm.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Triangulation.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Trim.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\TrimByPlane.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\tritritest.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Utilities.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\Visitor.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\CylinderFit.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\SphereFit.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\IO\Reader3MF.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\IO\ReaderOBJ.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\IO\Writer3MF.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\IO\WriterInventor.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Core\IO\WriterOBJ.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ApprCylinderFit3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ApprGaussPointsFit2.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ApprGaussPointsFit3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ApprLineFit3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ApprPlaneFit3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ApprPolyFit3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ApprQuadraticFit3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ApprSphereFit3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4BandedMatrix.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4BandedMatrix.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Box2.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Box2.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Box3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Box3.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ContBox2.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ContBox3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ConvexHull.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ConvexHull1.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ConvexHull2.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ConvexHull3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4DelPolygonEdge.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4DelPolyhedronFace.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4DelTetrahedron.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4DelTriangle.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Delaunay.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Delaunay1.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Delaunay2.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Delaunay3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4DistLine3Segment3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4DistLine3Triangle3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4DistSegment3Segment3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4DistSegment3Triangle3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4DistVector3Plane3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4DistVector3Segment3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4DistVector3Triangle3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Distance.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ETManifoldMesh.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ETManifoldMesh.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4EdgeKey.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4EdgeKey.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Eigen.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Foundation.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4FoundationLIB.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4FoundationPCH.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4GMatrix.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4GMatrix.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4GVector.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4GVector.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ImplicitSurface.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Intersector.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Intersector1.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4IntrLine3Box3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4IntrLine3Plane3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4IntrSegment3Box3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4IntrSegment3Plane3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4IntrTriangle2Triangle2.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4IntrTriangle3Triangle3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4LinComp.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4LinComp.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Line3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Line3.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4LinearSystem.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Mapper2.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Mapper2.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Mapper3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Mapper3.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Math.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Math.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4MathMCR.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Matrix2.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Matrix2.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Matrix3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Matrix3.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Matrix4.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Matrix4.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Memory.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Memory.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4MeshCurvature.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4MeshSmoother.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4ParametricSurface.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Plane3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Plane3.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Platforms.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4PolynomialRoots.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Polynomial1.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Polynomial1.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4QuadricSurface.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Quaternion.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Quaternion.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Query.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Query.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Query2.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Query2.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Query2Filtered.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Query2Filtered.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Query2Int64.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Query2Int64.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Query2TInteger.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Query2TInteger.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Query2TRational.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Query2TRational.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Query3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Query3.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Query3Filtered.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Query3Filtered.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Query3Int64.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Query3Int64.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Query3TInteger.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Query3TInteger.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Query3TRational.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Query3TRational.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4RVector2.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4RVector2.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4RVector3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4RVector3.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Segment3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Segment3.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Sphere3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Sphere3.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Surface.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4System.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4System.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4THashSet.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4THashSet.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4THashTable.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4THashTable.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4TInteger.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4TInteger.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4TMinHeap.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4TMinHeap.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4TRVector.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4TRVector.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4TRational.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4TRational.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4TSmallUnorderedSet.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4TSmallUnorderedSet.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4TStringHashTable.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4TStringHashTable.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4TTuple.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4TTuple.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Triangle2.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Triangle2.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Triangle3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Triangle3.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4TriangleKey.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4TriangleKey.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4TriangulateEC.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4UniqueVerticesTriangles.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4UniqueVerticesTriangles.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4VEManifoldMesh.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4VEManifoldMesh.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Vector2.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Vector2.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Vector3.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Vector3.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Vector4.h">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\WildMagic4\Wm4Vector4.inl">
+      <Filter>WildMagic4</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Exporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Importer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Edge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Facet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\FeatureMeshCurvature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\FeatureMeshDefects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\FeatureMeshExport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\FeatureMeshImport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\FeatureMeshSegmentByMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\FeatureMeshSetOperations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\FeatureMeshSolid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\FeatureMeshTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\FeatureMeshTransformDemolding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\MeshFeature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\MeshPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\MeshProperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\MeshTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\PreCompiled.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\Segment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\EdgePy.xml">
+      <Filter>XML</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\FacetPy.xml">
+      <Filter>XML</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\MeshFeaturePy.xml">
+      <Filter>XML</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\MeshPointPy.xml">
+      <Filter>XML</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\MeshPy.xml">
+      <Filter>XML</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\App\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{2498BD39-89C4-3BAD-8CC3-224E6A1A1C90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{97A4190E-D9AE-30BF-9F4B-811E3F267D26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4A8D6A3B-149E-38E3-9093-51752D7AB560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WildMagic4">
+      <UniqueIdentifier>{85BCED00-E5C6-3691-8B6E-444B31F41309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML">
+      <UniqueIdentifier>{CBB1FBA8-2A4A-3979-A5C0-BBA97BF1256B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

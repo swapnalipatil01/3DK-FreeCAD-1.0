@@ -1,0 +1,531 @@
+{
+	"BUILD_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/PartDesign_autogen",
+	"CMAKE_BINARY_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild",
+	"CMAKE_CURRENT_BINARY_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App",
+	"CMAKE_CURRENT_SOURCE_DIR" : "F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App",
+	"CMAKE_EXECUTABLE" : "I:/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/CMakeLists.txt"
+	],
+	"CMAKE_SOURCE_DIR" : "F:/F/FreeCAD before build/FreeCAD",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/Body.h",
+			"MU",
+			"EWIEGA46WW/moc_Body.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/DatumCS.h",
+			"MU",
+			"EWIEGA46WW/moc_DatumCS.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/DatumLine.h",
+			"MU",
+			"EWIEGA46WW/moc_DatumLine.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/DatumPlane.h",
+			"MU",
+			"EWIEGA46WW/moc_DatumPlane.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/DatumPoint.h",
+			"MU",
+			"EWIEGA46WW/moc_DatumPoint.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/Feature.h",
+			"MU",
+			"EWIEGA46WW/moc_Feature.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureAddSub.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureAddSub.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureBase.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureBase.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureBoolean.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureBoolean.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureChamfer.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureChamfer.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureDraft.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureDraft.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureDressUp.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureDressUp.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureExtrude.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureExtrude.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureFillet.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureFillet.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureGroove.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureGroove.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureHelix.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureHelix.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureHole.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureHole.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureLinearPattern.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureLinearPattern.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureLoft.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureLoft.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureMirrored.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureMirrored.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureMultiTransform.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureMultiTransform.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeaturePad.h",
+			"MU",
+			"EWIEGA46WW/moc_FeaturePad.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeaturePipe.h",
+			"MU",
+			"EWIEGA46WW/moc_FeaturePipe.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeaturePocket.h",
+			"MU",
+			"EWIEGA46WW/moc_FeaturePocket.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeaturePolarPattern.h",
+			"MU",
+			"EWIEGA46WW/moc_FeaturePolarPattern.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeaturePrimitive.h",
+			"MU",
+			"EWIEGA46WW/moc_FeaturePrimitive.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureRevolution.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureRevolution.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureScaled.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureScaled.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureSketchBased.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureSketchBased.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureSolid.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureSolid.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureThickness.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureThickness.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureTransformed.h",
+			"MU",
+			"EWIEGA46WW/moc_FeatureTransformed.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/PreCompiled.h",
+			"MU",
+			"EWIEGA46WW/moc_PreCompiled.cpp",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/ShapeBinder.h",
+			"MU",
+			"EWIEGA46WW/moc_ShapeBinder.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/PartDesign_autogen/include",
+	"INCLUDE_DIR_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/PartDesign_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/PartDesign_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/PartDesign_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/PartDesign_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/PartDesign_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/PartDesign_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/PartDesign_autogen/mocs_compilation_MinSizeRel.cpp",
+	"MOC_COMPILATION_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/PartDesign_autogen/mocs_compilation_RelWithDebInfo.cpp",
+	"MOC_COMPILATION_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/PartDesign_autogen/mocs_compilation_Release.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"FCAppPartDesign",
+		"HAVE_ACOSH",
+		"HAVE_ASINH",
+		"HAVE_ATANH",
+		"HAVE_SNPRINTF",
+		"PYCXX_6_2_COMPATIBILITY",
+		"PartDesign_EXPORTS",
+		"QT_CORE_LIB",
+		"QT_NO_DEBUG",
+		"QT_XML_LIB",
+		"WIN32",
+		"_OCC64",
+		"_PreComp_"
+	],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"FCAppPartDesign",
+		"HAVE_ACOSH",
+		"HAVE_ASINH",
+		"HAVE_ATANH",
+		"HAVE_RAPIDJSON",
+		"HAVE_SNPRINTF",
+		"PYCXX_6_2_COMPATIBILITY",
+		"PartDesign_EXPORTS",
+		"QT_CORE_LIB",
+		"QT_XML_LIB",
+		"UNICODE",
+		"WIN32",
+		"_CRT_NONSTDC_NO_DEPRECATE",
+		"_CRT_SECURE_NO_WARNINGS",
+		"_OCC64",
+		"_PreComp_",
+		"_UNICODE"
+	],
+	"MOC_DEFINITIONS_Release" : 
+	[
+		"FCAppPartDesign",
+		"HAVE_ACOSH",
+		"HAVE_ASINH",
+		"HAVE_ATANH",
+		"HAVE_RAPIDJSON",
+		"HAVE_SNPRINTF",
+		"PYCXX_6_2_COMPATIBILITY",
+		"PartDesign_EXPORTS",
+		"QT_CORE_LIB",
+		"QT_NO_DEBUG",
+		"QT_XML_LIB",
+		"UNICODE",
+		"WIN32",
+		"_CRT_NONSTDC_NO_DEPRECATE",
+		"_CRT_SECURE_NO_WARNINGS",
+		"_OCC64",
+		"_PreComp_",
+		"_UNICODE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src",
+		"F:/F/FreeCAD before build/FreeCAD/src",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/inc",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/include",
+		"F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/_deps/fmt-src/include",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtCore",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/mkspecs/win32-msvc",
+		"F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/include/QtXml"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/CMakeFiles/PartDesign_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/CMakeFiles/PartDesign_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/CMakeFiles/PartDesign_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/CMakeFiles/PartDesign_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/CMakeFiles/PartDesign_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "F:/F/FreeCAD before build/FreeCADLibs_12.5.4_x64_VC17/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/CMakeFiles/PartDesign_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/CMakeFiles/PartDesign_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/CMakeFiles/PartDesign_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/CMakeFiles/PartDesign_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/src/Mod/PartDesign/App/CMakeFiles/PartDesign_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/AppPartDesign.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/AppPartDesignPy.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/Body.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/BodyPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/DatumCS.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/DatumLine.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/DatumPlane.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/DatumPoint.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/Feature.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureAddSub.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureBase.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureBoolean.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureChamfer.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureDraft.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureDressUp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureExtrude.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureFillet.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureGroove.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureHelix.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureHole.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureLinearPattern.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureLoft.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureMirrored.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureMultiTransform.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeaturePad.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeaturePipe.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeaturePocket.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeaturePolarPattern.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeaturePrimitive.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeaturePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureRevolution.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureScaled.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureSketchBased.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureSolid.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureThickness.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/FeatureTransformed.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/PreCompiled.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/F/FreeCAD before build/FreeCAD/src/Mod/PartDesign/App/ShapeBinder.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

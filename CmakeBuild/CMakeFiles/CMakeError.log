@@ -1,0 +1,148 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_532db.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  src.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_532db.dir\Debug\\" /Fd"cmTC_532db.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\src.c"
+F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_532db.vcxproj]
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f7984.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7984.dir\Debug\\" /Fd"cmTC_f7984.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "I:\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
+LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_f7984.vcxproj]
+
+
+
+Determining if the function pthread_create exists in the pthread failed with the following output:
+Change Dir: F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_310e2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_310e2.dir\Debug\\" /Fd"cmTC_310e2.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "I:\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
+LINK : fatal error LNK1104: cannot open file 'pthread.lib' [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_310e2.vcxproj]
+
+
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR failed with the following output:
+Change Dir: F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ff725.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  src.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D FC_DEBUG /D COMPILER_HAS_DEPRECATED_ATTR /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_ff725.dir\Debug\\" /Fd"cmTC_ff725.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  /Zm150 /bigobj "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\src.cxx"
+F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\src.cxx(1,16): error C2065: '__deprecated__': undeclared identifier [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_ff725.vcxproj]
+F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\src.cxx(1,31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_ff725.vcxproj]
+F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\src.cxx(1,33): error C2062: type 'int' unexpected [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_ff725.vcxproj]
+F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\src.cxx(1,48): error C2143: syntax error: missing ';' before '{' [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_ff725.vcxproj]
+F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\src.cxx(1,48): error C2447: '{': missing function header (old-style formal list?) [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_ff725.vcxproj]
+F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\src.cxx(2,25): error C3861: 'somefunc': identifier not found [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_ff725.vcxproj]
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED failed with the following output:
+Change Dir: F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_eaa7a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  src.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D FC_DEBUG /D COMPILER_HAS_DEPRECATED /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_eaa7a.dir\Debug\\" /Fd"cmTC_eaa7a.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  /Zm150 /bigobj "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\src.cxx"
+src.obj : error LNK2001: unresolved external symbol _RTC_InitBase [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_eaa7a.vcxproj]
+src.obj : error LNK2001: unresolved external symbol _RTC_Shutdown [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_eaa7a.vcxproj]
+LINK : error LNK2001: unresolved external symbol mainCRTStartup [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_eaa7a.vcxproj]
+F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\Debug\cmTC_eaa7a.exe : fatal error LNK1120: 3 unresolved externals [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_eaa7a.vcxproj]
+
+
+Source file was:
+__declspec(deprecated) int somefunc() { return 0; }
+    int main() { return somefunc();}
+Detecting C OpenMP failed with the following output:
+Change Dir: F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d3002.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  OpenMPTryFlag.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_d3002.dir\Debug\\" /Fd"cmTC_d3002.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\FindOpenMP\OpenMPTryFlag.c"
+OpenMPTryFlag.obj : error LNK2019: unresolved external symbol __imp_omp_get_max_threads referenced in function main [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_d3002.vcxproj]
+OpenMPTryFlag.obj : error LNK2001: unresolved external symbol _RTC_InitBase [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_d3002.vcxproj]
+OpenMPTryFlag.obj : error LNK2001: unresolved external symbol _RTC_Shutdown [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_d3002.vcxproj]
+LINK : error LNK2001: unresolved external symbol mainCRTStartup [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_d3002.vcxproj]
+F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\Debug\cmTC_d3002.exe : fatal error LNK1120: 4 unresolved externals [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_d3002.vcxproj]
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_60d13.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  OpenMPTryFlag.cpp
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D FC_DEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /std:c++17 /Fo"cmTC_60d13.dir\Debug\\" /Fd"cmTC_60d13.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  /Zm150 /bigobj "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp"
+OpenMPTryFlag.obj : error LNK2019: unresolved external symbol __imp_omp_get_max_threads referenced in function main [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_60d13.vcxproj]
+OpenMPTryFlag.obj : error LNK2001: unresolved external symbol _RTC_InitBase [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_60d13.vcxproj]
+OpenMPTryFlag.obj : error LNK2001: unresolved external symbol _RTC_Shutdown [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_60d13.vcxproj]
+LINK : error LNK2001: unresolved external symbol mainCRTStartup [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_60d13.vcxproj]
+F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\Debug\cmTC_60d13.exe : fatal error LNK1120: 4 unresolved externals [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_60d13.vcxproj]
+
+
+
+Performing C++ SOURCE FILE Test _flag_found failed with the following output:
+Change Dir: F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f2efe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D FC_DEBUG /D _flag_found /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_f2efe.dir\Debug\\" /Fd"cmTC_f2efe.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  /Zm150 /bigobj -Wno-deprecated-copy "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\src.cxx"
+cl : command line  error D8021: invalid numeric argument '/Wno-deprecated-copy' [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_f2efe.vcxproj]
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found failed with the following output:
+Change Dir: F:/F/FreeCAD before build/3DK-FreeCAD-1.0/CmakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d7eac.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D FC_DEBUG /D _flag_found /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_d7eac.dir\Debug\\" /Fd"cmTC_d7eac.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  /Zm150 /bigobj -Wno-deprecated-copy "F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\src.cxx"
+cl : command line  error D8021: invalid numeric argument '/Wno-deprecated-copy' [F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\CMakeTmp\cmTC_d7eac.vcxproj]
+
+
+Source file was:
+int main() { return 0; }

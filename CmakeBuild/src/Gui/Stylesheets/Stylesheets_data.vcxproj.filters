@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\Behave-dark.qss" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\Dark-blue.qss" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\Dark-green.qss" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\Dark-orange.qss" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\Darker-blue.qss" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\Darker-green.qss" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\Darker-orange.qss" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\Light-blue.qss" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\Light-green.qss" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\Light-orange.qss" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\Dark-contrast.qss" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\ProDark.qss" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\Hmovetoolbar_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\Hmovetoolbar_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\Hsepartoolbar_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\Hsepartoolbar_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\Vmovetoolbar_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\Vmovetoolbar_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\Vsepartoolbar_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\Vsepartoolbar_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\background_freecad.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\background_freecad_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\background_freecad_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_end_closed_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_end_closed_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_end_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_end_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_end_open_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_end_open_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_more_closed_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_more_closed_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_more_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_more_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_more_open_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_more_open_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_vline_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_vline_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\checkbox_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\checkbox_indeterminate_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\checkbox_indeterminate_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\checkbox_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\close_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\close_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\down_arrow_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\down_arrow_darker.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\down_arrow_disabled_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\down_arrow_disabled_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\down_arrow_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\down_arrow_lighter.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\left_arrow_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\left_arrow_darker.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\left_arrow_disabled_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\left_arrow_disabled_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\left_arrow_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\left_arrow_lighter.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\more_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\more_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\radiobutton_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\radiobutton_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\right_arrow_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\right_arrow_darker.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\right_arrow_disabled_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\right_arrow_disabled_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\right_arrow_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\right_arrow_lighter.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\sizegrip_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\sizegrip_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\splitter_horizontal_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\splitter_horizontal_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\splitter_vertical_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\splitter_vertical_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\transparent.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\undock_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\undock_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\up-down_arrow_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\up-down_arrow_darker.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\up-down_arrow_disabled_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\up-down_arrow_disabled_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\up-down_arrow_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\up-down_arrow_lighter.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\up_arrow_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\up_arrow_darker.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\up_arrow_disabled_dark.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\up_arrow_disabled_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\up_arrow_light.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\images_dark-light\up_arrow_lighter.svg">
+      <Filter>images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Gui\Stylesheets\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="images_dark-light">
+      <UniqueIdentifier>{FF071112-C82D-33CD-872B-0D96E100E7A2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

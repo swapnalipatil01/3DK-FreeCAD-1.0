@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\DlgEvaluateMeshImp.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\DlgEvaluateSettings.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\DlgRegularSolidImp.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\DlgSettingsMeshView.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\DlgSettingsImportExportImp.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\DlgDecimating.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\DlgSmoothing.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\RemoveComponents.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\RemeshGmsh.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\Segmentation.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\SegmentationBestFit.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\Selection.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\SoFCIndexedFaceSet.cpp">
+      <Filter>Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\SoFCMeshObject.cpp">
+      <Filter>Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\SoPolygon.cpp">
+      <Filter>Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\qrc_Mesh.cpp">
+      <Filter>resource</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\ViewProvider.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\ViewProviderPython.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\ViewProviderCurvature.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\ViewProviderDefects.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\ViewProviderMeshPyImp.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\ViewProviderMeshFaceSet.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\ViewProviderTransform.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\ViewProviderTransformDemolding.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\AppMeshGui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\Command.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\Doxygen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\PreCompiled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\MeshEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\MeshSelection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\PropertyEditorMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\ThumbnailExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\Workbench.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\DlgEvaluateMeshImp.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\DlgEvaluateSettings.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\DlgRegularSolidImp.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\DlgSettingsMeshView.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\DlgSettingsImportExportImp.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\DlgDecimating.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\DlgSmoothing.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\RemoveComponents.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\RemeshGmsh.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\Segmentation.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\SegmentationBestFit.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\Selection.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\SoFCIndexedFaceSet.h">
+      <Filter>Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\SoFCMeshObject.h">
+      <Filter>Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\SoPolygon.h">
+      <Filter>Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\ViewProvider.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\ViewProviderPython.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\ViewProviderCurvature.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\ViewProviderDefects.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\ViewProviderMeshFaceSet.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\ViewProviderTransform.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\ViewProviderTransformDemolding.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\PreCompiled.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\MeshEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\MeshSelection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\PropertyEditorMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\ThumbnailExtension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\Workbench.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_Debug\ui_DlgEvaluateMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_Debug\ui_DlgEvaluateSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_Debug\ui_DlgRegularSolid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_Debug\ui_DlgSettingsMeshView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_Debug\ui_DlgSettingsImportExport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_Debug\ui_DlgDecimating.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_Debug\ui_DlgSmoothing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_Debug\ui_RemoveComponents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_Debug\ui_RemeshGmsh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_Debug\ui_Segmentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_Debug\ui_SegmentationBestFit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_Debug\ui_Selection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_Release\ui_DlgEvaluateMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_Release\ui_DlgEvaluateSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_Release\ui_DlgRegularSolid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_Release\ui_DlgSettingsMeshView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_Release\ui_DlgSettingsImportExport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_Release\ui_DlgDecimating.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_Release\ui_DlgSmoothing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_Release\ui_RemoveComponents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_Release\ui_RemeshGmsh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_Release\ui_Segmentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_Release\ui_SegmentationBestFit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_Release\ui_Selection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_MinSizeRel\ui_DlgEvaluateMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_MinSizeRel\ui_DlgEvaluateSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_MinSizeRel\ui_DlgRegularSolid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_MinSizeRel\ui_DlgSettingsMeshView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_MinSizeRel\ui_DlgSettingsImportExport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_MinSizeRel\ui_DlgDecimating.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_MinSizeRel\ui_DlgSmoothing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_MinSizeRel\ui_RemoveComponents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_MinSizeRel\ui_RemeshGmsh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_MinSizeRel\ui_Segmentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_MinSizeRel\ui_SegmentationBestFit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_MinSizeRel\ui_Selection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_RelWithDebInfo\ui_DlgEvaluateMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_RelWithDebInfo\ui_DlgEvaluateSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_RelWithDebInfo\ui_DlgRegularSolid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_RelWithDebInfo\ui_DlgSettingsMeshView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_RelWithDebInfo\ui_DlgSettingsImportExport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_RelWithDebInfo\ui_DlgDecimating.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_RelWithDebInfo\ui_DlgSmoothing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_RelWithDebInfo\ui_RemoveComponents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_RelWithDebInfo\ui_RemeshGmsh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_RelWithDebInfo\ui_Segmentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_RelWithDebInfo\ui_SegmentationBestFit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\include_RelWithDebInfo\ui_Selection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\ViewProviderMeshPy.xml">
+      <Filter>XML</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\Resources\Mesh.qrc">
+      <Filter>resource</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\Resources\icons\MeshWorkbench.svg" />
+    <CustomBuild Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\CMakeFiles\75cd8ed0846c88ec0d46e07027387f22\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\DlgEvaluateMesh.ui">
+      <Filter>Dialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\DlgEvaluateSettings.ui">
+      <Filter>Dialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\DlgRegularSolid.ui">
+      <Filter>Dialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\DlgSettingsMeshView.ui">
+      <Filter>Dialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\DlgSettingsImportExport.ui">
+      <Filter>Dialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\DlgDecimating.ui">
+      <Filter>Dialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\DlgSmoothing.ui">
+      <Filter>Dialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\RemoveComponents.ui">
+      <Filter>Dialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\RemeshGmsh.ui">
+      <Filter>Dialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\Segmentation.ui">
+      <Filter>Dialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\SegmentationBestFit.ui">
+      <Filter>Dialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Mesh\Gui\Selection.ui">
+      <Filter>Dialogs</Filter>
+    </None>
+    <None Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\autouic_Debug.stamp" />
+    <None Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\autouic_Release.stamp" />
+    <None Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Mesh\Gui\MeshGui_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{67952501-129B-38B9-B8A2-AFC31960E5FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialogs">
+      <UniqueIdentifier>{0A9D0B3A-85BD-3EAE-B27B-62D325C2DDC8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{97A4190E-D9AE-30BF-9F4B-811E3F267D26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inventor">
+      <UniqueIdentifier>{22AF3B90-C254-3396-BFA9-371CA507774B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4A8D6A3B-149E-38E3-9093-51752D7AB560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewProvider">
+      <UniqueIdentifier>{6964E306-9C56-37A1-A064-B90A6B6CADC4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML">
+      <UniqueIdentifier>{CBB1FBA8-2A4A-3979-A5C0-BBA97BF1256B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{73B13094-79FF-3A00-8D03-297887432D5F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

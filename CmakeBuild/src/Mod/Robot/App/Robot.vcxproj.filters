@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Robot\App\Robot_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\RobotObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\TrajectoryObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\TrajectoryDressUpObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\TrajectoryCompound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\Edge2TracObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\PropertyTrajectory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\RobotAlgos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\Robot6Axis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\Trajectory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\Simulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\Waypoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\AppRobot.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\PreCompiled.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\Robot6AxisPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\TrajectoryPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\RobotObjectPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\WaypointPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\articulatedbodyinertia.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chain.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chaindynparam.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainfksolverpos_recursive.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainfksolvervel_recursive.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainidsolver_recursive_newton_euler.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainidsolver_vereshchagin.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainiksolverpos_lma.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainiksolverpos_nr.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainiksolverpos_nr_jl.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainiksolvervel_pinv.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainiksolvervel_pinv_givens.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainiksolvervel_pinv_nso.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainiksolvervel_wdls.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainjnttojacsolver.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\frameacc.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\frames.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\frames_io.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\framevel.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\jacobian.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\jntarray.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\jntarrayacc.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\jntarrayvel.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\jntspaceinertiamatrix.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\joint.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\kinfam_io.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\path.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\path_circle.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\path_composite.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\path_cyclic_closed.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\path_line.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\path_point.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\path_roundedcomposite.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\rigidbodyinertia.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\rotational_interpolation.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\rotational_interpolation_sa.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\rotationalinertia.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\segment.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\trajectory.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\trajectory_composite.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\trajectory_segment.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\trajectory_stationary.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\tree.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\treefksolverpos_recursive.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\treeiksolverpos_nr_jl.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\treeiksolverpos_online.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\treeiksolvervel_wdls.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\treejnttojacsolver.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\velocityprofile.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\velocityprofile_dirac.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\velocityprofile_rect.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\velocityprofile_spline.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\velocityprofile_trap.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\velocityprofile_traphalf.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\utilities\error_stack.cxx">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\utilities\svd_HH.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\utilities\svd_eigen_HH.cpp">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\utilities\utility.cxx">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\utilities\utility_io.cxx">
+      <Filter>KDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Robot\App\Robot_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Robot\App\Robot_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\F\FreeCAD before build\3DK-FreeCAD-1.0\CmakeBuild\src\Mod\Robot\App\Robot_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\RobotObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\TrajectoryObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\TrajectoryDressUpObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\TrajectoryCompound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\Edge2TracObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\PropertyTrajectory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\RobotAlgos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\Robot6Axis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\Trajectory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\Simulation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\Waypoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\PreCompiled.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\articulatedbodyinertia.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chain.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chaindynparam.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainfksolver.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainfksolverpos_recursive.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainfksolvervel_recursive.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainidsolver.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainidsolver_recursive_newton_euler.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainidsolver_vereshchagin.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainiksolver.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainiksolverpos_lma.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainiksolverpos_nr.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainiksolverpos_nr_jl.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainiksolvervel_pinv.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainiksolvervel_pinv_givens.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainiksolvervel_pinv_nso.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainiksolvervel_wdls.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\chainjnttojacsolver.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\frameacc.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\frameacc.inl">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\frameacc_io.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\frames.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\frames.inl">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\frames_io.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\framevel.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\framevel.inl">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\framevel_io.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\jacobian.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\jntarray.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\jntarrayacc.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\jntarrayvel.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\jntspaceinertiamatrix.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\joint.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\kdl.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\kinfam.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\kinfam_io.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\motion.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\path.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\path_circle.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\path_composite.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\path_cyclic_closed.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\path_line.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\path_point.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\path_roundedcomposite.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\rigidbodyinertia.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\rotational_interpolation.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\rotational_interpolation_sa.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\rotationalinertia.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\segment.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\solveri.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\stiffness.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\trajectory.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\trajectory_composite.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\trajectory_segment.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\trajectory_stationary.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\tree.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\treefksolver.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\treefksolverpos_recursive.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\treeiksolver.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\treeiksolverpos_nr_jl.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\treeiksolverpos_online.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\treeiksolvervel_wdls.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\treejnttojacsolver.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\velocityprofile.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\velocityprofile_dirac.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\velocityprofile_rect.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\velocityprofile_spline.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\velocityprofile_trap.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\velocityprofile_traphalf.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\utilities\error.h">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\utilities\error_stack.h">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\utilities\kdl-config.h">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\utilities\rall1d.h">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\utilities\rall1d_io.h">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\utilities\rall2d.h">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\utilities\rall2d_io.h">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\utilities\rallNd.h">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\utilities\svd_HH.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\utilities\svd_eigen_HH.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\utilities\svd_eigen_Macie.hpp">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\utilities\traits.h">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\utilities\utility.h">
+      <Filter>KDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\kdl_cp\utilities\utility_io.h">
+      <Filter>KDL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\Robot6AxisPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\TrajectoryPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\RobotObjectPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\WaypointPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Robot\App\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{97A4190E-D9AE-30BF-9F4B-811E3F267D26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KDL">
+      <UniqueIdentifier>{F86D0B7D-5253-3892-A175-B7E8FAFCEB73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{ED76D2E6-C746-32E5-AF99-8CE93CF44E6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Python">
+      <UniqueIdentifier>{6C63549E-F050-3F10-8976-2E1C2A7AE03C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4A8D6A3B-149E-38E3-9093-51752D7AB560}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

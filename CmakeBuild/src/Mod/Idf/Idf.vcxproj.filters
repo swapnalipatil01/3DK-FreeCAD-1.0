@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Init.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idf.py" />
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\License.txt">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\0603_SMD.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\0805_SMD.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\1206_SMD.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\1210_SMD.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\1812_SMD.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\2225_SMD.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\2512_SMD.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\CAP_50SGV_8_10.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\EPL22_6_16.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\footprints_models.csv">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\I22_2_5_16.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\I22_2_5_16withEPL22_6_16.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\MSOP_10.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\RLF_12545.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\RLF_7030.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\SMB_DO_214AA.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\SMC_DO_214AB.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\SOD_323.igs">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\SOD_323.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\SOD_523.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\SOT23.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\SOT404.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\SOT428_DPAK.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\SOT_323_3.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\SOT_96.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\TCMT1107_4.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\TSM_103_01_L_DV_A.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\TSM_104_01_L_DV_A.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\TSS0P_8.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\VC0603_SMD.stp">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\RLF_12545.igs">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\SOT23.igs">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\Idflibs\SOT404.igs">
+      <Filter>Idflibs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\F\FreeCAD before build\FreeCAD\src\Mod\Idf\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Idflibs">
+      <UniqueIdentifier>{617C7CFB-E014-3FDE-A7C9-D574E11D0C71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
